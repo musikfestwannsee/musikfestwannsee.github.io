@@ -1,7 +1,12 @@
 img {
-    display: flex;
+    display: grid;
     justify-content: center;
     /* align horizontal */
     align-items: center;
     /* align vertical */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
 }
