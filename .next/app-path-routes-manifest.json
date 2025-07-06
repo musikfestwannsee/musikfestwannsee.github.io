@@ -2,12 +2,12 @@
   "/_not-found/page": "/_not-found",
   "/artists/page": "/artists",
   "/impressum/page": "/impressum",
-  "/page": "/",
   "/contact/page": "/contact",
   "/locations/page": "/locations",
   "/news/page": "/news",
   "/program/page": "/program",
-  "/sponsors/page": "/sponsors",
+  "/tickets/page": "/tickets",
   "/team/page": "/team",
-  "/tickets/page": "/tickets"
+  "/sponsors/page": "/sponsors",
+  "/page": "/"
 }

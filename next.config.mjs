@@ -11,7 +11,6 @@ const nextConfig = {
   },
   output: 'export',
   basePath: '/docs',
-  assetPrefix: '/docs'
 }
 
 export default nextConfig
