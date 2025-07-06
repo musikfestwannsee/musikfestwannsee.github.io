@@ -1,13 +1,13 @@
 {
   "/_not-found/page": "/_not-found",
-  "/contact/page": "/contact",
-  "/impressum/page": "/impressum",
   "/artists/page": "/artists",
+  "/impressum/page": "/impressum",
+  "/page": "/",
+  "/contact/page": "/contact",
   "/locations/page": "/locations",
   "/news/page": "/news",
-  "/sponsors/page": "/sponsors",
-  "/page": "/",
-  "/team/page": "/team",
   "/program/page": "/program",
+  "/sponsors/page": "/sponsors",
+  "/team/page": "/team",
   "/tickets/page": "/tickets"
 }
