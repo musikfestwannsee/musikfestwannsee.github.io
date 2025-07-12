@@ -6,7 +6,7 @@ export function SponsorsSection() {
   const sponsors = [
     {
       name: "Freundeskreis Nikolskoe",
-      logo: "/logos/Freundeskreis_Nikolskoe.png",
+      logo: "/logos/Logo_Freundeskreis_Nikolskoe.png",
       url: 'https://freundeskreis-nikolskoe.de/',
       tier: "platinum",
     },

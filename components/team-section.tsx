@@ -6,22 +6,22 @@ export function TeamSection() {
   const teamMembers = [
     {
         name: 'Johanna Kaldewei', 
-        image: 'Team/JohannaKaldewei.png',
+        image: 'team/JohannaKaldewei.png',
         role: 'Initiatorin \nCo-Creator \nKünstlerische Leitung \nVeranstaltungsmanagement',
     },
     {
         name: 'Alice von Podbielski-Stellpflug', 
-        image: 'Team/AliceStellpflug.png',
+        image: 'team/AliceStellpflug.png',
         role: 'Co-Creator\nVeranstaltungsmanagement\nFundraising\nPR',
     },
     {
         name: 'Thorsten Kaldewei', 
-        image: 'Team/ThorstenKaldewei.png',
+        image: 'team/ThorstenKaldewei.png',
         role: 'Co-Creator\nProgrammgestaltung',
     },
     {
         name: 'Silja Rheingans', 
-        image: 'Team/SiljaRheingans.png',
+        image: 'team/SiljaRheingans.png',
         role: 'Webmaster',
     },
   ]
