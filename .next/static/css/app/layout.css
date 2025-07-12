@@ -1402,6 +1402,21 @@ video {
 .h-svh {
   height: 100svh;
 }
+.h-80 {
+  height: 20rem;
+}
+.h-\[200px\] {
+  height: 200px;
+}
+.h-\[800px\] {
+  height: 800px;
+}
+.h-\[400px\] {
+  height: 400px;
+}
+.h-\[360px\] {
+  height: 360px;
+}
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1500,6 +1515,18 @@ video {
 }
 .w-px {
   width: 1px;
+}
+.w-\[300px\] {
+  width: 300px;
+}
+.w-\[500px\] {
+  width: 500px;
+}
+.w-\[400px\] {
+  width: 400px;
+}
+.w-\[460px\] {
+  width: 460px;
 }
 .min-w-0 {
   min-width: 0px;
@@ -1769,6 +1796,9 @@ video {
 .overflow-x-hidden {
   overflow-x: hidden;
 }
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -1878,6 +1908,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
 .border-l-transparent {
   border-left-color: transparent;
 }
@@ -1959,6 +1993,16 @@ video {
 .bg-white\/95 {
   background-color: rgb(255 255 255 / 0.95);
 }
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+}
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
 .bg-\[url\(\'\/placeholder\.svg\?height\=1080\&width\=1920\'\)\] {
   background-image: url('/placeholder.svg?height=1080&width=1920');
 }
@@ -1986,6 +2030,11 @@ video {
 .from-white {
   --tw-gradient-from: #fff var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-black\/100 {
+  --tw-gradient-from: rgb(0 0 0 / 1) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .to-teal-50 {
@@ -3106,6 +3155,10 @@ video {
 
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
+}
+
+.group:hover .group-hover\:opacity-0 {
+  opacity: 0;
 }
 
 .group.destructive .group-\[\.destructive\]\:border-muted\/40 {
