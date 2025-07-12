@@ -6,8 +6,6 @@ import { LocationsSection } from "@/components/locations-section"
 import { SponsorsSection } from "@/components/sponsors-section"
 import { TicketsSection } from "@/components/tickets-section"
 import { TeamSection } from "@/components/team-section"
-import { NewsSection } from "@/components/news-section"
-import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -21,8 +19,6 @@ export default function Home() {
       <SponsorsSection />
       <TicketsSection />
       <TeamSection />
-      <NewsSection />
-      <ContactSection />
       <Footer />
     </main>
   )

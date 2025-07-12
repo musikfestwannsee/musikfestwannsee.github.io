@@ -8,14 +8,18 @@ export function HeroSection() {
       {/* Lake background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Wannsee2-3I1Ck1Qy1XO6hRoP0H5N0lIhjLjeAB.png"
+          src="Hero-Section.png"
           alt="Wannsee Lake with sailboat"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/30 z-10"></div>
+        <div className="absolute inset-0 z-10"></div>
       </div>
+    </section>
+  )
+}
+/*
 
       <WaterParallaxBackground />
 
@@ -23,31 +27,28 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto music-notes">
           <h1 className="text-white font-display mb-8 leading-tight handwritten-first-letter">Musikfest Wannsee</h1>
           <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-3xl mx-auto font-serif">
-            Experience the harmony of classical music by the beautiful waters of Wannsee
+            Panta rhei - Alles im Fluss...
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <Button
               size="lg"
               className="text-lg bg-white hover:bg-white/90 text-primary uppercase tracking-wide font-accent"
             >
-              Buy Tickets
+              Tickets
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="text-lg bg-transparent text-white border-white hover:bg-white/10 uppercase tracking-wide font-accent"
             >
-              View Program
+              Programm
             </Button>
           </div>
           <div className="mt-16 inline-block">
             <div className="border-l border-primary-400 pl-6 text-left">
-              <p className="text-white text-xl font-medium">August 15-22, 2025</p>
-              <p className="text-white/70">Wannsee, Berlin</p>
+              <p className="text-white text-xl font-medium">19.-21. September 2025</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  )
-}
+      */

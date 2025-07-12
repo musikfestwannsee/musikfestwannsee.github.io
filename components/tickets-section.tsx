@@ -3,62 +3,29 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
 export function TicketsSection() {
-  // Sample ticket options
-  const ticketOptions = [
-    {
-      name: "Festival Pass",
-      price: "€299",
-      description: "Full access to all concerts and events for the entire festival duration",
-      features: [
-        "Access to all performances",
-        "Reserved premium seating",
-        "Festival program booklet",
-        "Access to exclusive artist meet & greets",
-        "Complimentary drinks at intermissions",
-        "Festival merchandise package",
-      ],
-      popular: true,
-    },
-    {
-      name: "Weekend Pass",
-      price: "€149",
-      description: "Access to all concerts and events during the weekend (Friday-Sunday)",
-      features: [
-        "Access to all weekend performances",
-        "Reserved seating",
-        "Festival program booklet",
-        "Complimentary drink voucher",
-      ],
-      popular: false,
-    },
-    {
-      name: "Day Pass",
-      price: "€79",
-      description: "Access to all concerts and events for a single day of your choice",
-      features: ["Access to all performances on selected day", "General admission seating", "Festival program booklet"],
-      popular: false,
-    },
-    {
-      name: "Single Concert",
-      price: "€39",
-      description: "Access to a single concert of your choice",
-      features: ["Access to selected performance", "General admission seating"],
-      popular: false,
-    },
-  ]
 
   return (
     <section
       id="tickets"
-      className="py-20 bg-gradient-to-b from-blue-50 to-teal-50 dark:from-slate-900 dark:to-teal-950"
+      className="py-20 water-bg"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">Tickets & Pricing</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">Tickets</h2>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
-            Secure your place at Musikfest Wannsee with our range of ticket options
+            Auch in diesem Jahr ist der Eintritt frei.<br/>
+            Um Anmeldung wird gebeten unter <br/><br/>
+            <b>musikfest.wannsee@gmail.com</b><br/><br/>
+            Wir freuen uns auf alle Zuhörer:innen!
           </p>
         </div>
+
+      </div>
+    </section>
+  )
+}
+
+/*
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {ticketOptions.map((ticket, index) => (
@@ -119,7 +86,4 @@ export function TicketsSection() {
             </li>
           </ul>
         </div>
-      </div>
-    </section>
-  )
-}
+        */

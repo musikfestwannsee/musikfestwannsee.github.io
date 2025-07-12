@@ -1,8 +1,6 @@
-import { Button } from "@/components/ui/button"
-
 export function ArtistsSection() {
   return (
-    <section id="artists" className="py-24">
+    <section id="artists" className="py-24 water-bg-backwards">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="section-title centered handwritten-first-letter">Künstler:innen</h2>

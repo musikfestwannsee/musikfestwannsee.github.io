@@ -19,21 +19,20 @@ export function Navigation() {
   }, [])
 
   const navLinks = [
-    { name: "Program", href: "#program" },
-    { name: "Artists", href: "#artists" },
+    { name: "Programm", href: "#program" },
+    { name: "Künstler:innen", href: "#artists" },
     { name: "Locations", href: "#locations" },
-    { name: "Sponsors", href: "#sponsors" },
+    { name: "Sponsoren", href: "#sponsors" },
     { name: "Tickets", href: "#tickets" },
     { name: "Team", href: "#team" },
-    { name: "News", href: "#news" },
-    { name: "Contact", href: "#contact" },
+    { name: "Kontakt", href: "#footer" },
   ]
 
   return (
     <nav
       className={cn(
         "fixed top-0 z-50 w-full transition-all duration-300",
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm dark:bg-slate-900/90" : "bg-transparent",
+        scrolled ? "bg-beige-50/90 backdrop-blur-md shadow-sm dark:bg-slate-900/90" : "bg-transparent",
       )}
     >
       <div className="container mx-auto px-4 py-4">
@@ -53,7 +52,6 @@ export function Navigation() {
                 {link.name}
               </Link>
             ))}
-            <Button className="bg-teal-600 hover:bg-teal-700 text-white">Buy Tickets</Button>
           </div>
 
           {/* Mobile Navigation Toggle */}
@@ -78,7 +76,13 @@ export function Navigation() {
                 {link.name}
               </Link>
             ))}
-            <Button className="bg-teal-600 hover:bg-teal-700 text-white w-full">Buy Tickets</Button>
+            <Link
+              href="#tickets"
+              className="text-xl font-medium text-slate-700 hover:text-teal-600 dark:text-slate-200 dark:hover:text-teal-400 py-2"
+              onClick={() => setIsOpen(false)}
+            >
+              <Button className="bg-teal-600 hover:bg-teal-700 text-white w-full">Tickets</Button>
+            </Link>
           </div>
         </div>
       )}

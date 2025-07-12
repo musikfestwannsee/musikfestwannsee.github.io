@@ -9,14 +9,12 @@ import { usePathname } from "next/navigation"
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Program", href: "/program" },
-  { name: "Artists", href: "/artists" },
+  { name: "Programm", href: "/program" },
+  { name: "Künstler:innen", href: "/artists" },
   { name: "Locations", href: "/locations" },
-  { name: "Sponsors", href: "/sponsors" },
-  { name: "Tickets", href: "/tickets" },
+  { name: "Sponsoren", href: "/sponsors" },
   { name: "Team", href: "/team" },
-  { name: "News", href: "/news" },
-  { name: "Contact", href: "/contact" },
+  { name: "Kontakt", href: "/footer" },
 ]
 
 export default function Header() {
@@ -80,16 +78,6 @@ export default function Header() {
               {item.name}
             </Link>
           ))}
-        </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Button
-            className={cn(
-              "uppercase font-accent",
-              scrolled ? "bg-primary hover:bg-primary/90 text-white" : "bg-white hover:bg-white/90 text-primary",
-            )}
-          >
-            <Link href="/tickets">Buy Tickets</Link>
-          </Button>
         </div>
       </nav>
 

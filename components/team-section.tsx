@@ -5,68 +5,72 @@ export function TeamSection() {
   // Sample team data
   const teamMembers = [
     {
-      name: "Dr. Elisa Wagner",
-      role: "Artistic Director",
-      bio: "Renowned musicologist and former conductor with over 25 years of experience in festival organization.",
-      image: "/placeholder.svg?height=400&width=400",
+        name: 'Johanna Kaldewei', 
+        image: 'Team/JohannaKaldewei.png',
+        role: 'Initiatorin \nCo-Creator \nKünstlerische Leitung \nVeranstaltungsmanagement',
     },
     {
-      name: "Thomas Becker",
-      role: "Executive Director",
-      bio: "Arts administrator with extensive experience in managing cultural events throughout Germany.",
-      image: "/placeholder.svg?height=400&width=400",
+        name: 'Alice von Podbielski-Stellpflug', 
+        image: 'Team/AliceStellpflug.png',
+        role: 'Co-Creator\nVeranstaltungsmanagement\nFundraising\nPR',
     },
     {
-      name: "Sophia Müller",
-      role: "Program Coordinator",
-      bio: "Classical pianist and music educator responsible for curating the festival's diverse program.",
-      image: "/placeholder.svg?height=400&width=400",
+        name: 'Thorsten Kaldewei', 
+        image: 'Team/ThorstenKaldewei.png',
+        role: 'Co-Creator\nProgrammgestaltung',
     },
     {
-      name: "Martin Schmidt",
-      role: "Technical Director",
-      bio: "Sound engineer specializing in classical music with expertise in outdoor acoustics.",
-      image: "/placeholder.svg?height=400&width=400",
-    },
-    {
-      name: "Hannah Klein",
-      role: "Marketing Director",
-      bio: "Communications specialist with a passion for making classical music accessible to wider audiences.",
-      image: "/placeholder.svg?height=400&width=400",
-    },
-    {
-      name: "Klaus Weber",
-      role: "Venue Manager",
-      bio: "Logistics expert ensuring seamless operations across all festival venues.",
-      image: "/placeholder.svg?height=400&width=400",
+        name: 'Silja Rheingans', 
+        image: 'Team/SiljaRheingans.png',
+        role: 'Webmaster',
     },
   ]
 
   return (
-    <section id="team" className="py-20 bg-white dark:bg-slate-900">
+    <section id="team" className="py-20 water-bg-backwards">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">Meet Our Team</h2>
-          <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
-            The dedicated professionals who bring Musikfest Wannsee to life
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">Das Team</h2>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {teamMembers.map((member, index) => (
-            <Card key={index} className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-shadow">
+            <Card key={index} className="overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
               <div className="aspect-square relative">
                 <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
               </div>
-              <CardContent className="p-6 bg-white dark:bg-slate-800">
-                <h3 className="text-2xl font-bold text-slate-800 dark:text-white mb-1">{member.name}</h3>
-                <p className="text-lg font-medium text-teal-600 dark:text-teal-400 mb-3">{member.role}</p>
-                <p className="text-slate-600 dark:text-slate-300">{member.bio}</p>
+              <CardContent className="p-6 dark:bg-slate-800">
+                <h4 className="text-xl font-bold text-slate-800 dark:text-white mb-1">{member.name}</h4>
+                <p className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">{member.role}</p>
               </CardContent>
             </Card>
           ))}
         </div>
+      </div>  
+      <div className="flex items-center justify-center m-10">
+        <Card className="w-1/2 overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
+          <div className="relative w-full h-52">
+            <Image src={"logos/Logo_Ev_Kirche.png"} alt="Logo der Evangelischen Kirchengemeinde Berlin-Wannsee" fill className="object-cover" />
+          </div>
+          <CardContent className="p-6 bg-beige">
+            <h4 className="text-xl font-bold text-slate-800 dark:text-white mb-1">
+              In Zusammenarbeit mit der Evangelischen Kirchengemeinde Berlin-Wannsee<br/>
+              und der Kirche St. Peter und Paul auf Nikolskoe<br/></h4>
+            <p className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">Sapna Joshi, Pfarrerin der Ev. Gemeinde Berlin-Wannsee</p>
+          </CardContent>
+        </Card>
       </div>
+
     </section>
   )
 }
+
+/*
+    {
+        name: 'In Zusammenarbeit mit der Evangelischen Kirchengemeinde Berlin-Wannsee\nund der Kirche St. Peter und Paul auf Nikolskoe\n', 
+        image: 'logos/Logo_Ev_Kirche.png',
+        role:
+        'Sapna Joshi, Pfarrerin der Ev. Gemeinde Berlin-Wannsee\n' + 
+        'Alice von Podbielski-Stellpflug, Vorsitzende des Gemeindekirchenrates und des Kuratoriums'
+    },
+    */
