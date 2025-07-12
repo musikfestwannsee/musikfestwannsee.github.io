@@ -10,6 +10,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
+  basePath: '', 
+  assetPrefix: '',
 }
 
 export default nextConfig
