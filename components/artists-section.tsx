@@ -40,7 +40,7 @@ export function ArtistsSection() {
   )
 }
 
-const artists = [
+const artists = [/*
     {
         name: 'Vocalconsort des Berliner Mädchenchores',
         instrument: 'Chor',
@@ -52,7 +52,7 @@ const artists = [
         instrument: 'Klavier',
         image: '',
         description: '',
-    },
+    },*/
     {
         name: 'Thorsten Kaldewei | Pianist',
         instrument: 'Klavier',
@@ -65,13 +65,13 @@ const artists = [
         instrument: 'Kunsthistorikerin',
         image: 'artists/Friederike_suedmeyer.png',
         description: 'Die Kunsthistorikerin Friederike Südmeyer ist Kuratorin einer Stiftung, Vorsitzende des Wannseer Kulturverein, arbeitet als Kunstberaterin und vermittelt in Führungen, Vorträgen und Workshops ihren Blick auf die Welt der Kunst.\n',
-    },
+    },/*
     {
         name: 'Aaron Dan',
         instrument: 'Flöte',
         image: '',
         description: '',
-    },
+    },*/
     {
         name: 'Lautten compagney Berlin',
         instrument: 'Ensemble',
@@ -79,7 +79,7 @@ const artists = [
         description: 'Die lautten compagney BERLIN unter der Leitung von Wolfgang Katschner zählt zu den renommiertesten und kreativsten deutschen Barockensembles. Seit ihrer Gründung 1984 begeistert sie Musikliebhaber:innen auf der ganzen Welt. Im Herbst 2019 wurde sie mit dem OPUS Klassik als Ensemble des Jahres ausgezeichnet. Mit Konzerten, Opernaufführungen und Crossoverprojekten setzt sie einzigartige musikalische Akzente. Das Ensemble gehört zu den wenigen freien Produzenten von Musiktheaterprojekten in Deutschland. Für seine ungewöhnlichen und innovativen Programme wird es vom Publikum wie von nationalen und internationalen Feuilletons gleichermaßen geschätzt. Neben ihren Auftritten in Berlin tourt die lautten compagney mit ca. 100 Konzerten pro Jahr durch die Bundesrepublik, Europa und die Welt. Die letzten großen, außereuropäischen Tourneen führten im Jahr 2019 durch 10 Städte Chinas und im Herbst 2021 nach Bogotá in Kolumbien.\n' + 
         'Die lautten compagney pflegt als wichtigen Teil ihres Programmspektrums mit großen Repertoirewerken musikalische Traditionen. Wolfgang Katschner und sein Ensemble sind nicht nur neugierig auf Musik, sondern auch auf neue Wege ihrer konzertanten Darstellung. Ihre eigene, individuelle Plattform für Experimente hat die lautten compagney u.a. mit dem Format der :lounge gefunden. Wenn alte Werke so von neuen Ideen inspiriert werden, verschwinden musikalische Grenzen.\n\n',
         url: 'https://www.lauttencompagney.de/',
-    },
+    },/*
     {
         name: 'Sapna Joshi',
         instrument: 'Pfarrerin',
@@ -91,7 +91,7 @@ const artists = [
         instrument: 'Orgel, Continuo',
         image: '',
         description: '',
-    },
+    },*/
     {
         name: 'Johanna Kaldewei',
         instrument: 'Sopranistin',
