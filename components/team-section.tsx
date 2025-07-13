@@ -41,7 +41,13 @@ export function TeamSection() {
               </div>
               <CardContent className="p-6 dark:bg-slate-800">
                 <h4 className="text-xl font-bold text-slate-800 dark:text-white mb-1">{member.name}</h4>
-                <p className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">{member.role}</p>
+                <div>{member.role.split('\n').map((line, index) => (
+                      <p className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">
+                          {line}
+                          <br />
+                      </p>
+                  ))}
+                </div>
               </CardContent>
             </Card>
           ))}
@@ -64,13 +70,3 @@ export function TeamSection() {
     </section>
   )
 }
-
-/*
-    {
-        name: 'In Zusammenarbeit mit der Evangelischen Kirchengemeinde Berlin-Wannsee\nund der Kirche St. Peter und Paul auf Nikolskoe\n', 
-        image: 'logos/Logo_Ev_Kirche.png',
-        role:
-        'Sapna Joshi, Pfarrerin der Ev. Gemeinde Berlin-Wannsee\n' + 
-        'Alice von Podbielski-Stellpflug, Vorsitzende des Gemeindekirchenrates und des Kuratoriums'
-    },
-    */

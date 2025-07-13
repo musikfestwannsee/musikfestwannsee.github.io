@@ -32,7 +32,15 @@ export function ProgramSection() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <p className="text-sm text-muted-foreground mb-4 min-h-[90px]">{concert.description}</p>
+                  <div className="min-h-[120px]">
+                    <div>{concert.description.split('\n').map((line, index) => (
+                        <p className="text-sm text-muted-foreground mb-4">
+                            {line}
+                            <br />
+                        </p>
+                    ))}
+                  </div>
+                  </div>
                   <div className="flex items-center justify-center">
                     <Button variant="outline" size="sm">
                       {concert.location}
@@ -56,7 +64,7 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Mein_Arkadien.png',
     description:
-      "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut\nThorsten Kaldewei\nJohanna Kaldewei\nLtg. Sabine Wüsthoff",
+      "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut | Thorsten Kaldewei | Johanna Kaldewei | Ltg. Sabine Wüsthoff",
   },
   {
     title: "Jeux d'eau",
