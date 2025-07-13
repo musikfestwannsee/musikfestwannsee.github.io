@@ -42,7 +42,7 @@ export function TeamSection() {
               <CardContent className="p-6 dark:bg-slate-800">
                 <h4 className="text-xl font-bold text-slate-800 dark:text-white mb-1">{member.name}</h4>
                 <div>{member.role.split('\n').map((line, index) => (
-                      <p className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">
+                      <p key={index} className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">
                           {line}
                           <br />
                       </p>
