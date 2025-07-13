@@ -44,7 +44,7 @@ export function SponsorsSection() {
             {platinumSponsors.map((sponsor, index) => (
               <Card key={index} className="border-none shadow-lg">
                 <CardContent className="p-8 flex flex-col items-center">
-                  <div className="relative h-24 w-full mb-6">
+                  <div className="relative h-72 w-full mb-6">
                     <Image
                       src={sponsor.logo || "/placeholder.svg"}
                       alt={sponsor.name}

@@ -54,10 +54,17 @@ export function TeamSection() {
         </div>
       </div>  
       <div className="flex items-center justify-center m-10">
-        <Card className="w-1/2 overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
-          <div className="relative w-full h-52">
-            <Image src={"logos/Logo_Ev_Kirche.png"} alt="Logo der Evangelischen Kirchengemeinde Berlin-Wannsee" fill className="object-cover" />
-          </div>
+        <Card className="w-3/4 lg:w-1/2 md:2/3  overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
+            <div className="relative w-full">
+              <Image 
+                src={"logos/Logo_Ev_Kirche.png"} 
+                alt="Logo der Evangelischen Kirchengemeinde Berlin-Wannsee" 
+                layout="responsive" 
+                width={1}
+                height={1}
+                className="object-cover"
+              />
+            </div>
           <CardContent className="p-6 bg-beige">
             <h4 className="text-xl font-bold text-slate-800 dark:text-white mb-1">
               In Zusammenarbeit mit der Evangelischen Kirchengemeinde Berlin-Wannsee<br/>
