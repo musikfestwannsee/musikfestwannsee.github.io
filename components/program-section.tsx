@@ -21,10 +21,10 @@ export function ProgramSection() {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}>
-                    <div className="absolute inset-0 flex flex-col justify-between p-6 bg-gradient-to-t from-black/60 to-transparent">
+                    <div className="absolute inset-0 flex flex-col justify-between p-6 bg-gradient-to-t from-black/70 to-transparent/10">
                         <div>
-                          <p className="text-sm font-medium text-white">{concert.date}</p>
-                          <p className="text-sm font-medium text-white">{concert.time}</p>
+                          <p className="text-md font-medium text-white">{concert.date}</p>
+                          <p className="text-md font-medium text-white">{concert.time}</p>
                         </div>
                         <br/>
                         <h3 className="text-xl text-white font-display mt-1 handwritten-first-letter">{concert.title}</h3>
