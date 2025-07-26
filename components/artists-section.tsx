@@ -1,3 +1,6 @@
+import { Card, CardContent } from "./ui/card"
+import Image from "next/image"
+
 export function ArtistsSection() {
   return (
     <section id="artists" className="py-24 water-bg-backwards">
@@ -9,42 +12,77 @@ export function ArtistsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
-          {artists.map((artist, index) => (
-            <div key={index} className="text-center group relative">
-              <div className="aspect-square rounded-full overflow-hidden mb-6 mx-auto max-w-[250px] relative group-hover:opacity-0"
-                style={{ 
-                  backgroundImage: `url(${artist.image})`, 
-                  backgroundSize: 'cover', 
-                  backgroundPosition: 'center' 
-                }}>
-              </div>
-                <h3 className="text-xl font-display mb-2 handwritten-first-letter group-hover:opacity-0">{artist.name}</h3>
-                <p className="text-muted-foreground mb-3 group-hover:opacity-0">{artist.instrument}</p>
-
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[460px] h-[360px] opacity-0 group-hover:opacity-100 transition-opacity overflow-y-scroll p-4 z-10">
-                  <p className="text-sm max-w-md mx-auto">{artist.description}</p>
+        <div className="grid grid-cols-1 gap-x-8 gap-y-16">
+          {artists_landscape.map((artist, index) => (
+            <Card key={index} className="overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
+                <div className="relative m-2">
+                  <Image 
+                    src={artist.image || "/placeholder.svg"} 
+                    alt={artist.name}
+                    layout="responsive"
+                    width={1}
+                    height={1}
+                    className="object-cover"
+                  />
                 </div>
-            </div>
+              <CardContent className="p-6 dark:bg-slate-800">
+                <h2 className="text-xl font-display mb-2 handwritten-first-letter group-hover:opacity-0">{artist.name}</h2>
+                <div>{artist.description.split('\n').map((line, index) => (
+                      <p key={index} className="text-sm font-medium mb-3">
+                          {line}
+                          <br />
+                      </p>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
           ))}
         </div>
-      {/*
-        <div className="text-center mt-16">
-          <Button className="btn-elegant">View All Artists</Button>
+        <div>
+          <br/>
+          <br/>
         </div>
-      */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+          {artists_portrait.map((artist, index) => (
+            <Card key={index} className="overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
+              <div className="aspect-square relative">
+                <Image src={artist.image || "/placeholder.svg"} alt={artist.name} fill className="object-cover"/>
+              </div>
+              <CardContent className="p-6 dark:bg-slate-800">
+                <h2 className="text-xl font-display mb-2 handwritten-first-letter group-hover:opacity-0">{artist.name}</h2>
+                <div>{artist.description.split('\n').map((line, index) => (
+                      <p key={index} className="text-sm font-medium mb-3">
+                          {line}
+                          <br />
+                      </p>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     </section>
   )
 }
 
-const artists = [/*
+const artists_landscape = [
+    {
+        name: 'Lautten compagney Berlin',
+        instrument: 'Ensemble',
+        image: 'artists/lauttencompagney.png',
+        description: 'Die lautten compagney BERLIN unter der Leitung von Wolfgang Katschner zählt zu den renommiertesten und kreativsten deutschen Barockensembles. Seit ihrer Gründung 1984 begeistert sie Musikliebhaber:innen auf der ganzen Welt. Im Herbst 2019 wurde sie mit dem OPUS Klassik als Ensemble des Jahres ausgezeichnet. Mit Konzerten, Opernaufführungen und Crossoverprojekten setzt sie einzigartige musikalische Akzente. Das Ensemble gehört zu den wenigen freien Produzenten von Musiktheaterprojekten in Deutschland. Für seine ungewöhnlichen und innovativen Programme wird es vom Publikum wie von nationalen und internationalen Feuilletons gleichermaßen geschätzt. Neben ihren Auftritten in Berlin tourt die lautten compagney mit ca. 100 Konzerten pro Jahr durch die Bundesrepublik, Europa und die Welt. Die letzten großen, außereuropäischen Tourneen führten im Jahr 2019 durch 10 Städte Chinas und im Herbst 2021 nach Bogotá in Kolumbien.\n' + 
+        'Die lautten compagney pflegt als wichtigen Teil ihres Programmspektrums mit großen Repertoirewerken musikalische Traditionen. Wolfgang Katschner und sein Ensemble sind nicht nur neugierig auf Musik, sondern auch auf neue Wege ihrer konzertanten Darstellung. Ihre eigene, individuelle Plattform für Experimente hat die lautten compagney u.a. mit dem Format der :lounge gefunden. Wenn alte Werke so von neuen Ideen inspiriert werden, verschwinden musikalische Grenzen.\n\n',
+        url: 'https://www.lauttencompagney.de/',
+    },/*
     {
         name: 'Vocalconsort des Berliner Mädchenchores',
         instrument: 'Chor',
         image: '',
         description: '',
     },*/
+  ];
+const artists_portrait = [
     {
         name: 'Justine Eckhaut',
         instrument: 'Klavier',
@@ -69,14 +107,6 @@ const artists = [/*
         instrument: 'Flöte',
         image: 'artists/Aaron_Dan.png',
         description: 'Aaron Dan wurde 1981 in eine rumänisch-ungarische Musikerfamilie in Siebenbürgen geboren. Mit 15 Jahren zog er mit seinem Bruder nach Budapest /Ungarn, wo er am Bartók-Konservatorium ausgebildet wurde. Seit dieser Zeit unternehmen die Brüder (Duo Dan, später Trio Dan) jährlich Konzertreisen nach Deutschland, Österreich, Frankreich und in die Schweiz. Nach seinem Abitur studierte er Querflöte in Berlin (Universität der Künste und Hochschule für Musik Hanns Eisler) und in Paris (Ecole Normale de Musique Alfred Cortot). Derzeit studiert Aaron Instrumentale Komposition an der Hochshule für Musik Weimar.\nAls Solist, Kammermusiker, Komponist und Moderator ist Aaron Dan sehr gefragt; er ist Gründungsmitglied des Ensembles Berlin Counterpoint, mit welchen er in vielen wichtigen Konzertsälen auftrat, u.a. im Kammermusiksaal der Berliner Philharmonie, Rheingau Musik Festival, Palau de Musica Valencia, Paax Fest Mexico City, The Rockefeller University NYC, Sao Paolo, New Orleans University, Istanbul Music Festival uvm. 2005 gewann er an den 1. Preis und drei Sonderpreise des internationalen Flötenwettbewerbs „The Winner of Belgrade“, Serbien. Im Jahr 2013 wurde dem Ensemble Berlin Counterpoint der Usedomer Musikpreis verliehen.\nSein kompositorisches Schaffen umfasst gut 100 Werke, darunter viele Stücke für Flöte und Loop Station, Kammermusik, etliche Chorwerke und vokalsymphonische Werke die Kinderoper „der kleine Prinz“, mehrere Stücke für Kindermusiktheater sowie dutzende Arrangements für seine Ensembles.\nAaron Dan lebt als freischaffender Flötist und Komponist mit seiner Familie in Berlin.',
-    },
-    {
-        name: 'Lautten compagney Berlin',
-        instrument: 'Ensemble',
-        image: 'artists/lauttencompagney.png',
-        description: 'Die lautten compagney BERLIN unter der Leitung von Wolfgang Katschner zählt zu den renommiertesten und kreativsten deutschen Barockensembles. Seit ihrer Gründung 1984 begeistert sie Musikliebhaber:innen auf der ganzen Welt. Im Herbst 2019 wurde sie mit dem OPUS Klassik als Ensemble des Jahres ausgezeichnet. Mit Konzerten, Opernaufführungen und Crossoverprojekten setzt sie einzigartige musikalische Akzente. Das Ensemble gehört zu den wenigen freien Produzenten von Musiktheaterprojekten in Deutschland. Für seine ungewöhnlichen und innovativen Programme wird es vom Publikum wie von nationalen und internationalen Feuilletons gleichermaßen geschätzt. Neben ihren Auftritten in Berlin tourt die lautten compagney mit ca. 100 Konzerten pro Jahr durch die Bundesrepublik, Europa und die Welt. Die letzten großen, außereuropäischen Tourneen führten im Jahr 2019 durch 10 Städte Chinas und im Herbst 2021 nach Bogotá in Kolumbien.\n' + 
-        'Die lautten compagney pflegt als wichtigen Teil ihres Programmspektrums mit großen Repertoirewerken musikalische Traditionen. Wolfgang Katschner und sein Ensemble sind nicht nur neugierig auf Musik, sondern auch auf neue Wege ihrer konzertanten Darstellung. Ihre eigene, individuelle Plattform für Experimente hat die lautten compagney u.a. mit dem Format der :lounge gefunden. Wenn alte Werke so von neuen Ideen inspiriert werden, verschwinden musikalische Grenzen.\n\n',
-        url: 'https://www.lauttencompagney.de/',
     },/*
     {
         name: 'Sapna Joshi',

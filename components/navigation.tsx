@@ -37,7 +37,7 @@ export function Navigation() {
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-teal-700 dark:text-teal-400">
+          <Link href="/" className="text-2xl font-bold text-white dark:text-teal-400">
             Musikfest Wannsee
           </Link>
 

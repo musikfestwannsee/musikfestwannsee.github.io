@@ -35,35 +35,49 @@ export function TeamSection() {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {teamMembers.map((member, index) => (
-            <Card key={index} className="overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
-              <div className="aspect-square relative">
-                <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
+            <div key={index} className="text-center group relative">
+              <div className="aspect-square rounded-full overflow-hidden mb-6 mx-auto max-w-[250px] relative group-hover:opacity-0"
+                style={{ 
+                  backgroundImage: `url(${member.image})`, 
+                  backgroundSize: 'cover', 
+                  backgroundPosition: 'center' 
+                }}>
               </div>
-              <CardContent className="p-6 dark:bg-slate-800">
-                <h4 className="text-xl font-bold text-slate-800 dark:text-white mb-1">{member.name}</h4>
-                <div>{member.role.split('\n').map((line, index) => (
-                      <p key={index} className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">
-                          {line}
-                          <br />
-                      </p>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+              <h3 className="text-xl font-display mb-2 handwritten-first-letter group-hover:opacity-0">{member.name}</h3>                
+              <div>{member.role.split('\n').map((line, index) => (
+                    <p key={index} className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">
+                        {line}
+                        <br />
+                    </p>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>  
       <div className="flex items-center justify-center m-10">
-        <Card className="w-3/4 lg:w-1/2 md:2/3  overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
-            <div className="relative w-full">
-              <Image 
-                src={"logos/Logo_Ev_Kirche.png"} 
-                alt="Logo der Evangelischen Kirchengemeinde Berlin-Wannsee" 
-                layout="responsive" 
-                width={1}
-                height={1}
-                className="object-cover"
-              />
+        <Card className="w-9/10 lg:w-3/4 overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex">
+              <div className="relative w-1/2 m-2">
+                <Image 
+                  src={"logos/Logo_Ev_Kirche.png"} 
+                  alt="Logo der Evangelischen Kirchengemeinde Berlin-Wannsee" 
+                  layout="responsive" 
+                  width={1}
+                  height={1}
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative w-1/2 m-2">
+                <Image 
+                  src={"logos/Logo_Nikolskoe.png"} 
+                  alt="Logo der Evangelischen Kirchengemeinde Berlin-Wannsee" 
+                  layout="responsive" 
+                  width={1}
+                  height={1}
+                  className="object-cover"
+                />
+              </div>
             </div>
           <CardContent className="p-6 bg-beige">
             <h4 className="text-xl font-bold text-slate-800 dark:text-white mb-1">
@@ -77,3 +91,4 @@ export function TeamSection() {
     </section>
   )
 }
+

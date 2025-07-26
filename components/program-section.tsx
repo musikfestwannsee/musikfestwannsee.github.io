@@ -21,18 +21,18 @@ export function ProgramSection() {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}>
-                    <div className="absolute inset-0 flex items-end p-6 bg-gradient-to-t from-black/60 to-transparent">
-                      <div className="text-white">
-                        <p className="text-sm font-medium">{concert.date}</p>
-                        <p className="text-sm font-medium">{concert.time}</p>
+                    <div className="absolute inset-0 flex flex-col justify-between p-6 bg-gradient-to-t from-black/60 to-transparent">
+                        <div>
+                          <p className="text-sm font-medium text-white">{concert.date}</p>
+                          <p className="text-sm font-medium text-white">{concert.time}</p>
+                        </div>
                         <br/>
-                        <h3 className="text-xl font-display mt-1 handwritten-first-letter">{concert.title}</h3>
-                      </div>
+                        <h3 className="text-xl text-white font-display mt-1 handwritten-first-letter">{concert.title}</h3>
                     </div>
                   </div>
                 </div>
                 <div className="p-6">
-                  <div className="min-h-[120px]">
+                  <div className="min-h-[170px]">
                     <div>{concert.description.split('\n').map((line, index) => (
                         <p key={index} className="text-sm text-muted-foreground mb-4">
                             {line}
@@ -66,7 +66,7 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Mein_Arkadien.png',
     description:
-      "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut, Thorsten Kaldewei - Klavier | Johanna Kaldewei - Sopran | Ltg. Sabine Wüsthoff",
+      "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut, Thorsten Kaldewei - Klavier\nJohanna Kaldewei - Sopran\nLtg. Sabine Wüsthoff",
   },
   {
     title: "Jeux d'eau",
@@ -75,16 +75,16 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Kantatengottesdienst.png',
     description:
-      "Die rauschenden Klänge des Wassers in Melodien und Bilder um 1900\nDr. Friederike Südmeyer - Kunsthostorikerin | Aaron Dan - Flöte | Thorsten Kaldewei - Klavier",
+      "Die rauschenden Klänge des Wassers in Melodien und Bilder um 1900\nDr. Friederike Südmeyer - Kunsthistorikerin\nAaron Dan - Flöte\nThorsten Kaldewei - Klavier",
   },
   {
     title: "Sturm und Stille",
     date: "20. September 2025",
     time: "19.30 Uhr",
-    location: 'Kirche am Stölpchensee',
-    image: 'program/Hirtenidyll.png',
+    location: 'Kirche am Stölpchensee',    
+    image: 'program/Abschlusskonzert.png',
     description:
-      "Barockmusik über Wasser, Wandel und die Seele zwischen Aufruhr und Einkehr\nJohanna Kaldewei - Sopran | lautten compagney BERLIN | Ltg: Wolfgang Katschner",
+      "Barockmusik über Wasser, Wandel und die Seele zwischen Aufruhr und Einkehr\nJohanna Kaldewei - Sopran\nlautten compagney BERLIN\nLtg: Wolfgang Katschner",
   },
   {
     title: "J.S. Bach: Gleich wie Regen und Schnee vom Himmel fällt",
@@ -93,15 +93,15 @@ const concerts = [
     location: 'Kirche am Stölpchensee',
     image: 'program/Eroeffnungskonzert.png',
     description:
-      "Kantatengottesdienst\nPredigt: Pfarrerin Sapna Joshi | Vokal- und Instrumentalsolist:innen | Mirlan Kasymaliev - Orgel",
+      "Kantatengottesdienst\nPredigt: Pfarrerin Sapna Joshi\nVokal- und Instrumentalsolist:innen\nMirlan Kasymaliev - Orgel",
   },
   {
     title: "Panta rhei - Alles fließt (und nichts bleibt)",
     date: "21. September 2025",
     time: "18.00 Uhr",
     location: 'St. Peter und Paul auf Nikolskoe',
-    image: 'program/Abschlusskonzert.png',
+    image: 'program/Hirtenidyll.png',
     description:
-      "J.S. Bach: Motetten, Vokalmusik der Romantik\nMirlan Kasymaliev - Continuo | N.N.",
+      "J.S. Bach: Motetten, Vokalmusik der Romantik\nMirlan Kasymaliev - Continuo",
   },
 ]
