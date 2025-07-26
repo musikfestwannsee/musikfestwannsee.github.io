@@ -5,10 +5,7 @@ export function LocationsSection() {
     <section id="locations" className="py-24 water-bg">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="section-title centered handwritten-first-letter">Locations</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Discover the beautiful venues around Wannsee where our concerts will take place
-          </p>
+          <h2 className="section-title centered handwritten-first-letter">Veranstaltungsorte</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24">

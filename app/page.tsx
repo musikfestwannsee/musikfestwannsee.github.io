@@ -7,12 +7,14 @@ import { SponsorsSection } from "@/components/sponsors-section"
 import { TicketsSection } from "@/components/tickets-section"
 import { TeamSection } from "@/components/team-section"
 import { Footer } from "@/components/footer"
+import { MottoSection } from "@/components/motto-section"
 
 export default function Home() {
   return (
     <main className="relative">
       <Navigation />
       <HeroSection />
+      <MottoSection />
       <ProgramSection />
       <ArtistsSection />
       <LocationsSection />

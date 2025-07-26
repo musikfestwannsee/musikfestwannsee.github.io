@@ -16,7 +16,7 @@ export function Footer() {
               Und besuchen Sie uns auf Social Media
             </p>
             <div className="flex space-x-4">
-              <Link href="'https://www.facebook.com/people/Musikfest-Wannsee/61558670768402/'" className="text-white hover:text-teal-400 transition-colors">
+              <Link href="https://www.facebook.com/people/Musikfest-Wannsee/61558670768402/" className="text-white hover:text-teal-400 transition-colors">
                 <Facebook className="h-6 w-6" />
                 <span className="sr-only">Facebook</span>
               </Link>
@@ -32,7 +32,7 @@ export function Footer() {
           </div>
 
           <div>
-            <a href="/impressum" className="text-slate-300 hover:text-white transition-colors">
+            <a href="impressum" className="text-slate-300 hover:text-white transition-colors">
               <h3 className="text-xl font-bold mb-4 text-teal-400">Impressum</h3>
             </a>
           </div>

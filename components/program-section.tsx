@@ -42,9 +42,11 @@ export function ProgramSection() {
                   </div>
                   </div>
                   <div className="flex items-center justify-center">
+                    <a href="#locations">
                     <Button variant="outline" size="sm">
                       {concert.location}
                     </Button>
+                    </a>
                   </div>
                 </div>
               </CardContent>
@@ -64,7 +66,7 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Mein_Arkadien.png',
     description:
-      "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut | Thorsten Kaldewei | Johanna Kaldewei | Ltg. Sabine Wüsthoff",
+      "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut, Thorsten Kaldewei - Klavier | Johanna Kaldewei - Sopran | Ltg. Sabine Wüsthoff",
   },
   {
     title: "Jeux d'eau",
@@ -73,7 +75,7 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Kantatengottesdienst.png',
     description:
-      "Die rauschenden Klänge des Wassers in Melodien und Bilder um 1900\nDr. Friederike Südmeyer | Aaron Dan | Thorsten Kaldewei",
+      "Die rauschenden Klänge des Wassers in Melodien und Bilder um 1900\nDr. Friederike Südmeyer - Kunsthostorikerin | Aaron Dan - Flöte | Thorsten Kaldewei - Klavier",
   },
   {
     title: "Sturm und Stille",
@@ -82,7 +84,7 @@ const concerts = [
     location: 'Kirche am Stölpchensee',
     image: 'program/Hirtenidyll.png',
     description:
-      "Barockmusik über Wasser, Wandel und die Seele zwischen Aufruhr und Einkehr\nJohanna Kaldewei | lautten compagney BERLIN | Ltg: Wolfgang Katschner",
+      "Barockmusik über Wasser, Wandel und die Seele zwischen Aufruhr und Einkehr\nJohanna Kaldewei - Sopran | lautten compagney BERLIN | Ltg: Wolfgang Katschner",
   },
   {
     title: "J.S. Bach: Gleich wie Regen und Schnee vom Himmel fällt",
@@ -91,15 +93,15 @@ const concerts = [
     location: 'Kirche am Stölpchensee',
     image: 'program/Eroeffnungskonzert.png',
     description:
-      "Kantatengottesdienst\nPredigt: Pfarrerin Sapna Joshi | Vokal- und Instrumentalsolist:innen | Orgel: Mirlan Kasymaliev",
+      "Kantatengottesdienst\nPredigt: Pfarrerin Sapna Joshi | Vokal- und Instrumentalsolist:innen | Mirlan Kasymaliev - Orgel",
   },
   {
     title: "Panta rhei - Alles fließt (und nichts bleibt)",
     date: "21. September 2025",
     time: "18.00 Uhr",
-    location: 'Nikolskoe',
+    location: 'St. Peter und Paul auf Nikolskoe',
     image: 'program/Abschlusskonzert.png',
     description:
-      "J.S. Bach: Motetten, Vokalmusik der Romantik\nContinuo: Mirlan Kasymaliev | N.N.",
+      "J.S. Bach: Motetten, Vokalmusik der Romantik\nMirlan Kasymaliev - Continuo | N.N.",
   },
 ]

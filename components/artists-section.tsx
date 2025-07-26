@@ -44,13 +44,13 @@ const artists = [/*
         instrument: 'Chor',
         image: '',
         description: '',
-    },
+    },*/
     {
         name: 'Justine Eckhaut',
         instrument: 'Klavier',
-        image: '',
-        description: '',
-    },*/
+        image: 'artists/Justine_Eckhaut.png',
+        description: 'Die französische Pianistin Justine Eckhaut studierte am CNSMD in Lyon bei Florent Boffard und David Selig sowie an der Universität der Künste Berlin bei Björn Lehmann und Eric Schneider. Engagements führten sie an die Opéra National de Lyon, das Opéra Orchestre National Montpellier, die Berliner Philharmonie, die Bregenzer Festspiele, zu France Musique, an das Nationale Konservatorium für Musik in Mexiko und das Oriental Art Center in Shanghai.\nIm Februar 2025 gewann sie gemeinsam mit der lettischen Sopranistin Katrina Paula Felsberga sowohl den Ersten Preis als auch den Preis für die beste Interpretation des Auftragswerks beim Wettbewerb „Franz Schubert und die Musik der Moderne“ in Graz. Im November 2024 wurde ihr der Pianist*innenpreis für herausragende Leistungen in der Liedbegleitung beim Bundeswettbewerb Gesang in Berlin verliehen.\nIm Jahr 2020 gründete Justine Eckhaut das Festival berlied, ein unabhängiges Liedfestival in Berlin, das bisher mit drei innovativen Liederabendreihen mediale Aufmerksamkeit auf sich gezogen hat. Von 2019 bis 2021 wurde sie von Thomas Hampson eingeladen, an der Lied Akademie des Heidelberger Frühling teilzunehmen. Sie tritt außerdem als Pianistin mit dem Trio Dara auf und ist Mitglied von Let me LIED you, einem interdisziplinären Projekt unter der Leitung der Sopranistin Amanda Becker.\nSeit 2019 arbeitet sie als Gesangscoach an der Universität der Künste Berlin. Seit 2021 ist sie außerdem Pianistin des Vokalconsort des Berliner Mädchenchor unter der Leitung von Sabine Wüsthoff sowie des Kinderchores der Staatsoper Unter den Linden (Berlin) unter der Leitung von Vinzenz Weissenburger.',
+    },
     {
         name: 'Thorsten Kaldewei | Pianist',
         instrument: 'Klavier',
@@ -63,13 +63,13 @@ const artists = [/*
         instrument: 'Kunsthistorikerin',
         image: 'artists/Friederike_suedmeyer.png',
         description: 'Die Kunsthistorikerin Friederike Südmeyer ist Kuratorin einer Stiftung, Vorsitzende des Wannseer Kulturverein, arbeitet als Kunstberaterin und vermittelt in Führungen, Vorträgen und Workshops ihren Blick auf die Welt der Kunst.\n',
-    },/*
+    },
     {
         name: 'Aaron Dan',
         instrument: 'Flöte',
-        image: '',
-        description: '',
-    },*/
+        image: 'artists/Aaron_Dan.png',
+        description: 'Aaron Dan wurde 1981 in eine rumänisch-ungarische Musikerfamilie in Siebenbürgen geboren. Mit 15 Jahren zog er mit seinem Bruder nach Budapest /Ungarn, wo er am Bartók-Konservatorium ausgebildet wurde. Seit dieser Zeit unternehmen die Brüder (Duo Dan, später Trio Dan) jährlich Konzertreisen nach Deutschland, Österreich, Frankreich und in die Schweiz. Nach seinem Abitur studierte er Querflöte in Berlin (Universität der Künste und Hochschule für Musik Hanns Eisler) und in Paris (Ecole Normale de Musique Alfred Cortot). Derzeit studiert Aaron Instrumentale Komposition an der Hochshule für Musik Weimar.\nAls Solist, Kammermusiker, Komponist und Moderator ist Aaron Dan sehr gefragt; er ist Gründungsmitglied des Ensembles Berlin Counterpoint, mit welchen er in vielen wichtigen Konzertsälen auftrat, u.a. im Kammermusiksaal der Berliner Philharmonie, Rheingau Musik Festival, Palau de Musica Valencia, Paax Fest Mexico City, The Rockefeller University NYC, Sao Paolo, New Orleans University, Istanbul Music Festival uvm. 2005 gewann er an den 1. Preis und drei Sonderpreise des internationalen Flötenwettbewerbs „The Winner of Belgrade“, Serbien. Im Jahr 2013 wurde dem Ensemble Berlin Counterpoint der Usedomer Musikpreis verliehen.\nSein kompositorisches Schaffen umfasst gut 100 Werke, darunter viele Stücke für Flöte und Loop Station, Kammermusik, etliche Chorwerke und vokalsymphonische Werke die Kinderoper „der kleine Prinz“, mehrere Stücke für Kindermusiktheater sowie dutzende Arrangements für seine Ensembles.\nAaron Dan lebt als freischaffender Flötist und Komponist mit seiner Familie in Berlin.',
+    },
     {
         name: 'Lautten compagney Berlin',
         instrument: 'Ensemble',
