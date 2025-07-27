@@ -3,28 +3,28 @@ import { Facebook, Instagram, Youtube } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer id="footer" className="bg-slate-900 text-amber-50 py-12">
+    <footer id="footer" className="bg-slate-800 text-amber-50 py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-boldmb-4 text-sky-300">Kontakt</h3>
-            <p className="text-slate-300 text-amber-50 mb-4">
+            <h3 className="text-xl font-boldmb-4 text-slate-400">Kontakt</h3>
+            <p className="text-slate-300 mb-4">
               Schreiben Sie uns eine Email: <br/>
               <b>musikfest.wannsee@gmail.de</b>
             </p>
-            <p className="text-slate-300 text-amber-50 mb-4">
+            <p className="text-slate-300 mb-4">
               Und besuchen Sie uns auf Social Media
             </p>
             <div className="flex space-x-4">
-              <Link href="https://www.facebook.com/people/Musikfest-Wannsee/61558670768402/" className="text-amber-50 hover:text-teal-400 transition-colors">
+              <Link href="https://www.facebook.com/people/Musikfest-Wannsee/61558670768402/" className="text-slate-300 hover:text-white transition-colors">
                 <Facebook className="h-6 w-6" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="http://www.instagram.com/musikfestwannsee" className="text-amber-50 hover:text-teal-400 transition-colors">
+              <Link href="http://www.instagram.com/musikfestwannsee" className="text-slate-300 hover:text-white transition-colors">
                 <Instagram className="h-6 w-6" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-white hover:text-teal-400 transition-colors">
+              <Link href="#" className="text-slate-300 hover:text-white transition-colors">
                 <Youtube className="h-6 w-6" />
                 <span className="sr-only">YouTube</span>
               </Link>
@@ -32,18 +32,18 @@ export function Footer() {
           </div>
 
           <div>
-            <a href="impressum" className="text-slate-300 hover:text-white transition-colors">
-              <h3 className="text-xl font-bold mb-4 text-sky-300">Impressum</h3>
+            <a href="impressum" className="text-slate-400 hover:text-white transition-colors">
+              <h3 className="text-xl font-bold mb-4">Impressum</h3>
             </a>
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4 text-sky-300">Downloads</h3>
+            <h3 className="text-xl font-bold mb-4 text-slate-400">Downloads</h3>
               <p>
                 <a 
                   href="Flyer_Musikfest_Wannsee_2025.pdf"
                   download="Flyer_Musikfest_Wannsee_2025.pdf"
-                  className="text-slate-300 text-amber-50 hover:text-white transition-colors">
+                  className="text-slate-300 hover:text-white transition-colors">
                   Flyer 2025
                 </a>
               </p>
@@ -51,7 +51,7 @@ export function Footer() {
                 <a 
                   href="Flyer_Musikfest_Wannsee_2024.pdf"
                   download="Flyer_Musikfest_Wannsee_2024.pdf"
-                  className="text-slate-300 text-amber-50 hover:text-white transition-colors">
+                  className="text-slate-300 hover:text-white transition-colors">
                   Flyer 2024
                 </a>
               </p>

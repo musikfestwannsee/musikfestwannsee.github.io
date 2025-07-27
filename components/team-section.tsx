@@ -27,10 +27,10 @@ export function TeamSection() {
   ]
 
   return (
-    <section id="team" className="py-20 water-bg-backwards">
+    <section id="team" className="py-20 water-bg">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="section-title centered text-amber-50 handwritten-first-letter">Das Team</h2>
+          <h2 className="section-title centered">Das Team</h2>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -45,7 +45,7 @@ export function TeamSection() {
               </div>
               <h3 className="text-xl font-display mb-2 handwritten-first-letter text-amber-50">{member.name}</h3>                
               <div>{member.role.split('\n').map((line, index) => (
-                    <p key={index} className="text-sm font-medium text-sky-900 mb-3">
+                    <p key={index} className="text-sm font-medium text-slate-800 mb-3">
                         {line}
                         <br />
                     </p>
@@ -83,7 +83,7 @@ export function TeamSection() {
             <h4 className="text-xl font-bold text-slate-800 dark:text-white mb-1">
               In Zusammenarbeit mit der Evangelischen Kirchengemeinde Berlin-Wannsee<br/>
               und der Kirche St. Peter und Paul auf Nikolskoe<br/></h4>
-            <p className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">Sapna Joshi, Pfarrerin der Ev. Gemeinde Berlin-Wannsee</p>
+            <p className="text-sm font-medium text-slate-600 dark:text-slate-300 mb-3">Sapna Joshi, Pfarrerin der Ev. Gemeinde Berlin-Wannsee</p>
           </CardContent>
         </Card>
       </div>

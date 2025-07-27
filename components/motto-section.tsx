@@ -2,11 +2,11 @@ export function MottoSection() {
   return (
     <section
       id="motto"
-      className="py-20 water-bg-backwards"
+      className="py-20 water-bg"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="section-title centered text-amber-50 handwritten-first-letter">Motto 2025</h2>
+          <h2 className="section-title centered">Motto 2025</h2>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
             Unter dem Motto <span className="text-2xl text-amber-50">Panta rhei - Alles im Fluss</span> lädt das Musikfest Wannsee 2025
             dazu ein, die Kraft des Wandels und der Bewegung in Musik und Natur zu erleben –

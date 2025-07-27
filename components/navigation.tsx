@@ -37,7 +37,7 @@ export function Navigation() {
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-white dark:text-teal-400">
+          <Link href="/" className="text-2xl font-bold text-white">
             Musikfest Wannsee
           </Link>
 
@@ -47,7 +47,7 @@ export function Navigation() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-lg font-medium text-slate-700 hover:text-teal-600 dark:text-slate-200 dark:hover:text-teal-400 transition-colors"
+                className="text-lg font-medium text-slate-700 hover:text-white dark:text-slate-200 dark:hover:text-teal-400 transition-colors"
               >
                 {link.name}
               </Link>
@@ -65,12 +65,12 @@ export function Navigation() {
       {/* Mobile Navigation Menu */}
       {isOpen && (
         <div className="lg:hidden">
-          <div className="container mx-auto px-4 py-4 bg-white dark:bg-slate-900 flex flex-col space-y-4">
+          <div className="container mx-auto px-4 py-4 bg-slate-200 dark:bg-slate-700 flex flex-col space-y-4">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-xl font-medium text-slate-700 hover:text-teal-600 dark:text-slate-200 dark:hover:text-teal-400 py-2"
+                className="text-xl font-medium text-slate-700 hover:text-white dark:text-slate-200 dark:hover:text-teal-400 py-2"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
@@ -78,10 +78,10 @@ export function Navigation() {
             ))}
             <Link
               href="#tickets"
-              className="text-xl font-medium text-slate-700 hover:text-teal-600 dark:text-slate-200 dark:hover:text-teal-400 py-2"
+              className="text-xl font-medium text-slate-700 hover:text-white dark:text-slate-200 dark:hover:text-teal-400 py-2"
               onClick={() => setIsOpen(false)}
             >
-              <Button className="bg-teal-600 hover:bg-teal-700 text-white w-full">Tickets</Button>
+              <Button className="bg-slate-700 hover:bg-slate-200 text-white w-full">Tickets</Button>
             </Link>
           </div>
         </div>

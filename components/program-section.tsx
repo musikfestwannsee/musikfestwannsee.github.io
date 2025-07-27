@@ -6,14 +6,12 @@ export function ProgramSection() {
     <section id="program" className="py-24 water-bg"> 
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="section-title centered handwritten-first-letter">Programm</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-          </p>
+          <h2 className="section-title centered">Programm</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {concerts.map((concert, index) => (
-            <Card key={index} className="card-elegant overflow-hidden">
+            <Card key={index} className="card-elegant">
               <CardContent className="p-0">
                 <div className="aspect-[3/2] bg-muted relative">
                   <div className="absolute inset-0 flex items-end p-6 " style={{
@@ -64,7 +62,7 @@ const concerts = [
     date: "19. September 2025",
     time: "19:30 Uhr",
     location: 'Andreaskirche',
-    image: 'program/Der_Wellen_Wechselspiel.png',
+    image: 'program/Jeux_deau.png',
     description:
       "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut - Klavier\nThorsten Kaldewei - Klavier\nJohanna Kaldewei - Sopran\nLtg. Sabine Wüsthoff",
   },
@@ -73,7 +71,7 @@ const concerts = [
     date: "20. September 2025",
     time: "16.00 Uhr",
     location: 'Andreaskirche',
-    image: 'program/Jeux_deau.png',
+    image: 'program/Der_Wellen_Wechselspiel.png',
     description:
       "Die rauschenden Klänge des Wassers in Melodien und Bilder um 1900\nDr. Friederike Südmeyer - Kunsthistorikerin\nAaron Dan - Flöte\nThorsten Kaldewei - Klavier",
   },

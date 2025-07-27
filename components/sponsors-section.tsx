@@ -29,10 +29,10 @@ export function SponsorsSection() {
   const bronzeSponsors = sponsors.filter((s) => s.tier === "bronze")
 
   return (
-    <section id="sponsors" className="py-20 water-bg-backwards">
+    <section id="sponsors" className="py-20 water-bg">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="section-title centered text-amber-50 handwritten-first-letter">Förderer & Sponsoren</h2>
+          <h2 className="section-title centered">Förderer & Sponsoren</h2>
           <p className="text-xl text-amber-50 text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
             Wir bedanken uns von Herzen bei unseren Förderern und Unterstützern <br/><br/>  
           </p>
