@@ -115,6 +115,12 @@ const artists_portrait = [
         instrument: 'Sopranistin',
         image: 'artists/Julia_Danz.png',
         description: 'Julia Danz studierte Gesang in Saarbrücken und Leipzig und schloss ihr Studium mit Auszeichnung ab. Sie ist mehrfache Preisträgerin und Finalistin internationaler Gesangswettbewerbe. Nach ihrem Studium war sie zunächst Mitglied des Opernstudios Niederrhein, gefolgt von einem Festengagement an der Staatsoperette Dresden. Seitdem ist Julia Danz freischaffend tätig und gastiert regelmäßig an renommierten Bühnen, darunter das Gärtnerplatztheater München, die Deutsche Oper am Rhein, die Staatstheater Chemnitz und Regensburg und die Opernfestspiele Heidenheim. Ihr Repertoire umfasst eine Vielzahl wichtiger Partien, darunter Pamina (»Die Zauberflöte«), Gretel (»Hänsel und Gretel«), Lauretta (»Gianni Schicchi«) und Mimi (»La Bohème«). Neben ihren Opernengagements ist Julia Danz auch eine gefragte Konzertsolistin. Sie wurde unter anderem für Beethovens 9. Sinfonie nach Japan eingeladen und arbeitete mit namhaften Orchestern wie der Philharmonie Baden-Baden, dem Sinfonieorchester Wuppertal, der Philharmonie Südwestfalen und dem Gewandhausorchester Leipzig.',
+    },
+    {
+        name: 'Meinhardt Möbius',
+        instrument: 'Bassbariton',
+        image: 'artists/Meinhardt_Moebius.png',
+        description: 'Der Bassbariton Meinhardt Möbius wurde in Dresden geboren und erhielt seine erste musikalische Ausbildung bei den Dresdner Kapellknaben. Er studierte zunächst Musikwissenschaft und Geschichte an der TU Dresden, bevor er sein Bachelorstudium Gesang an der HMT Leipzig bei KS Prof. Jürgen Kurth und anschließend den Masterstudiengang Operngesang an der HfM Dresden bei KS Prof. Matthias Henneberg absolvierte. Er ist seit 2019 Mitglied im Sächsischen Staatsopernchor an der Semperoper Dresden und übernimmt regelmäßig chorsolistische Partien.\nAls Solist gastierte er bei den Festtagen Alte Musik (Basel), dem Festival Retz (Niederösterreich), sowie dem Gerhart-Hauptmann-Theater Görlitz und dem Theater Plauen/ Zwickau. 2018 war er Finalist beim Bundeswettbewerb Gesang. Im Konzertbereich singt Meinhardt Möbius ein vielseitiges und epochenübergreifendes Repertoire. Die freie Musiktheater-Szene liegt ihm besonders am Herzen, da er dort auch schon während des Studiums viel Bühnenerfahrung sammeln konnte, vor allem bei Produktionen des Dresdner Opernkollektivs szene12.',
     },/*
     {
         name: 'Sapna Joshi',
