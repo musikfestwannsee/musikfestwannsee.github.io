@@ -13,7 +13,7 @@ export function TicketsSection() {
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
             Auch in diesem Jahr ist der Eintritt frei.<br/>
             Um Anmeldung wird gebeten unter </p><br/>
-            <h2 className="text-3xl font-bold text-slate-700 mb-4">musikfest.wannsee@gmail.com</h2>
+            <h2 className="sm:text-3xl text-xl font-bold text-slate-700 mb-4">musikfest.wannsee@gmail.com</h2>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
             Wir freuen uns auf alle Zuhörer:innen!<br/><br/><br/>
             Um das Musikfest Wannsee auf musikalisch höchstem Niveau auch in Zukunft nachhaltig und verlässlich stattfinden lassen zu können, benötigen wir Ihre Unterstützung.<br/><br/> 
