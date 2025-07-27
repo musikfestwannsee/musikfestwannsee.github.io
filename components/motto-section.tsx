@@ -6,12 +6,12 @@ export function MottoSection() {
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="section-title centered handwritten-first-letter">Motto 2025</h2>
+          <h2 className="section-title centered text-amber-50 handwritten-first-letter">Motto 2025</h2>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
-            Unter dem Motto <span className="text-2xl emphasized">Panta rhei - Alles im Fluss</span> lädt das Musikfest Wannsee 2025
+            Unter dem Motto <span className="text-2xl text-amber-50">Panta rhei - Alles im Fluss</span> lädt das Musikfest Wannsee 2025
             dazu ein, die Kraft des Wandels und der Bewegung in Musik und Natur zu erleben –
             passend zum Herbstanfang, wenn sich die Natur spürbar verändert. <br/><br/>
-            Heraklit schrieb: <span className="text-2xl emphasized">"Wir steigen in denselben Fluss und doch nicht in denselben,
+            Heraklit schrieb: <span className="text-2xl">"Wir steigen in denselben Fluss und doch nicht in denselben,
             wir sind es und wir sind es nicht."</span><br/><br/>
             Wannsee, eingebettet zwischen weitläufigen Seen, sanften Ufern und den
             Strömungen der Havel, spiegelt diese Erkenntnis als ein Ort des Wandels und der

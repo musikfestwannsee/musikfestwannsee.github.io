@@ -19,12 +19,12 @@ export function LocationsSection() {
               </div>
               <div className="flex-grow">
                 <h2 className="text-xl font-display mb-2 handwritten-first-letter">{location.name}</h2>
-                <p className="text-sm text-muted-foreground mb-4 min-h-[200px]">{location.description}</p>
+                <p className="text-sm text-amber-50 mb-4 lg:min-h-[200px] min-h-[300px]">{location.description}</p>
               </div>
               <div>
-                <h3 className="text-xl font-display mb-2 handwritten-first-letter">Anfahrt</h3>
-                <p className="text-sm text-muted-foreground mb-4">{location.address}</p>
-                <p className="text-sm text-muted-foreground mb-4">{location.anfahrt}</p>
+                <h4 className="text-l font-display mb-2 handwritten-first-letter">Anfahrt</h4>
+                <p className="text-sm text-amber-50 mb-4">{location.address}</p>
+                <p className="text-sm text-amber-50 mb-4">{location.anfahrt}</p>
                 <a href={location.url} target="_blank" rel="noopener noreferrer">
                   <Button variant="link" >Google Maps</Button>
                 </a>

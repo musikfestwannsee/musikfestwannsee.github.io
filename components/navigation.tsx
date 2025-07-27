@@ -21,7 +21,7 @@ export function Navigation() {
   const navLinks = [
     { name: "Programm", href: "#program" },
     { name: "Künstler:innen", href: "#artists" },
-    { name: "Locations", href: "#locations" },
+    { name: "Veranstaltungsorte", href: "#locations" },
     { name: "Sponsoren", href: "#sponsors" },
     { name: "Tickets", href: "#tickets" },
     { name: "Team", href: "#team" },

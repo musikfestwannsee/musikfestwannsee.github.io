@@ -145,13 +145,13 @@
 
 /* Water-inspired background */
 .water-bg {
-  background: linear-gradient(to bottom, rgba(211, 232, 252, 0.6), rgb(199, 233, 233, .6));
+  background: linear-gradient(to bottom, rgb(178, 191, 215, .8), rgb(74, 99, 144, .8));
   position: relative;
   overflow: hidden;
 }
 
 .water-bg-backwards {
-  background: linear-gradient(to bottom, rgb(199, 233, 233, .6), rgba(211, 232, 252, 0.6));
+  background: linear-gradient(to bottom, rgb(74, 99, 144, .8), rgb(178, 191, 215, .8));
   position: relative;
   overflow: hidden;
 }

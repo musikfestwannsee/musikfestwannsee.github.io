@@ -21,18 +21,18 @@ export function ProgramSection() {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}>
-                    <div className="absolute inset-0 flex flex-col justify-between p-6 bg-gradient-to-t from-black/70 to-transparent/10">
+                    <div className="absolute inset-0 flex flex-col justify-between p-6 bg-gradient-to-t from-black/60 to-transparent">
                         <div>
-                          <p className="text-md font-medium text-white">{concert.date}</p>
-                          <p className="text-md font-medium text-white">{concert.time}</p>
+                          <p className="text-md md:text-sm font-medium text-amber-50">{concert.date}</p>
+                          <p className="text-md md:text-sm font-medium text-amber-50">{concert.time}</p>
                         </div>
                         <br/>
-                        <h3 className="text-xl text-white font-display mt-1 handwritten-first-letter">{concert.title}</h3>
+                        <h3 className="text-xl md:text-md text-amber-50 font-display mt-1 handwritten-first-letter">{concert.title}</h3>
                     </div>
                   </div>
                 </div>
                 <div className="p-6">
-                  <div className="min-h-[170px]">
+                  <div className="min-h-[170px] mb-4">
                     <div>{concert.description.split('\n').map((line, index) => (
                         <p key={index} className="text-sm text-muted-foreground mb-4">
                             {line}
@@ -64,16 +64,16 @@ const concerts = [
     date: "19. September 2025",
     time: "19:30 Uhr",
     location: 'Andreaskirche',
-    image: 'program/Mein_Arkadien.png',
+    image: 'program/Der_Wellen_Wechselspiel.png',
     description:
-      "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut, Thorsten Kaldewei - Klavier\nJohanna Kaldewei - Sopran\nLtg. Sabine Wüsthoff",
+      "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut - Klavier\nThorsten Kaldewei - Klavier\nJohanna Kaldewei - Sopran\nLtg. Sabine Wüsthoff",
   },
   {
     title: "Jeux d'eau",
     date: "20. September 2025",
     time: "16.00 Uhr",
     location: 'Andreaskirche',
-    image: 'program/Kantatengottesdienst.png',
+    image: 'program/Jeux_deau.png',
     description:
       "Die rauschenden Klänge des Wassers in Melodien und Bilder um 1900\nDr. Friederike Südmeyer - Kunsthistorikerin\nAaron Dan - Flöte\nThorsten Kaldewei - Klavier",
   },
@@ -82,7 +82,7 @@ const concerts = [
     date: "20. September 2025",
     time: "19.30 Uhr",
     location: 'Kirche am Stölpchensee',    
-    image: 'program/Abschlusskonzert.png',
+    image: 'program/Sturm_und_Stille.png',
     description:
       "Barockmusik über Wasser, Wandel und die Seele zwischen Aufruhr und Einkehr\nJohanna Kaldewei - Sopran\nlautten compagney BERLIN\nLtg: Wolfgang Katschner",
   },
@@ -91,7 +91,7 @@ const concerts = [
     date: "21. September 2025",
     time: "10.00 Uhr",
     location: 'Kirche am Stölpchensee',
-    image: 'program/Eroeffnungskonzert.png',
+    image: 'program/Kantatengottesdienst.png',
     description:
       "Kantatengottesdienst\nPredigt: Pfarrerin Sapna Joshi\nVokal- und Instrumentalsolist:innen\nMirlan Kasymaliev - Orgel",
   },
@@ -100,7 +100,7 @@ const concerts = [
     date: "21. September 2025",
     time: "18.00 Uhr",
     location: 'St. Peter und Paul auf Nikolskoe',
-    image: 'program/Hirtenidyll.png',
+    image: 'program/Abschlusskonzert.png',
     description:
       "J.S. Bach: Motetten, Vokalmusik der Romantik\nMirlan Kasymaliev - Continuo",
   },

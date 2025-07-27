@@ -30,22 +30,22 @@ export function TeamSection() {
     <section id="team" className="py-20 water-bg-backwards">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">Das Team</h2>
+          <h2 className="section-title centered text-amber-50 handwritten-first-letter">Das Team</h2>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {teamMembers.map((member, index) => (
             <div key={index} className="text-center group relative">
-              <div className="aspect-square rounded-full overflow-hidden mb-6 mx-auto max-w-[250px] relative group-hover:opacity-0"
+              <div className="aspect-square rounded-full overflow-hidden mb-6 mx-auto max-w-[250px] relative"
                 style={{ 
                   backgroundImage: `url(${member.image})`, 
                   backgroundSize: 'cover', 
                   backgroundPosition: 'center' 
                 }}>
               </div>
-              <h3 className="text-xl font-display mb-2 handwritten-first-letter group-hover:opacity-0">{member.name}</h3>                
+              <h3 className="text-xl font-display mb-2 handwritten-first-letter text-amber-50">{member.name}</h3>                
               <div>{member.role.split('\n').map((line, index) => (
-                    <p key={index} className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-3">
+                    <p key={index} className="text-sm font-medium text-sky-900 mb-3">
                         {line}
                         <br />
                     </p>

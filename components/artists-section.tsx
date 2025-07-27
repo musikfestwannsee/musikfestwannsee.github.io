@@ -5,10 +5,10 @@ export function ArtistsSection() {
   return (
     <section id="artists" className="py-24 water-bg-backwards">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="section-title centered handwritten-first-letter">Künstler:innen</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Freuen Sie sich mit uns auf außergewöhnliche Musik von außergewöhnlichen Menschen:
+        <div className="text-center text-white mb-16">
+          <h2 className="section-title centered text-amber-50 handwritten-first-letter">Künstler:innen</h2>
+          <p className="text-amber-50 max-w-2xl mx-auto">
+            Freuen Sie sich mit uns auf außergewöhnliche Musik von außergewöhnlichen Menschen
           </p>
         </div>
 
@@ -27,6 +27,7 @@ export function ArtistsSection() {
                 </div>
               <CardContent className="p-6 dark:bg-slate-800">
                 <h2 className="text-xl font-display mb-2 handwritten-first-letter group-hover:opacity-0">{artist.name}</h2>
+                <h4 className="text-l text-sky-700 font-display mb-2 group-hover:opacity-0">{artist.instrument}</h4>
                 <div>{artist.description.split('\n').map((line, index) => (
                       <p key={index} className="text-sm font-medium mb-3">
                           {line}
@@ -50,6 +51,7 @@ export function ArtistsSection() {
               </div>
               <CardContent className="p-6 dark:bg-slate-800">
                 <h2 className="text-xl font-display mb-2 handwritten-first-letter group-hover:opacity-0">{artist.name}</h2>
+                <h4 className="text-l text-sky-700 font-display mb-2 group-hover:opacity-0">{artist.instrument}</h4>
                 <div>{artist.description.split('\n').map((line, index) => (
                       <p key={index} className="text-sm font-medium mb-3">
                           {line}
@@ -90,7 +92,7 @@ const artists_portrait = [
         description: 'Die französische Pianistin Justine Eckhaut studierte am CNSMD in Lyon bei Florent Boffard und David Selig sowie an der Universität der Künste Berlin bei Björn Lehmann und Eric Schneider. Engagements führten sie an die Opéra National de Lyon, das Opéra Orchestre National Montpellier, die Berliner Philharmonie, die Bregenzer Festspiele, zu France Musique, an das Nationale Konservatorium für Musik in Mexiko und das Oriental Art Center in Shanghai.\nIm Februar 2025 gewann sie gemeinsam mit der lettischen Sopranistin Katrina Paula Felsberga sowohl den Ersten Preis als auch den Preis für die beste Interpretation des Auftragswerks beim Wettbewerb „Franz Schubert und die Musik der Moderne“ in Graz. Im November 2024 wurde ihr der Pianist*innenpreis für herausragende Leistungen in der Liedbegleitung beim Bundeswettbewerb Gesang in Berlin verliehen.\nIm Jahr 2020 gründete Justine Eckhaut das Festival berlied, ein unabhängiges Liedfestival in Berlin, das bisher mit drei innovativen Liederabendreihen mediale Aufmerksamkeit auf sich gezogen hat. Von 2019 bis 2021 wurde sie von Thomas Hampson eingeladen, an der Lied Akademie des Heidelberger Frühling teilzunehmen. Sie tritt außerdem als Pianistin mit dem Trio Dara auf und ist Mitglied von Let me LIED you, einem interdisziplinären Projekt unter der Leitung der Sopranistin Amanda Becker.\nSeit 2019 arbeitet sie als Gesangscoach an der Universität der Künste Berlin. Seit 2021 ist sie außerdem Pianistin des Vokalconsort des Berliner Mädchenchor unter der Leitung von Sabine Wüsthoff sowie des Kinderchores der Staatsoper Unter den Linden (Berlin) unter der Leitung von Vinzenz Weissenburger.',
     },
     {
-        name: 'Thorsten Kaldewei | Pianist',
+        name: 'Thorsten Kaldewei',
         instrument: 'Klavier',
         image: 'artists/Thorsten_Kaldewei.png',
         description: 'Der Pianist Thorsten Kaldewei ist Dozent für Repertoire und Liedgestaltung an der Universität der Künste Berlin. Er studierte Klavier und Liedgestaltung an der Musikhochschule Köln, u.a. bei Prof. Michael Endres. Bei Rudolf Jansen und Irwin Gage erhielt er weitere wichtige Anregungen für sein Liedrepertoire.\n'+
