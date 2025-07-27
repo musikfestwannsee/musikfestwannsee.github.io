@@ -38,7 +38,6 @@ export function SponsorsSection() {
           </p>
         </div>
 
-        {/* Platinum Sponsors */}
         <div className="mb-16">
           <div className="grid md:grid-cols-3 gap-8">
             {platinumSponsors.map((sponsor, index) => (
@@ -58,6 +57,12 @@ export function SponsorsSection() {
             ))}
           </div>
         </div>
+      </div>
+
+      <div className="text-center mb-12">
+        <p className="text-xl text-amber-50 text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
+          Wir bedanken uns von Herzen bei unseren Förderern und Unterstützern <br/><br/>  
+        </p>
       </div>
     </section>
   )
