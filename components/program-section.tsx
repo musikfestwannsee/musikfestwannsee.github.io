@@ -91,7 +91,7 @@ const concerts = [
     location: 'Kirche am Stölpchensee',
     image: 'program/Kantatengottesdienst.png',
     description:
-      "Kantatengottesdienst\nPredigt: Pfarrerin Sapna Joshi\nVokal- und Instrumentalsolist:innen\nMirlan Kasymaliev - Orgel",
+      "Kantatengottesdienst\nPredigt: Pfarrerin Sapna Joshi\nJulia Danz - Sopran\nAnna-Luise Oppelt - Alt\nChristian Pohlers - Tenor\nMeinhardt Möbius - Bass\nInstrumentalsolisten\nMirlan Kasymaliev - Orgel",
   },
   {
     title: "Panta rhei - Alles fließt (und nichts bleibt)",
