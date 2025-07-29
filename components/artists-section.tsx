@@ -84,11 +84,11 @@ const artists_landscape = [
         url: 'https://www.lauttencompagney.de/',
     },
     {
-        name: 'Vocalconsort des Berliner Mädchenchores',
+        name: 'Vokalconsort des Berliner Mädchenchores',
         instrument: 'Chor',
         image: 'artists/KVC.png',
         description: 'Das Vokalconsort ist der „junge“ Frauenkammerchor des Berliner Mädchenchores. Gegründet 2015 auf Initiative ehemaliger Konzertchormädchen, besteht das Ensemble heute kontinuierlich aus ca. 30 aktiven Sängerinnen unter der Leitung der Dirigentin und freischaffenden Komponistin Sabine Wüsthoff.\n Das musikalische Programm umfasst mehrstimmige Literatur für gleiche Stimmen von der Renaissance bis zur Moderne. Gesungen werden Volkslieder, weltliche und geistliche Werke. Die Sängerinnen konzertieren a cappella, mit Klavierbegleitung, Kammerensembles und Orchestern, z. B. mit dem Landesjugendorchester, dem Jungen Orchester der FU Berlin, der Jungen Sinfonie Berlin und dem Schöneberger Kammerorchester.\n Das Vokalconsort war schon in der Berliner Philharmonie, im Konzerthaus Berlin, der Französischen Friedrichstadtkirche, der Kaiser-Wilhelm-Gedächtniskirche, in der Philharmonie Stettin, der Nikolaikirche Potsdam, dem Dom in Brandenburg, und weiteren bekannten Kirchen und Konzertsälen zu hören. Konzertreisen führten das Ensemble bisher nach Japan und Südchina. 2021 wurde es mit einem OPUS KLASSIK ausgezeichnet, außerdem errang es mehrfach erste Preise bei Wettbewerben, so u. a. 2018 und 2023 beim Deutschen Chorwettbewerb.\n',
-        url: 'www.berlinermaedchenchor.de',
+        url: 'https://www.berlinermaedchenchor.de',
     },
   ];
 const artists_portrait = [
