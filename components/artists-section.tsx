@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "./ui/card"
 import Image from "next/image"
 
@@ -28,13 +29,18 @@ export function ArtistsSection() {
               <CardContent className="p-6 dark:bg-slate-800">
                 <h2 className="text-xl font-display mb-2 handwritten-first-letter group-hover:opacity-0">{artist.name}</h2>
                 <h4 className="text-l text-sky-700 font-display mb-2 group-hover:opacity-0">{artist.instrument}</h4>
-                <div>{artist.description.split('\n').map((line, index) => (
+                <div className="lg:min-h-[400px] mb-4">{artist.description.split('\n').map((line, index) => (
                       <p key={index} className="text-sm font-medium mb-3">
                           {line}
                           <br />
                       </p>
                   ))}
                 </div>
+                <a href={artist.url}>
+                  <Button variant="outline" size="sm">
+                      {artist.url}
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           ))}
@@ -74,14 +80,15 @@ const artists_landscape = [
         instrument: 'Ensemble',
         image: 'artists/lauttencompagney.png',
         description: 'Die lautten compagney BERLIN unter der Leitung von Wolfgang Katschner zählt zu den renommiertesten und kreativsten deutschen Barockensembles. Seit ihrer Gründung 1984 begeistert sie Musikliebhaber:innen auf der ganzen Welt. Im Herbst 2019 wurde sie mit dem OPUS Klassik als Ensemble des Jahres ausgezeichnet. Mit Konzerten, Opernaufführungen und Crossoverprojekten setzt sie einzigartige musikalische Akzente. Das Ensemble gehört zu den wenigen freien Produzenten von Musiktheaterprojekten in Deutschland. Für seine ungewöhnlichen und innovativen Programme wird es vom Publikum wie von nationalen und internationalen Feuilletons gleichermaßen geschätzt. Neben ihren Auftritten in Berlin tourt die lautten compagney mit ca. 100 Konzerten pro Jahr durch die Bundesrepublik, Europa und die Welt. Die letzten großen, außereuropäischen Tourneen führten im Jahr 2019 durch 10 Städte Chinas und im Herbst 2021 nach Bogotá in Kolumbien.\n' + 
-        'Die lautten compagney pflegt als wichtigen Teil ihres Programmspektrums mit großen Repertoirewerken musikalische Traditionen. Wolfgang Katschner und sein Ensemble sind nicht nur neugierig auf Musik, sondern auch auf neue Wege ihrer konzertanten Darstellung. Ihre eigene, individuelle Plattform für Experimente hat die lautten compagney u.a. mit dem Format der :lounge gefunden. Wenn alte Werke so von neuen Ideen inspiriert werden, verschwinden musikalische Grenzen.\n\n',
+        'Die lautten compagney pflegt als wichtigen Teil ihres Programmspektrums mit großen Repertoirewerken musikalische Traditionen. Wolfgang Katschner und sein Ensemble sind nicht nur neugierig auf Musik, sondern auch auf neue Wege ihrer konzertanten Darstellung. Ihre eigene, individuelle Plattform für Experimente hat die lautten compagney u.a. mit dem Format der :lounge gefunden. Wenn alte Werke so von neuen Ideen inspiriert werden, verschwinden musikalische Grenzen.\n',
         url: 'https://www.lauttencompagney.de/',
     },
     {
         name: 'Vocalconsort des Berliner Mädchenchores',
         instrument: 'Chor',
         image: 'artists/KVC.png',
-        description: '',
+        description: 'Initiative ehemaliger Konzertchormädchen, besteht das Ensemble heute kontinuierlich aus ca. 30 aktiven Sängerinnen unter der Leitung der Dirigentin und freischaffenden Komponistin Sabine Wüsthoff.\n Das musikalische Programm umfasst mehrstimmige Literatur für gleiche Stimmen von der Renaissance bis zur Moderne. Gesungen werden Volkslieder, weltliche und geistliche Werke. Die Sängerinnen konzertieren a cappella, mit Klavierbegleitung, Kammerensembles und Orchestern, z. B. mit dem Landesjugendorchester, dem Jungen Orchester der FU Berlin, der Jungen Sinfonie Berlin und dem Schöneberger Kammerorchester.\n Das Vokalconsort war schon in der Berliner Philharmonie, im Konzerthaus Berlin, der Französischen Friedrichstadtkirche, der Kaiser-Wilhelm-Gedächtniskirche, in der Philharmonie Stettin, der Nikolaikirche Potsdam, dem Dom in Brandenburg, und weiteren bekannten Kirchen und Konzertsälen zu hören. Konzertreisen führten das Ensemble bisher nach Japan und Südchina. 2021 wurde es mit einem OPUS KLASSIK ausgezeichnet, außerdem errang es mehrfach erste Preise bei Wettbewerben, so u. a. 2018 und 2023 beim Deutschen Chorwettbewerb.\n',
+        url: 'www.berlinermaedchenchor.de',
     },
   ];
 const artists_portrait = [
@@ -127,6 +134,12 @@ const artists_portrait = [
         instrument: 'Altistin',
         image: 'artists/Anna-Luise_Oppelt.png',
         description: 'Die Berlinerin Anna-Luise Oppelt ist als Konzert- und Opernsängerin tätig. Sie ist OPUS KLASSIK Preisträgerin des Jahres 2022. Engagements führten sie zum Bachfest Leipzig, den Musikfestspielen Potsdam-Sanssouci, dem MDR Musiksommer, dem Beethovenfest Bonn, den Thüringer Bachwochen, ins Konzerthaus sowie in den Kammermusik- und Großen Saal der Philharmonie Berlin, die Alte Oper Frankfurt, zu den Salzburger Festtagen und den Köthener Bachfesttagen u.a. 2024 sang sie das Alt-Solo in Mahlers 3. Sinfonie in Berlin. Im Radialsystem Berlin sang sie Altpartie in Bachs inszenierter Johannespassion unter Marcus Creed. \nZu ihren Opernpartien zählen u.a. Bradamante in Händels Alcina, 3. Dame in Mozarts Zauberflöte, Lola in Mascagnis Cavalleria Rusticana sowie Mrs. Peachum in Brittens Beggar´s Opera. In der UA von Trip to the Moon von Andrew Norman trat sie unter Sir Simon Rattle mit den Berliner Philharmonikern auf.\nSie ist Mitbegründerin vom Musik- und Radprojekt Bach by Bike, das 2024 mit dem RESONANZEN Konzeptpreis für Musikvermittlung, 2022 mit dem OPUS KLASSIK Innovationspreis und 2021 mit dem Music Cities Award „Best Use of Music to Drive Tourism” prämiert wurde.\nAnna-Luise engagiert sich für interkulturellen und -disziplinären Austausch und war 2024 Stipendiatin im MozartLabor des Mozartfest Würzburg, 2023 von Culture Moves Europe und vom Post Truth Project Germany.\nSie schloss ihr Gesangsstudium 2018 mit dem Master an der HfM Weimar ab. Ein Barockviolinstudium in Utrecht (NL) sowie Meisterkurse bei Lioba Braun, Ingeborg Danz, Petra Lang, Christa Ludwig, Teresa Berganza, Anke Vondung, Petra Lang und die Bachakademie mit Helmuth Rilling und Hans-Christoph Rademann ergänzen ihre vielseitige Ausbildung.',
+    },
+    {
+        name: 'Majella Münz',
+        instrument: 'Cellistin',
+        image: 'artists/Majella_Muenz.png',
+        description: "Majella Münz ist als Cellistin, Barockcellistin und Gambistin in den verschiedensten musikalischen Sprachen Zuhause: von den Tänzen der Renaissancezeit über die Symphonik der Klassik bis hin zu zeitgenössischen Klangexplorationen. Nachdem sie ihr Studium auf dem modernen Cello bei Julian Steckel, Thomas Kaufmann und Valentin Radutiu absolviert hatte, folgte sie ihrer tiefen Faszination für die Alte Musik und die organischen Klangwelten historischer Instrumente und zog in die Niederlande, wo sie Unterricht auf dem Barockcello und der Gambe erhielt. Aktuell lebt sie wieder in Berlin und ist sehr glücklich darüber, in zahlreichen Formationen ihre Leidenschaft für musikalische Kommunikation ausleben zu können. Mit Illtupia verbindet sie Alte Musik mit Kunstformen der Gegenwart, welche bei Festivals wie FELIX! urban der Kölner Philharmonie zur Aufführung kamen. Mit der Himmelhofkappelle gewann sie den 2. Preis beim Berliner Bachwettbewerb 2021 und war mit I Fiori Selvatici im Finale des digitalen Biagio-Marini- Wettbewerbs 2020. Außerdem ist sie Gründungsmitglied und Teil der künstlerischen Leitung des preisgekrönten Kammerorchesters ensemble reflektor, mit welchem sie regelmäßig in eigenen Reihen sowie bei den Festspielen MV, Schleswig-Holstein Musikfestival, den Sommerlichen Musiktagen Hitzacker, der Elbphilharmonie, dem Konzerthaus Berlin, der Alten Oper Frankfurt und dem hauseigenen Festival in Lüneburg, ultraBACH auftritt. Als gefragte Barockcellistin und Gambistin spielt sie mit Ensembles wie der lautten compagney, Akademie für Alte Musik Berlin, Holland Baroque, Concerto Copenhagen, Orchestra of the 18th Century (NL), {oh!} Orkiestra, Gaechinger Cantorey und im Rahmen dessen auf europäischen Podien und Festivals, wie dem Resonanzen Festival Wien, dem London International Festival of Early Music, dem Early Music Festival Utrecht, dem MA Festival Brügge oder dem Oranjewoud Festival (NL). Majella studierte bei Lea Rahel Bader, Thomas Pitt und Jan Freiheit in Berlin und bei Lucia Swarts und Mieneke van der Velden in Den Haag. Weitere wichtige Impulse erhielt sie von Christoph Huntgeburth, Kate Clark, Hidemi Suzuki, Kristin v. d. Goltz, Irene Klein und im Rahmen der Ensembleakademie des Freiburger Barockorchesters, des experience scheme des Orchestra of the Age of Enlightenment London sowie der MA Academy des B'Rock'Orchestra und Il Gardellino.\nMit viel Freude experimentiert sie außerdem mit den Möglichkeiten der Improvisation und Stimme.",
     },/*
     {
         name: 'Sapna Joshi',
