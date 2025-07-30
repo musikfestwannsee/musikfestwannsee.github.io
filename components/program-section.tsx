@@ -100,6 +100,6 @@ const concerts = [
     location: 'St. Peter und Paul auf Nikolskoe',
     image: 'program/Abschlusskonzert.png',
     description:
-      "Concerto Festante Wannsee\nMirlan Kasymaliev - Continuo\nMajella Münz - Cello\nJ.S. Bach: Motetten\nRomantische Vokalmusik mit Werken u.a. von F. Schubert, R. Schumann und F. Mendelssohn-Bartholdy",
+      "Concerto Festante Wannsee\nJ.S. Bach: Motetten\nRomantische Vokalmusik mit Werken u.a. von F. Schubert, R. Schumann und F. Mendelssohn-Bartholdy\nMirlan Kasymaliev - Continuo\nMajella Münz - Cello",
   },
 ]
