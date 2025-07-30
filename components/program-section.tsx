@@ -100,6 +100,6 @@ const concerts = [
     location: 'St. Peter und Paul auf Nikolskoe',
     image: 'program/Abschlusskonzert.png',
     description:
-      "J.S. Bach: Motetten, Vokalmusik der Romantik\nMirlan Kasymaliev - Continuo",
+      "Concerto Festante Wannsee\nMirlan Kasymaliev - Continuo\nMajella Münz - Cello\nJ.S. Bach: Motetten\nRomantische Vokalmusik mit Werken u.a. von F. Schubert, R. Schumann und F. Mendelssohn-Bartholdy",
   },
 ]
