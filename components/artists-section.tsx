@@ -36,11 +36,11 @@ export function ArtistsSection() {
                       </p>
                   ))}
                 </div>
-                <a href={artist.url}>
+                {artist.url && <a href={artist.url}>
                   <Button variant="outline" size="sm">
                       {artist.url}
                   </Button>
-                </a>
+                </a>}
               </CardContent>
             </Card>
           ))}
@@ -89,6 +89,12 @@ const artists_landscape = [
         image: 'artists/KVC.png',
         description: 'Das Vokalconsort ist der „junge“ Frauenkammerchor des Berliner Mädchenchores. Gegründet 2015 auf Initiative ehemaliger Konzertchormädchen, besteht das Ensemble heute kontinuierlich aus ca. 30 aktiven Sängerinnen unter der Leitung der Dirigentin und freischaffenden Komponistin Sabine Wüsthoff.\n Das musikalische Programm umfasst mehrstimmige Literatur für gleiche Stimmen von der Renaissance bis zur Moderne. Gesungen werden Volkslieder, weltliche und geistliche Werke. Die Sängerinnen konzertieren a cappella, mit Klavierbegleitung, Kammerensembles und Orchestern, z. B. mit dem Landesjugendorchester, dem Jungen Orchester der FU Berlin, der Jungen Sinfonie Berlin und dem Schöneberger Kammerorchester.\n Das Vokalconsort war schon in der Berliner Philharmonie, im Konzerthaus Berlin, der Französischen Friedrichstadtkirche, der Kaiser-Wilhelm-Gedächtniskirche, in der Philharmonie Stettin, der Nikolaikirche Potsdam, dem Dom in Brandenburg, und weiteren bekannten Kirchen und Konzertsälen zu hören. Konzertreisen führten das Ensemble bisher nach Japan und Südchina. 2021 wurde es mit einem OPUS KLASSIK ausgezeichnet, außerdem errang es mehrfach erste Preise bei Wettbewerben, so u. a. 2018 und 2023 beim Deutschen Chorwettbewerb.\n',
         url: 'https://www.berlinermaedchenchor.de',
+    },
+    {
+        name: 'Concerto Festante Wannsee',
+        instrument: 'Ensemble',
+        image: 'artists/Concerto_Festante_Wannsee.png',
+        description: "Concerto Festante Wannsee ist das eigens für das Musikfest Wannsee neu gegründete Ensemble, welches im Rahmen des diesjährigen Festivals seine Premiere feiert.\n Das Ensemble vereint eine Gruppe ausgewählter Sängerinnen und Sänger aus ganz Deutschland, die sowohl solistisch national und international gefragt sind als auch vielfältige Ensembleerfahrung mitbringen. Beim Abschlusskonzert des Musikfest Wannsee wird das Concerto Festante Wannsee erstmalig gemeinsam auftreten und ein anspruchsvolles, exklusives Programm mit Werken von Barock bis Romantik zum Thema „Panta rhei – alles fließt (und nichts bleibt)“ musizieren.\n Die Gründung des Ensembles ermöglicht nicht nur musikalische Begegnungen auf höchstem Niveau, sondern setzt auch ein starkes Zeichen für kreative Zusammenarbeit im Rahmen des Festivals.",
     },
   ];
 const artists_portrait = [
@@ -140,16 +146,16 @@ const artists_portrait = [
         instrument: 'Cellistin',
         image: 'artists/Majella_Muenz.png',
         description: "Majella Münz ist als Cellistin, Barockcellistin und Gambistin in den verschiedensten musikalischen Sprachen Zuhause: von den Tänzen der Renaissancezeit über die Symphonik der Klassik bis hin zu zeitgenössischen Klangexplorationen. Nachdem sie ihr Studium auf dem modernen Cello bei Julian Steckel, Thomas Kaufmann und Valentin Radutiu absolviert hatte, folgte sie ihrer tiefen Faszination für die Alte Musik und die organischen Klangwelten historischer Instrumente und zog in die Niederlande, wo sie Unterricht auf dem Barockcello und der Gambe erhielt. Aktuell lebt sie wieder in Berlin und ist sehr glücklich darüber, in zahlreichen Formationen ihre Leidenschaft für musikalische Kommunikation ausleben zu können. Mit Illtupia verbindet sie Alte Musik mit Kunstformen der Gegenwart, welche bei Festivals wie FELIX! urban der Kölner Philharmonie zur Aufführung kamen. Mit der Himmelhofkappelle gewann sie den 2. Preis beim Berliner Bachwettbewerb 2021 und war mit I Fiori Selvatici im Finale des digitalen Biagio-Marini- Wettbewerbs 2020. Außerdem ist sie Gründungsmitglied und Teil der künstlerischen Leitung des preisgekrönten Kammerorchesters ensemble reflektor, mit welchem sie regelmäßig in eigenen Reihen sowie bei den Festspielen MV, Schleswig-Holstein Musikfestival, den Sommerlichen Musiktagen Hitzacker, der Elbphilharmonie, dem Konzerthaus Berlin, der Alten Oper Frankfurt und dem hauseigenen Festival in Lüneburg, ultraBACH auftritt. Als gefragte Barockcellistin und Gambistin spielt sie mit Ensembles wie der lautten compagney, Akademie für Alte Musik Berlin, Holland Baroque, Concerto Copenhagen, Orchestra of the 18th Century (NL), {oh!} Orkiestra, Gaechinger Cantorey und im Rahmen dessen auf europäischen Podien und Festivals, wie dem Resonanzen Festival Wien, dem London International Festival of Early Music, dem Early Music Festival Utrecht, dem MA Festival Brügge oder dem Oranjewoud Festival (NL). Majella studierte bei Lea Rahel Bader, Thomas Pitt und Jan Freiheit in Berlin und bei Lucia Swarts und Mieneke van der Velden in Den Haag. Weitere wichtige Impulse erhielt sie von Christoph Huntgeburth, Kate Clark, Hidemi Suzuki, Kristin v. d. Goltz, Irene Klein und im Rahmen der Ensembleakademie des Freiburger Barockorchesters, des experience scheme des Orchestra of the Age of Enlightenment London sowie der MA Academy des B'Rock'Orchestra und Il Gardellino.\nMit viel Freude experimentiert sie außerdem mit den Möglichkeiten der Improvisation und Stimme.",
+    },
+    {
+        name: 'Mirlan Kasymaliev',
+        instrument: 'Organist, Pianist',
+        image: 'artists/Mirlan_Kasymaliev.png',
+        description: "Mirlan Kasymaliev ist in Kyrgyzstan geboren, wo er 1980 seine musikalische Ausbildung im Fach Klavier begann. Nach einem erfolgreichen Abschluss setzte er seine Studien in den Fächern Klavier und Orgel am Staatlichen Konservatorium in Kazan/Russland fort. Beide Fächer schloss er 1997/98 mit dem Konzertdiplom mit Auszeichnung ab.\n Im Jahr 1996 gewann er beim 3. Internationalen Orgelwettbewerb in Kislowodsk/Russland ein Stipendium der Alfred-Sittard-Stiftung für ein Orgelstudium an der Hochschule der Künste (heute UdK) in Berlin. Bei dieser sowie der „Käthe Dorsch – Stiftung“ war er in den Jahren 1998-2002 Stipendiat.\n Er absolvierte als Schüler von Prof. Leo van Doeselaar und Dozent Erwin Wiersinga im Juli 2004 das Konzertexamen mit Auszeichnung.\n Seit April 2025 ist er Kirchenmusiker in der Evangelischen Kirchengemeinde Wannsee (Kirche am Stölpchensee und Andreaskirche) und der Kirche St. Peter und Paul auf Nikolskoe. Außerdem ist er als Konzertorganist und Konzertpianist tätig, ist Mitbegründer des Musikprojekts „Die Jüdische Musikreihe für Liebhaber & Neugierige“ ('KOL - Jüdische Musik beleben und erleben e.V.'), wirkt europaweit bei verschiedenen Ensembles mit und gibt Solokonzerte.",
     },/*
     {
         name: 'Sapna Joshi',
         instrument: 'Pfarrerin',
-        image: '',
-        description: '',
-    },
-    {
-        name: 'Mirlan Kasymaliev',
-        instrument: 'Orgel, Continuo',
         image: '',
         description: '',
     },*/
