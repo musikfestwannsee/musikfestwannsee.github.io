@@ -83,7 +83,9 @@ export function TeamSection() {
             <h4 className="text-xl font-bold text-slate-800 dark:text-white mb-1">
               In Zusammenarbeit mit der Evangelischen Kirchengemeinde Berlin-Wannsee<br/>
               und der Kirche St. Peter und Paul auf Nikolskoe<br/></h4>
-            <p className="text-sm font-medium text-slate-600 dark:text-slate-300 mb-3">Sapna Joshi, Pfarrerin der Ev. Gemeinde Berlin-Wannsee</p>
+            <p className="text-sm font-medium text-slate-600 dark:text-slate-300 mb-3">
+              Sapna Joshi, Pfarrerin der Ev. Gemeinde Berlin-Wannsee<br/>
+              Ute Hagmayer, Pfarrerin von St. Peter und Paul auf Nikolskoe</p>
           </CardContent>
         </Card>
       </div>

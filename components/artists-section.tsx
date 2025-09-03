@@ -116,6 +116,24 @@ const artists_portrait = [
       description: 'Christian Pohlers wurde 1999 in den Thomanerchor Leipzig aufgenommen. Dort übernahm er unter Thomaskantor Georg Christoph Biller regelmäßig chorsolistische Aufgaben. Ab 2014 nahm er an der Hochschule für Musik und Theater Felix Mendelssohn Bartholdy in Leipzig ein Gesangsstudium bei KS Prof. Regina Werner-Dietrich auf. Ab 2017 setzte er seine Studien im Rahmen eines Masterstudienganges bei Prof. Berthold Schmid fort und schloss sie 2020 mit einem Master of Music ab. Wichtige musikalische Impulse erhielt er in Meisterkursen bei Prof. Rudolph Piernay, KS Prof. Peter Schreier und Prof. Phillip Moll. Er war bis 2023 Mitglied des 2006 gegründeten Vokalquintetts Ensemble Nobiles.\nSeit frühester Kindheit permanent mit den großen Oratorien Bachs und Mendelsohns und ihren verschiedenen Interpretationen in Berührung, entwickelte Christian Pohlers in den vergangenen Jahren zunehmend einen eigenen Zugang zur oratorischen Gattung, der sich primär durch seine packende Erzählweise ausdrückt. Klang, Sprache und Stimme werden vollends in den Dienst der Dramaturgie der jeweiligen Geschichte gestellt, was bisweilen auch opernhafte Elemente beinhalten kann.\nErfolgreiche musikalische Zusammenarbeit verbindet ihn u.a. mit Wolfgang Katschner, Dorothee Oberlinger, Thomaskantor Andreas Reize, Kai-Uwe Jirka, Unversitätsmusikdirektor David Timm, Thomaskantor i.R. Gotthold Schwarz, Nils Jensen, Gerd Amelung und Prof. Peter Kopp.',
     },
     {
+      name: 'Kevin Klötzer',
+      instrument: 'Bariton',
+      image: 'artists/Kevin_Kloetzer.png',
+      description: 'Der in Zwickau aufgewachsene Bariton studierte von 2011-2015 Gesang in Dresden an der Hochschule für Musik Carl Maria von Weber bei Prof. Christiane Bach-Röhr. Im Anschluss erhielt er ein Engagement im Staatsopernchor der Semperoper Dresden und ist desweiteren auch als Solist im Konzert- und Oratorienbereich tätig.'
+    },
+    {
+      name: 'Paula Nilse',
+      instrument: 'Mezzosopranistin',
+      image: 'artists/Paula_Nilse.png',
+      description: 'Paula Nilse ist Mezzosopranistin und vor allem als Lied- und Oratorieninterpretin aktiv. Sie konzertiert mit renommierten Ensembles, darunter der Rundfunkchor Berlin, der Dresdner Kammerchor und weitere. Sie absolvierte ein Studium der Schulmusik und Französisch, und ist als Musikpädagogin und Chorleiterin tätig. Derzeit studiert sie Gesang an der Universität der Künste Berlin.',
+    },
+    {
+      name: 'Shimon Yoshida',
+      instrument: 'Tenor',
+      image: 'artists/Shimon_Yoshida.png',
+      description: 'Shimon Yoshida wurde 1992 in Nagoya (Japan) geboren und absolvierte sein Masterstudium (Konzertgesang) an der Hochschule für Musik und Theater München bei Prof. Sylvia Greenberg.\n2022 hat Shimon Yoshida unter Leitung von René Jacobs Bachs h-Moll-Messe als Einspringer des Tenorsolisten gesungen. Oktober 2023 hat er für erkrankten Tenorsolist kurzfristig die Partie von Rossinis Stabat Mater übernommen (Philharmonie Berlin, Großersaal).\nBei dem renommierten Bach Collegium Japan unter der Leitung von Masaaki Suzuki ist er seit 2022 regelmäßiger Gast. April 2024 gab er seinen US-Debüt als Solist (Bachs h-Moll Messe) in Boston.\nSeit März 2020 ist Shimon Yoshida festes Mitglied bei RIAS Kammerchor Berlin.\nMit seiner Familie wohnt er in Berlin.',
+    },
+    {
         name: 'Thorsten Kaldewei',
         instrument: 'Pianist',
         image: 'artists/Thorsten_Kaldewei.png',
