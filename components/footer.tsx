@@ -10,7 +10,7 @@ export function Footer() {
             <h3 className="text-xl font-boldmb-4 text-slate-400">Kontakt</h3>
             <p className="text-slate-300 mb-4">
               Schreiben Sie uns eine Email: <br/>
-              <b>musikfest.wannsee@gmail.de</b>
+              <b>musikfest.wannsee@gmail.com</b>
             </p>
             <p className="text-slate-300 mb-4">
               Und besuchen Sie uns auf Social Media
