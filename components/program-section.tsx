@@ -73,7 +73,7 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Der_Wellen_Wechselspiel.png',
     description:
-      "Die rauschenden Klänge des Wassers in Melodien und Bilder um 1900\nDr. Friederike Südmeyer - Kunsthistorikerin\nAaron Dan - Flöte\nThorsten Kaldewei - Klavier",
+      "Die rauschenden Klänge des Wassers in Melodien und Bildern um 1900\nDr. Friederike Südmeyer - Kunsthistorikerin\nAaron Dan - Flöte\nThorsten Kaldewei - Klavier",
   },
   {
     title: "Sturm und Stille",
