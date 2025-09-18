@@ -1,6 +1,54 @@
 {
   "version": 4,
   "routes": {
+    "/text-panta-rhei": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/text-panta-rhei",
+      "dataRoute": "/text-panta-rhei.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/text-wellen-wechselspiel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/text-wellen-wechselspiel",
+      "dataRoute": "/text-wellen-wechselspiel.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/": {
       "experimentalBypassFor": [
         {
@@ -24,13 +72,61 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/text-sturm-und-stille": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/text-sturm-und-stille",
+      "dataRoute": "/text-sturm-und-stille.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/programmheft-2025": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/programmheft-2025",
+      "dataRoute": "/programmheft-2025.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "61ec8dcd449d774176aadb22642482f7",
-    "previewModeSigningKey": "ba4224466e3fab61cbc9932c55bdce676eba84779da669da0ddbbd2054605c0f",
-    "previewModeEncryptionKey": "bf0f0fe6dd5c0a99d3022a8c2c2c9f43f8d48f8a3f663b81d0bd20f8ac6d42b6"
+    "previewModeId": "f4fbf5a0419933ad0a640f382f9483c5",
+    "previewModeSigningKey": "5d9b66c9972db59b10cf8469dc2cee8285b0d934c358a36aed5eccdc25fe4f30",
+    "previewModeEncryptionKey": "a60a2120db36ace10fc555ded69b70a052a711876831160b985a1b5bab72039f"
   }
 }

@@ -46,7 +46,7 @@ export function Footer() {
                   className="text-slate-300 hover:text-white transition-colors">
                   Flyer 2025
                 </a>
-              </p>
+              </p>          
               <p>
                 <a 
                   href="Flyer_Musikfest_Wannsee_2024.pdf"

@@ -26,6 +26,30 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/programmheft-2025",
+      "regex": "^/programmheft\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/programmheft\\-2025(?:/)?$"
+    },
+    {
+      "page": "/text-panta-rhei",
+      "regex": "^/text\\-panta\\-rhei(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/text\\-panta\\-rhei(?:/)?$"
+    },
+    {
+      "page": "/text-sturm-und-stille",
+      "regex": "^/text\\-sturm\\-und\\-stille(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/text\\-sturm\\-und\\-stille(?:/)?$"
+    },
+    {
+      "page": "/text-wellen-wechselspiel",
+      "regex": "^/text\\-wellen\\-wechselspiel(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/text\\-wellen\\-wechselspiel(?:/)?$"
     }
   ],
   "dataRoutes": [],

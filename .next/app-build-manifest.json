@@ -12,7 +12,7 @@
       "static/chunks/4bd1b696-b7377f1b2b53bd7a.js",
       "static/chunks/684-1ab9a05bc5d14905.js",
       "static/chunks/main-app-e9ca0310f39cb2c8.js",
-      "static/css/24095652d268a746.css",
+      "static/css/fc9066ea14675afc.css",
       "static/chunks/app/layout-4032240aa487f5be.js"
     ],
     "/page": [
@@ -22,6 +22,34 @@
       "static/chunks/main-app-e9ca0310f39cb2c8.js",
       "static/chunks/438-172615565fc65613.js",
       "static/chunks/app/page-402f1c8173629bf8.js"
+    ],
+    "/text-panta-rhei/page": [
+      "static/chunks/webpack-ccdbd9e5a5476d75.js",
+      "static/chunks/4bd1b696-b7377f1b2b53bd7a.js",
+      "static/chunks/684-1ab9a05bc5d14905.js",
+      "static/chunks/main-app-e9ca0310f39cb2c8.js",
+      "static/chunks/app/text-panta-rhei/page-e72e7413e2e42c77.js"
+    ],
+    "/programmheft-2025/page": [
+      "static/chunks/webpack-ccdbd9e5a5476d75.js",
+      "static/chunks/4bd1b696-b7377f1b2b53bd7a.js",
+      "static/chunks/684-1ab9a05bc5d14905.js",
+      "static/chunks/main-app-e9ca0310f39cb2c8.js",
+      "static/chunks/app/programmheft-2025/page-fd55a2f64871c7c5.js"
+    ],
+    "/text-sturm-und-stille/page": [
+      "static/chunks/webpack-ccdbd9e5a5476d75.js",
+      "static/chunks/4bd1b696-b7377f1b2b53bd7a.js",
+      "static/chunks/684-1ab9a05bc5d14905.js",
+      "static/chunks/main-app-e9ca0310f39cb2c8.js",
+      "static/chunks/app/text-sturm-und-stille/page-3f1e266cf4bf75c4.js"
+    ],
+    "/text-wellen-wechselspiel/page": [
+      "static/chunks/webpack-ccdbd9e5a5476d75.js",
+      "static/chunks/4bd1b696-b7377f1b2b53bd7a.js",
+      "static/chunks/684-1ab9a05bc5d14905.js",
+      "static/chunks/main-app-e9ca0310f39cb2c8.js",
+      "static/chunks/app/text-wellen-wechselspiel/page-1950ba1a0bf0b37e.js"
     ]
   }
 }
