@@ -25,6 +25,7 @@ export function Navigation() {
     { name: "Sponsoren", href: "#sponsors" },
     { name: "Tickets", href: "#tickets" },
     { name: "Team", href: "#team" },
+    { name: "Archiv", href: "/archive" },
     { name: "Kontakt", href: "#footer" },
   ]
 
