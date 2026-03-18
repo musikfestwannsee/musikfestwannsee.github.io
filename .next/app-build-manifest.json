@@ -15,6 +15,30 @@
       "static/css/749747dfead7506f.css",
       "static/chunks/app/layout-a0ed1e7498bb5fcc.js"
     ],
+    "/archive/page": [
+      "static/chunks/webpack-ba12f21138bd56e8.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3d1c85aeff8c89d.js",
+      "static/chunks/main-app-e906c1c526949e05.js",
+      "static/chunks/563-deca1f50a76e3c84.js",
+      "static/chunks/app/archive/page-80ffb343ecf7687e.js"
+    ],
+    "/impressum/page": [
+      "static/chunks/webpack-ba12f21138bd56e8.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3d1c85aeff8c89d.js",
+      "static/chunks/main-app-e906c1c526949e05.js",
+      "static/chunks/563-deca1f50a76e3c84.js",
+      "static/chunks/app/impressum/page-3026af4b889ae559.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-ba12f21138bd56e8.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3d1c85aeff8c89d.js",
+      "static/chunks/main-app-e906c1c526949e05.js",
+      "static/chunks/563-deca1f50a76e3c84.js",
+      "static/chunks/app/page-b4fc42fcb4f2f63f.js"
+    ],
     "/programmheft-2025/page": [
       "static/chunks/webpack-ba12f21138bd56e8.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -29,13 +53,6 @@
       "static/chunks/main-app-e906c1c526949e05.js",
       "static/chunks/app/text-panta-rhei/page-d2d3edb2e350275d.js"
     ],
-    "/text-wellen-wechselspiel/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/app/text-wellen-wechselspiel/page-4a336fdde78095dd.js"
-    ],
     "/text-sturm-und-stille/page": [
       "static/chunks/webpack-ba12f21138bd56e8.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -43,29 +60,12 @@
       "static/chunks/main-app-e906c1c526949e05.js",
       "static/chunks/app/text-sturm-und-stille/page-b4c9fc9aea358479.js"
     ],
-    "/page": [
+    "/text-wellen-wechselspiel/page": [
       "static/chunks/webpack-ba12f21138bd56e8.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
       "static/chunks/255-e3d1c85aeff8c89d.js",
       "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/563-deca1f50a76e3c84.js",
-      "static/chunks/app/page-b4fc42fcb4f2f63f.js"
-    ],
-    "/impressum/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/563-deca1f50a76e3c84.js",
-      "static/chunks/app/impressum/page-3026af4b889ae559.js"
-    ],
-    "/archive/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/563-deca1f50a76e3c84.js",
-      "static/chunks/app/archive/page-80ffb343ecf7687e.js"
+      "static/chunks/app/text-wellen-wechselspiel/page-4a336fdde78095dd.js"
     ]
   }
 }

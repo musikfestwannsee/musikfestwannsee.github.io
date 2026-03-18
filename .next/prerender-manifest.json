@@ -1,8 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/_not-found": {
-      "initialStatus": 404,
+    "/text-wellen-wechselspiel": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -15,8 +14,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/_not-found",
-      "dataRoute": "/_not-found.rsc",
+      "srcRoute": "/text-wellen-wechselspiel",
+      "dataRoute": "/text-wellen-wechselspiel.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/text-panta-rhei": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/text-panta-rhei",
+      "dataRoute": "/text-panta-rhei.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -50,7 +73,8 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/text-panta-rhei": {
+    "/_not-found": {
+      "initialStatus": 404,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -63,8 +87,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/text-panta-rhei",
-      "dataRoute": "/text-panta-rhei.rsc",
+      "srcRoute": "/_not-found",
+      "dataRoute": "/_not-found.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -113,30 +137,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/impressum",
       "dataRoute": "/impressum.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/text-wellen-wechselspiel": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/text-wellen-wechselspiel",
-      "dataRoute": "/text-wellen-wechselspiel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -198,8 +198,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "6d91be1c30a2a58e55caa95aac6d7988",
-    "previewModeSigningKey": "6a1fd10eaff8780317f600c7be1b781ed8965211b63bcf3ea96b2db7f1c2886f",
-    "previewModeEncryptionKey": "340b12ca2819c8a9f9309e9fb9af7196707f4bea30af4dbb9bab633ea25dcab2"
+    "previewModeId": "9c943fdc1ad73bbfddbd05a893ad7a67",
+    "previewModeSigningKey": "6181a37acbb57f4eadd69fa3c2ead7786652c8b6033d3fd95ccc5bfb19b98826",
+    "previewModeEncryptionKey": "113fa1784eeaf54fdec3d17023e0e20ebb1946ae7c24c06ffdaabe226f7ba84d"
   }
 }

@@ -1,10 +1,10 @@
 {
   "/_not-found/page": "/_not-found",
+  "/archive/page": "/archive",
+  "/impressum/page": "/impressum",
+  "/page": "/",
   "/programmheft-2025/page": "/programmheft-2025",
   "/text-panta-rhei/page": "/text-panta-rhei",
-  "/text-wellen-wechselspiel/page": "/text-wellen-wechselspiel",
   "/text-sturm-und-stille/page": "/text-sturm-und-stille",
-  "/page": "/",
-  "/impressum/page": "/impressum",
-  "/archive/page": "/archive"
+  "/text-wellen-wechselspiel/page": "/text-wellen-wechselspiel"
 }
