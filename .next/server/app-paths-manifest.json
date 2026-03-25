@@ -1,10 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/impressum/page": "app/impressum/page.js",
-  "/page": "app/page.js",
-  "/text-panta-rhei/page": "app/text-panta-rhei/page.js",
   "/programmheft-2025/page": "app/programmheft-2025/page.js",
-  "/text-sturm-und-stille/page": "app/text-sturm-und-stille/page.js",
+  "/page": "app/page.js",
   "/text-wellen-wechselspiel/page": "app/text-wellen-wechselspiel/page.js",
+  "/text-panta-rhei/page": "app/text-panta-rhei/page.js",
+  "/impressum/page": "app/impressum/page.js",
+  "/text-sturm-und-stille/page": "app/text-sturm-und-stille/page.js",
   "/archive/page": "app/archive/page.js"
 }
