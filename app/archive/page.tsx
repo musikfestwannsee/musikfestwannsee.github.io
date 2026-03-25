@@ -5,6 +5,7 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { X, ChevronLeft, ChevronRight } from "lucide-react"
 import Image from "next/image"
+import { archiveImages2025 } from "@/data/archiveImages"
 
 const archiveData = [
   {
@@ -24,83 +25,7 @@ const archiveData = [
         "            Musik und Natur miteinander in Bewegung sind. In Wannsee treffen Natur und Kultur\n" +
         "            auf einzigartige Weise zusammen und schaffen eine Atmosphäre, die unsere\n" +
         "            Konzerte besonders macht.",
-    images: [
-      { src: "/archive/2025/01/Eroeffnungskonzert1_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 1" },
-      { src: "/archive/2025/01/Eroeffnungskonzert2_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 2" },
-      { src: "/archive/2025/01/Eroeffnungskonzert3_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 3" },
-      { src: "/archive/2025/01/Eroeffnungskonzert4_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 4" },
-      { src: "/archive/2025/01/Eroeffnungskonzert5_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 5" },
-      { src: "/archive/2025/01/Eroeffnungskonzert6_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 6" },
-      { src: "/archive/2025/01/Eroeffnungskonzert7_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 7" },
-      { src: "/archive/2025/01/Eroeffnungskonzert8_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 8" },
-      { src: "/archive/2025/01/Eroeffnungskonzert9_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 9" },
-      { src: "/archive/2025/01/Eroeffnungskonzert10_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 10" },
-      { src: "/archive/2025/01/Eroeffnungskonzert11_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 11" },
-      { src: "/archive/2025/01/Eroeffnungskonzert12_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 12" },
-      { src: "/archive/2025/01/Eroeffnungskonzert13_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 13" },
-      { src: "/archive/2025/01/Eroeffnungskonzert15_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 15" },
-      { src: "/archive/2025/01/Eroeffnungskonzert16_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 16" },
-      { src: "/archive/2025/01/Eroeffnungskonzert17_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 17" },
-      { src: "/archive/2025/01/Eroeffnungskonzert18_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 18" },
-      { src: "/archive/2025/01/Eroeffnungskonzert19_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 19" },
-      { src: "/archive/2025/01/Eroeffnungskonzert20_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 20" },
-      { src: "/archive/2025/01/Eroeffnungskonzert21_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 21" },
-      { src: "/archive/2025/01/Eroeffnungskonzert22_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 22" },
-      { src: "/archive/2025/01/Eroeffnungskonzert23_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 23" },
-      { src: "/archive/2025/01/Eroeffnungskonzert24_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 24" },
-      { src: "/archive/2025/01/Eroeffnungskonzert25_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 25" },
-      { src: "/archive/2025/01/Eroeffnungskonzert26_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 26" },
-      { src: "/archive/2025/01/Eroeffnungskonzert27_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 27" },
-      { src: "/archive/2025/01/Eroeffnungskonzert28_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 28" },
-      { src: "/archive/2025/01/Eroeffnungskonzert29_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 29" },
-      { src: "/archive/2025/01/Eroeffnungskonzert30_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 30" },
-      { src: "/archive/2025/01/Eroeffnungskonzert31_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 31" },
-      { src: "/archive/2025/01/Eroeffnungskonzert32_web.jpg", alt: "Eröffnungskonzert 2025 - Foto 32" },
-      { src: "/archive/2025/02/Jeux_d_eau1_web.jpg", alt: "Jeux d'eau 2025 - Foto 1" },
-      { src: "/archive/2025/02/Jeux_d_eau2_web.jpg", alt: "Jeux d'eau 2025 - Foto 2" },
-      { src: "/archive/2025/02/Jeux_d_eau3_web.jpg", alt: "Jeux d'eau 2025 - Foto 3" },
-      { src: "/archive/2025/02/Jeux_d_eau4_web.jpg", alt: "Jeux d'eau 2025 - Foto 4" },
-      { src: "/archive/2025/02/Jeux_d_eau5_web.jpg", alt: "Jeux d'eau 2025 - Foto 5" },
-      { src: "/archive/2025/02/Jeux_d_eau6_web.jpg", alt: "Jeux d'eau 2025 - Foto 6" },
-      { src: "/archive/2025/02/Jeux_d_eau7_web.jpg", alt: "Jeux d'eau 2025 - Foto 7" },
-      { src: "/archive/2025/02/Jeux_d_eau8_web.jpg", alt: "Jeux d'eau 2025 - Foto 8" },
-      { src: "/archive/2025/02/Jeux_d_eau9_web.jpg", alt: "Jeux d'eau 2025 - Foto 9" },
-      { src: "/archive/2025/02/Jeux_d_eau10_web.jpg", alt: "Jeux d'eau 2025 - Foto 10" },
-      { src: "/archive/2025/02/Jeux_d_eau11_web.jpg", alt: "Jeux d'eau 2025 - Foto 11" },
-      { src: "/archive/2025/02/Jeux_d_eau12_web.jpg", alt: "Jeux d'eau 2025 - Foto 12" },
-      { src: "/archive/2025/03/Sturm_und_Stille1_web.jpg", alt: "Sturm und Stille 2025 - Foto 1" },
-      { src: "/archive/2025/03/Sturm_und_Stille2_web.jpg", alt: "Sturm und Stille 2025 - Foto 2" },
-      { src: "/archive/2025/03/Sturm_und_Stille3_web.jpg", alt: "Sturm und Stille 2025 - Foto 3" },
-      { src: "/archive/2025/03/Sturm_und_Stille4_web.jpg", alt: "Sturm und Stille 2025 - Foto 4" },
-      { src: "/archive/2025/03/Sturm_und_Stille5_web.jpg", alt: "Sturm und Stille 2025 - Foto 5" },
-      { src: "/archive/2025/03/Sturm_und_Stille6_web.jpg", alt: "Sturm und Stille 2025 - Foto 6" },
-      { src: "/archive/2025/03/Sturm_und_Stille7_web.jpg", alt: "Sturm und Stille 2025 - Foto 7" },
-      { src: "/archive/2025/03/Sturm_und_Stille8_web.jpg", alt: "Sturm und Stille 2025 - Foto 8" },
-      { src: "/archive/2025/03/Sturm_und_Stille9_web.jpg", alt: "Sturm und Stille 2025 - Foto 9" },
-      { src: "/archive/2025/03/Sturm_und_Stille10_web.jpg", alt: "Sturm und Stille 2025 - Foto 10" },
-      { src: "/archive/2025/03/Sturm_und_Stille11_web.jpg", alt: "Sturm und Stille 2025 - Foto 11" },
-      { src: "/archive/2025/03/Sturm_und_Stille12_web.jpg", alt: "Sturm und Stille 2025 - Foto 12" },
-      { src: "/archive/2025/03/Sturm_und_Stille13_web.jpg", alt: "Sturm und Stille 2025 - Foto 13" },
-      { src: "/archive/2025/03/Sturm_und_Stille14_web.jpg", alt: "Sturm und Stille 2025 - Foto 14" },
-      { src: "/archive/2025/03/Sturm_und_Stille15_web.jpg", alt: "Sturm und Stille 2025 - Foto 15" },
-      { src: "/archive/2025/03/Sturm_und_Stille16_web.jpg", alt: "Sturm und Stille 2025 - Foto 16" },
-      { src: "/archive/2025/03/Sturm_und_Stille17_web.jpg", alt: "Sturm und Stille 2025 - Foto 17" },
-      { src: "/archive/2025/03/Sturm_und_Stille18_web.jpg", alt: "Sturm und Stille 2025 - Foto 18" },
-      { src: "/archive/2025/03/Sturm_und_Stille19_web.jpg", alt: "Sturm und Stille 2025 - Foto 19" },
-      { src: "/archive/2025/03/Sturm_und_Stille20_web.jpg", alt: "Sturm und Stille 2025 - Foto 20" },
-      { src: "/archive/2025/03/Sturm_und_Stille21_web.jpg", alt: "Sturm und Stille 2025 - Foto 21" },
-      { src: "/archive/2025/03/Sturm_und_Stille22_web.jpg", alt: "Sturm und Stille 2025 - Foto 22" },
-      { src: "/archive/2025/03/Sturm_und_Stille23_web.jpg", alt: "Sturm und Stille 2025 - Foto 23" },
-      { src: "/archive/2025/04/Kantatengottesdienst1_web.jpg", alt: "Kantatengottesdienst 2025 - Foto 1" },
-      { src: "/archive/2025/04/Kantatengottesdienst2_web.jpg", alt: "Kantatengottesdienst 2025 - Foto 2" },
-      { src: "/archive/2025/04/Kantatengottesdienst3_web.jpg", alt: "Kantatengottesdienst 2025 - Foto 3" },
-      { src: "/archive/2025/04/Kantatengottesdienst4_web.jpg", alt: "Kantatengottesdienst 2025 - Foto 4" },
-      { src: "/archive/2025/04/Kantatengottesdienst5_web.jpg", alt: "Kantatengottesdienst 2025 - Foto 5" },
-      { src: "/archive/2025/04/Kantatengottesdienst6_web.jpg", alt: "Kantatengottesdienst 2025 - Foto 6" },
-      { src: "/archive/2025/04/Kantatengottesdienst7_web.jpg", alt: "Kantatengottesdienst 2025 - Foto 7" },
-      { src: "/archive/2025/04/Kantatengottesdienst8_web.jpg", alt: "Kantatengottesdienst 2025 - Foto 8" },
-      { src: "/archive/2025/04/Kantatengottesdienst9_web.jpg", alt: "Kantatengottesdienst 2025 - Foto 9" }
-    ]
+    images: archiveImages2025
   },
   {
     year: 2024,
@@ -211,6 +136,9 @@ export default function Page() {
                             alt={image.alt}
                             fill
                             className="object-cover"
+                            loading="lazy"
+                            placeholder="blur"
+                            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                           />
                         </div>
                       ))}
