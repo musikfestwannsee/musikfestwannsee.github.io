@@ -5,7 +5,7 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { X, ChevronLeft, ChevronRight } from "lucide-react"
 import Image from "next/image"
-import { archiveImages2025 } from "@/data/archiveImages"
+import { archiveImages2025, archiveImages2024 } from "@/data/archiveImages"
 
 const archiveData = [
   {
@@ -38,8 +38,7 @@ const archiveData = [
         "\n" +
         "Arkadien als persönlicher Sehnsuchtsort hat auch für uns heutzutage nicht an Aktualität verloren. Wo könnten wir dem besser nachspüren als in Wannsee, " +
         "mitten im Herzen des preußischen Arkadiens?",
-    images: [
-    ]
+    images: archiveImages2024
   }
 ]
 

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && rm -r ./docs && mv ./out ./docs && touch ./docs/.nojekyll && echo 'musikfestwannsee.de' >  ./docs/CNAME",
+    "deploy": "npm run build && git add docs/ data/",
     "start": "next start",
     "lint": "next lint"
   },
