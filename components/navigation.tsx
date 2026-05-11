@@ -19,14 +19,14 @@ export function Navigation() {
   }, [])
 
   const navLinks = [
-    { name: "Programm", href: "#program" },
-    { name: "Künstler:innen", href: "#artists" },
-    { name: "Veranstaltungsorte", href: "#locations" },
-    { name: "Sponsoren", href: "#sponsors" },
-    { name: "Tickets", href: "#tickets" },
-    { name: "Team", href: "#team" },
+    { name: "Programm", href: "/#program" },
+    { name: "Künstler:innen", href: "/#artists" },
+    { name: "Veranstaltungsorte", href: "/#locations" },
+    { name: "Sponsoren", href: "/#sponsors" },
+    { name: "Tickets", href: "/#tickets" },
+    { name: "Team", href: "/#team" },
     { name: "Archiv", href: "/archive" },
-    { name: "Kontakt", href: "#footer" },
+    { name: "Kontakt", href: "/#footer" },
   ]
 
   return (
@@ -78,7 +78,7 @@ export function Navigation() {
               </Link>
             ))}
             <Link
-              href="#tickets"
+              href="/#tickets"
               className="text-xl font-medium text-slate-700 hover:text-white dark:text-slate-200 dark:hover:text-teal-400 py-2"
               onClick={() => setIsOpen(false)}
             >
