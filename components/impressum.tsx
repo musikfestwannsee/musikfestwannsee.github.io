@@ -8,8 +8,10 @@ export function Impressum() {
         <div className="max-w-3xl mx-auto prose dark:prose-invert">
           <h3>Angaben gemäß § 5 TMG</h3>
           <p>
-            Johanna Kaldewei
+            Musikfest Wannsee
             <br />
+            c/o Ev. Kirchengemeinde Berlin-Wannsee
+            <br/>
             Schuchardtweg 5
             <br />
             14109 Berlin
@@ -17,6 +19,7 @@ export function Impressum() {
 
           <h3>Kontakt</h3>
           <p>
+            Johanna Kaldewei <br/>
             E-Mail: musikfestwannsee@gmail.de
           </p>
         </div>

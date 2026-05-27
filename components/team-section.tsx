@@ -12,12 +12,17 @@ export function TeamSection() {
     {
         name: 'Alice von Podbielski-Stellpflug', 
         image: 'team/AliceStellpflug.png',
-        role: 'Co-Creator\nVeranstaltungsmanagement\nFundraising\nPR',
+        role: 'Co-Creator\nVeranstaltungsmanagement\nFundraising',
     },
     {
         name: 'Thorsten Kaldewei', 
         image: 'team/ThorstenKaldewei.png',
-        role: 'Co-Creator\nProgrammgestaltung',
+        role: 'Co-Creator\nVeranstaltungsmanagement',
+    },
+    {
+        name: 'Nicola von Amsberg',
+        image: 'team/NicolaVonAmsberg.png',
+        role: 'PR\nOrganisation',
     },
     {
         name: 'Silja Rheingans', 

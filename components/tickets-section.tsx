@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 export function TicketsSection() {
 
@@ -19,16 +21,17 @@ export function TicketsSection() {
             Um das Musikfest Wannsee auf musikalisch höchstem Niveau auch in Zukunft nachhaltig und verlässlich stattfinden lassen zu können, benötigen wir Ihre Unterstützung.<br/><br/> 
           </p>   
           <div className="flex items-center justify-center">
-            <div className="w-5/6 md:w-1/2">
-              <Image 
-                src={"logos/Spendenkonto.png"} 
-                alt="Logo der Evangelischen Kirchengemeinde Berlin-Wannsee" 
-                layout="responsive" 
-                width={1}
-                height={1}
-                className="object-cover"
-              />
-            </div>
+            <Card className="overflow-hidden bg-beige-50 border-none shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="p-6 dark:bg-slate-800">
+                <h2 className="text-xl font-display mb-2 handwritten-first-letter group-hover:opacity-0">Ev. Kirchenkreisverband Berlin Süd-West</h2>
+                <h4 className="text-l text-sky-700 font-display mb-2 group-hover:opacity-0">Evangelische Bank eG, Kassel </h4>
+                <div>
+                  IBAN: DE85 5206 0410 3903 9663 99 <br/>
+                  BIC: GENODEF1EK1 <br/>
+                  Zweck: Musikfest <br/>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
 
