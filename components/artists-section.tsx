@@ -81,14 +81,14 @@ const artists_landscape = [
         image: 'artists/lauttencompagney.png',
         description: 'Die lautten compagney BERLIN zählt zu den renommiertesten und innovativsten Ensembles für Alte Musik. 1984 in der DDR von Hans-Werner Apel und Wolfgang Katschner gegründet, prägt sie unter Katschners Leitung bis heute ein unverwechselbarer Klang, stilistische Vielseitigkeit und außergewöhnliche Programmatik. 2025 wird sie bereits zum zweiten Mal mit dem Opus Klassik als „Ensemble des Jahres“ geehrt.\nMit kreativen Konzertformaten und Kooperationen mit internationalen Künstler:innen und Institutionen erobert die lautten compagney Bühnen weltweit. Große Erfolge feierte sie etwa mit Monteverdis L’Orfeo an der Semperoper Dresden mit Rolando Villazón. Ihre interdisziplinäre Offenheit zeigt sich in zahlreichen Wort-Musik-Programmen mit Persönlichkeiten wie Corinna Harfouch oder Sophie Rois. Neben Konzertprojekten realisiert das Ensemble eigene Opernproduktionen, die historische Aufführungspraxis mit zeitgenössischer Theaterästhetik verbinden. Rund 100 Konzerte jährlich führen die lautten compagney zu bedeutenden Festivals und auf internationale Tourneen, u. a. nach China, Kolumbien und in die Mongolei. In Berlin kooperiert sie mit Partnern wie dem Humboldt Forum und der Neuköllner Oper und engagiert sich in Nachwuchsförderung und Musikvermittlung. Mehr als 60 CD-Einspielungen dokumentieren die künstlerische Bandbreite der lautten compagney, darunter die preisgekrönten Alben "Timeless", "War and Peace" und "Dancing Queen".\nMit über 40 Jahren Erfahrung ist die lautten compagney eine lebendige Stimme der Alten Musik – traditionsbewusst, experimentierfreudig und immer im Dialog zwischen Vergangenheit und Gegenwart.',
         url: 'https://www.lauttencompagney.de/',
-    },
+    },/*
     {
         name: 'Vokalconsort des Berliner Mädchenchores',
         instrument: 'Chor',
         image: 'artists/KVC.png',
         description: 'Das Vokalconsort ist der „junge“ Frauenkammerchor des Berliner Mädchenchores. Gegründet 2015 auf Initiative ehemaliger Konzertchormädchen, besteht das Ensemble heute kontinuierlich aus ca. 30 aktiven Sängerinnen unter der Leitung der Dirigentin und freischaffenden Komponistin Sabine Wüsthoff.\n Das musikalische Programm umfasst mehrstimmige Literatur für gleiche Stimmen von der Renaissance bis zur Moderne. Gesungen werden Volkslieder, weltliche und geistliche Werke. Die Sängerinnen konzertieren a cappella, mit Klavierbegleitung, Kammerensembles und Orchestern, z. B. mit dem Landesjugendorchester, dem Jungen Orchester der FU Berlin, der Jungen Sinfonie Berlin und dem Schöneberger Kammerorchester.\n Das Vokalconsort war schon in der Berliner Philharmonie, im Konzerthaus Berlin, der Französischen Friedrichstadtkirche, der Kaiser-Wilhelm-Gedächtniskirche, in der Philharmonie Stettin, der Nikolaikirche Potsdam, dem Dom in Brandenburg, und weiteren bekannten Kirchen und Konzertsälen zu hören. Konzertreisen führten das Ensemble bisher nach Japan und Südchina. 2021 wurde es mit einem OPUS KLASSIK ausgezeichnet, außerdem errang es mehrfach erste Preise bei Wettbewerben, so u. a. 2018 und 2023 beim Deutschen Chorwettbewerb.\n',
         url: 'https://www.berlinermaedchenchor.de',
-    },
+    },*/
     {
         name: 'Concerto Festante Wannsee',
         instrument: 'Ensemble',
@@ -97,6 +97,7 @@ const artists_landscape = [
     },
   ];
 const artists_portrait = [
+    /*
     {
         name: 'Justine Eckhaut',
         instrument: 'Pianistin',
@@ -126,19 +127,19 @@ const artists_portrait = [
       instrument: 'Mezzosopranistin',
       image: 'artists/Paula_Nilse.png',
       description: 'Paula Nilse ist Mezzosopranistin und vor allem als Lied- und Oratorieninterpretin aktiv. Sie konzertiert mit renommierten Ensembles, darunter der Rundfunkchor Berlin, der Dresdner Kammerchor und weitere. Sie absolvierte ein Studium der Schulmusik und Französisch, und ist als Musikpädagogin und Chorleiterin tätig. Derzeit studiert sie Gesang an der Universität der Künste Berlin.',
-    },
+    },*/
     {
       name: 'Shimon Yoshida',
       instrument: 'Tenor',
       image: 'artists/Shimon_Yoshida.png',
       description: 'Shimon Yoshida wurde 1992 in Nagoya (Japan) geboren und absolvierte sein Masterstudium (Konzertgesang) an der Hochschule für Musik und Theater München bei Prof. Sylvia Greenberg.\n2022 hat Shimon Yoshida unter Leitung von René Jacobs Bachs h-Moll-Messe als Einspringer des Tenorsolisten gesungen. Oktober 2023 hat er für erkrankten Tenorsolist kurzfristig die Partie von Rossinis Stabat Mater übernommen (Philharmonie Berlin, Großersaal).\nBei dem renommierten Bach Collegium Japan unter der Leitung von Masaaki Suzuki ist er seit 2022 regelmäßiger Gast. April 2024 gab er seinen US-Debüt als Solist (Bachs h-Moll Messe) in Boston.\nSeit März 2020 ist Shimon Yoshida festes Mitglied bei RIAS Kammerchor Berlin.\nMit seiner Familie wohnt er in Berlin.',
-    },
+    },/*
     {
       name: 'Joohoon Shin',
       instrument: 'Tenor',
       image: 'artists/Joohoon_Shin.png',
       description: 'Joohoon Shin wurde in Incheon, (Südkrea) geboren. Zunächst nahm er ein Gesangsstudium am Royal Welsh College of Music in Cardiff auf und schloss seine Studien mit einem Diplom im Hauptfach Gesang an der Hochschule für Musik „Franz Liszt“ Weimar bei Gudrun Fischer ab.\nAls gefragter Solist und beliebter Interpret Bachscher Werke widmet er sich verschiedenen Konzertrepertoires und arbeitet mit namhaften Orchestern zusammen, darunter dem Rundfunk-Sinfonieorchester Berlin, dem Deutschen Symphonie-Orchester Berlin, dem Deutschen Kammerorchester Berlin, dem Neuen Kammerorchester Potsdam, der lauttencompagney BERLIN, L’arte del Mondo, Zwischenakt Berlin sowie mit vielen Chören und Kantoreien.\nSeit 2014 ist er festes Mitglied des Rundfunkchores Berlin, für den er auch regelmäßig Soloparts übernimmt. Er arbeitete schon mit so renommierten Dirigenten wie Sir Simon Rattle, Zubin Mehta, Daniel Barenboim, Kirill Petrenko, Riccardo Chailly, Christian Thielemann, Yannick Nezet-Seguin, Daniel Harding, Christoph Eschenbach und Kent Nagano arbeiten. Neben deutschlandweiten Auftritten führten ihn internationale Konzerttourneen nach New York, Paris, London, Budapest, Barcelona, Granada, Mailand, Amsterdam, Rotterdam, Brüssel, Luzern, Basel, Salzburg, Wien, Stettin, Hong Kong, Taiwan, Seoul, San Paulo, Buenos Aires und Santiago de Chile.\nZuletzt sang Joohoon Shin in Händels Oratorium „Solomon“ den Part des Dieners sowie in der Wagner-Oper „Tristan und Isolde“ die Rolle des Hirten mit dem Deutschen Symphonie Orchester Berlin unter Robin Ticciati in der Berliner Philharmonie.'
-    },
+    },*/
     {
         name: 'Thorsten Kaldewei',
         instrument: 'Pianist',
@@ -151,7 +152,7 @@ const artists_portrait = [
         instrument: 'Kunsthistorikerin',
         image: 'artists/Friederike_suedmeyer.png',
         description: 'Die Kunsthistorikerin Friederike Südmeyer ist Kuratorin einer Stiftung, Vorsitzende des Wannseer Kulturverein, arbeitet als Kunstberaterin und vermittelt in Führungen, Vorträgen und Workshops ihren Blick auf die Welt der Kunst.\n',
-    },
+    },/*
     {
         name: 'Aaron Dan',
         instrument: 'Flötist',
@@ -181,19 +182,13 @@ const artists_portrait = [
         instrument: 'Cellistin',
         image: 'artists/Majella_Muenz.png',
         description: "Majella Münz ist als Cellistin, Barockcellistin und Gambistin in den verschiedensten musikalischen Sprachen Zuhause: von den Tänzen der Renaissancezeit über die Symphonik der Klassik bis hin zu zeitgenössischen Klangexplorationen. Nachdem sie ihr Studium auf dem modernen Cello bei Julian Steckel, Thomas Kaufmann und Valentin Radutiu absolviert hatte, folgte sie ihrer tiefen Faszination für die Alte Musik und die organischen Klangwelten historischer Instrumente und zog in die Niederlande, wo sie Unterricht auf dem Barockcello und der Gambe erhielt. Aktuell lebt sie wieder in Berlin und ist sehr glücklich darüber, in zahlreichen Formationen ihre Leidenschaft für musikalische Kommunikation ausleben zu können. Mit Illtupia verbindet sie Alte Musik mit Kunstformen der Gegenwart, welche bei Festivals wie FELIX! urban der Kölner Philharmonie zur Aufführung kamen. Mit der Himmelhofkappelle gewann sie den 2. Preis beim Berliner Bachwettbewerb 2021 und war mit I Fiori Selvatici im Finale des digitalen Biagio-Marini- Wettbewerbs 2020. Außerdem ist sie Gründungsmitglied und Teil der künstlerischen Leitung des preisgekrönten Kammerorchesters ensemble reflektor, mit welchem sie regelmäßig in eigenen Reihen sowie bei den Festspielen MV, Schleswig-Holstein Musikfestival, den Sommerlichen Musiktagen Hitzacker, der Elbphilharmonie, dem Konzerthaus Berlin, der Alten Oper Frankfurt und dem hauseigenen Festival in Lüneburg, ultraBACH auftritt. Als gefragte Barockcellistin und Gambistin spielt sie mit Ensembles wie der lautten compagney, Akademie für Alte Musik Berlin, Holland Baroque, Concerto Copenhagen, Orchestra of the 18th Century (NL), {oh!} Orkiestra, Gaechinger Cantorey und im Rahmen dessen auf europäischen Podien und Festivals, wie dem Resonanzen Festival Wien, dem London International Festival of Early Music, dem Early Music Festival Utrecht, dem MA Festival Brügge oder dem Oranjewoud Festival (NL). Majella studierte bei Lea Rahel Bader, Thomas Pitt und Jan Freiheit in Berlin und bei Lucia Swarts und Mieneke van der Velden in Den Haag. Weitere wichtige Impulse erhielt sie von Christoph Huntgeburth, Kate Clark, Hidemi Suzuki, Kristin v. d. Goltz, Irene Klein und im Rahmen der Ensembleakademie des Freiburger Barockorchesters, des experience scheme des Orchestra of the Age of Enlightenment London sowie der MA Academy des B'Rock'Orchestra und Il Gardellino.\nMit viel Freude experimentiert sie außerdem mit den Möglichkeiten der Improvisation und Stimme.",
-    },
+    },*/
     {
         name: 'Mirlan Kasymaliev',
         instrument: 'Organist, Pianist',
         image: 'artists/Mirlan_Kasymaliev.png',
         description: "Mirlan Kasymaliev ist in Kyrgyzstan geboren, wo er 1980 seine musikalische Ausbildung im Fach Klavier begann. Nach einem erfolgreichen Abschluss setzte er seine Studien in den Fächern Klavier und Orgel am Staatlichen Konservatorium in Kazan/Russland fort. Beide Fächer schloss er 1997/98 mit dem Konzertdiplom mit Auszeichnung ab.\n Im Jahr 1996 gewann er beim 3. Internationalen Orgelwettbewerb in Kislowodsk/Russland ein Stipendium der Alfred-Sittard-Stiftung für ein Orgelstudium an der Hochschule der Künste (heute UdK) in Berlin. Bei dieser sowie der „Käthe Dorsch – Stiftung“ war er in den Jahren 1998-2002 Stipendiat.\n Er absolvierte als Schüler von Prof. Leo van Doeselaar und Dozent Erwin Wiersinga im Juli 2004 das Konzertexamen mit Auszeichnung.\n Seit April 2025 ist er Kirchenmusiker in der Evangelischen Kirchengemeinde Wannsee (Kirche am Stölpchensee und Andreaskirche) und der Kirche St. Peter und Paul auf Nikolskoe. Außerdem ist er als Konzertorganist und Konzertpianist tätig, ist Mitbegründer des Musikprojekts „Die Jüdische Musikreihe für Liebhaber & Neugierige“ ('KOL - Jüdische Musik beleben und erleben e.V.'), wirkt europaweit bei verschiedenen Ensembles mit und gibt Solokonzerte.",
-    },/*
-    {
-        name: 'Sapna Joshi',
-        instrument: 'Pfarrerin',
-        image: '',
-        description: '',
-    },*/
+    },
     {
         name: 'Johanna Kaldewei',
         instrument: 'Sopranistin',

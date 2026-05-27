@@ -58,19 +58,19 @@ export function ProgramSection() {
 
 const concerts = [
   {
-    title: "Der Wellen Wechselspiel",
-    date: "19. September 2025",
+    title: "Im Schatten eines Traumes",
+    date: "18. September 2025",
     time: "19:30 Uhr",
-    location: 'Andreaskirche',
+    location: 'Kirche am Stölpchensee',
     image: 'program/Jeux_deau.png',
     description:
-      "Vokalconsort des Berliner Mädchenchores\nJustine Eckhaut - Klavier\nThorsten Kaldewei - Klavier\nJohanna Kaldewei - Sopran\nLtg. Sabine Wüsthoff",
+      "",
   },
   {
-    title: "Jeux d'eau",
-    date: "20. September 2025",
+    title: "Herstory",
+    date: "19. September 2025",
     time: "16.00 Uhr",
-    location: 'Andreaskirche',
+    location: 'Gemeindehaus',
     image: 'program/Der_Wellen_Wechselspiel.png',
     description:
       "Die rauschenden Klänge des Wassers in Melodien und Bildern um 1900\nDr. Friederike Südmeyer - Kunsthistorikerin\nAaron Dan - Flöte\nThorsten Kaldewei - Klavier",
