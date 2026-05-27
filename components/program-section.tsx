@@ -98,7 +98,7 @@ const concerts = [
     date: "20. September 2026",
     time: "15.00 Uhr",
     location: 'St. Peter und Paul auf Nikolskoe',
-    image: 'program/Mein_Arkadien.png',
+    image: 'program/Kirchturm.png',
     description:
       "Predigt: Pfarrerin Ute Hagmayer",
   },
