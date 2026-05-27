@@ -15,7 +15,7 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <MottoSection />
-      {/*<ProgramSection />*/}
+      {<ProgramSection />}
       <ArtistsSection />
       <LocationsSection />
       <SponsorsSection />

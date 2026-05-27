@@ -22,13 +22,6 @@ export function MottoSection() {
             <br/><br/>
             <span className="text-2xl text-amber-50">„Musentöchter!“</span> lädt dazu ein, diese Fragen gemeinsam zu erkunden – neugierig, offen und mit der Freude
             am Entdecken. Denn die Geschichte der Musik ist reicher, vielfältiger und lebendiger, als sie oft erzählt wird.
-            <br/><br/>
-            <br/><br/>
-            <br/><br/>
-          </p>
-          <h2 className="section-title centered">Programm</h2>
-          <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
-            Folgt bald...
           </p>
         </div>
 

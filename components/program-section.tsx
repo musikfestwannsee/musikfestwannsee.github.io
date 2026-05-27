@@ -59,47 +59,56 @@ export function ProgramSection() {
 const concerts = [
   {
     title: "Im Schatten eines Traumes",
-    date: "18. September 2025",
-    time: "19:30 Uhr",
+    date: "18. September 2026",
+    time: "19.00 Uhr",
     location: 'Kirche am Stölpchensee',
-    image: 'program/Jeux_deau.png',
+    image: 'program/Eroeffnungskonzert.png',
     description:
-      "",
+      "Eröffnungskonzert\nCorinna Harfouch liest Karoline von Günderode und Christa Wolf\nLieder und Kammermusik aus der Zeit um 1800",
   },
   {
     title: "Herstory",
-    date: "19. September 2025",
-    time: "16.00 Uhr",
+    date: "19. September 2026",
+    time: "11.00 Uhr",
     location: 'Gemeindehaus',
     image: 'program/Der_Wellen_Wechselspiel.png',
     description:
-      "Die rauschenden Klänge des Wassers in Melodien und Bildern um 1900\nDr. Friederike Südmeyer - Kunsthistorikerin\nAaron Dan - Flöte\nThorsten Kaldewei - Klavier",
+      "Vortrag und Gespräch\nKomponistinnen im Spiegel ihrer Zeit",
   },
   {
-    title: "Sturm und Stille",
-    date: "20. September 2025",
-    time: "19.30 Uhr",
-    location: 'Kirche am Stölpchensee',    
+    title: "Allegra con Fuoco",
+    date: "19. September 2026",
+    time: "16.00 Uhr",
+    location: 'Andreaskirche',
+    image: 'program/Jeux_deau.png',
+    description:
+      "Kammermusik\nWerke von Clara Schumann, Emilie Mayer und Amy Beach",
+  },
+  {
+    title: "Kalliope im Spiegel",
+    date: "19. September 2026",
+    time: "20.00 Uhr",
+    location: 'Andreaskirche',
     image: 'program/Sturm_und_Stille.png',
     description:
-      "Barockmusik über Wasser, Wandel und die Seele zwischen Aufruhr und Einkehr\nJohanna Kaldewei - Sopran\nlautten compagney BERLIN\nLtg: Wolfgang Katschner",
+      "Liederabend im Dialog der Künste\nMusen, Stimmen und Bilder - Portraits von Künstlerinnen",
   },
   {
-    title: "J.S. Bach: Gleich wie Regen und Schnee vom Himmel fällt",
-    date: "21. September 2025",
-    time: "10.00 Uhr",
-    location: 'Kirche am Stölpchensee',
-    image: 'program/Kantatengottesdienst.png',
+    title: "Kantatengottesdienst",
+    date: "20. September 2026",
+    time: "15.00 Uhr",
+    location: 'St. Peter und Paul auf Nikolskoe',
+    image: 'program/Mein_Arkadien.png',
     description:
-      "Kantatengottesdienst\nPredigt: Pfarrerin Sapna Joshi\nJulia Danz - Sopran\nAnna-Luise Oppelt - Alt\nChristian Pohlers - Tenor\nMeinhardt Möbius - Bass\nInstrumentalsolisten\nMirlan Kasymaliev - Orgel",
+      "Predigt: Pfarrerin Ute Hagmayer",
   },
   {
-    title: "Panta rhei - Alles fließt (und nichts bleibt)",
-    date: "21. September 2025",
+    title: "Verborgene Linien",
+    date: "20. September 2026",
     time: "18.00 Uhr",
     location: 'St. Peter und Paul auf Nikolskoe',
     image: 'program/Abschlusskonzert.png',
     description:
-      "Concerto Festante Wannsee\nJ.S. Bach: Motetten\nRomantische Vokalmusik mit Werken u.a. von F. Schubert, R. Schumann und F. Mendelssohn-Bartholdy\nMirlan Kasymaliev - Continuo\nMajella Münz - Cello",
+      "Abschlusskonzert\nKomponistinnen durch die Jahrhunderte",
   },
 ]

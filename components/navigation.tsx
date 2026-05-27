@@ -19,7 +19,7 @@ export function Navigation() {
   }, [])
 
   const navLinks = [
-    // { name: "Programm", href: "/#program" },
+    { name: "Programm", href: "/#program" },
     { name: "Künstler:innen", href: "/#artists" },
     { name: "Veranstaltungsorte", href: "/#locations" },
     { name: "Sponsoren", href: "/#sponsors" },
