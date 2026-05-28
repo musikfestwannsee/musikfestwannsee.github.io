@@ -65,16 +65,16 @@ const concerts = [
     image: 'program/Eroeffnungskonzert.png',
     description:
       "Eröffnungskonzert\nCorinna Harfouch liest Karoline von Günderode und Christa Wolf\nLieder und Kammermusik aus der Zeit um 1800\n" +
-        "Corinna Harfouch - Lesung\nJohanna Kaldewei - Sporan\nLautten compagney Berlin - Ltg. Wolfgang Katschner",
+        "Corinna Harfouch - Lesung\nJohanna Kaldewei - Sopran\nLautten compagney Berlin - Ltg. Wolfgang Katschner",
   },
   {
-    title: "Herstory",
+    title: "HerStory",
     date: "19. September 2026",
     time: "11.00 Uhr",
     location: 'Gemeindehaus',
     image: 'program/Der_Wellen_Wechselspiel.png',
     description:
-      "Vortrag und Gespräch\nKomponistinnen im Spiegel ihrer Zeit\nHendrike Leißner - Moderation\nJohanna Kaldewei - Sopran\nThorsten Kaldewei - Klavier\nund weitere",
+      "Vortrag und Gespräch\nKomponistinnen im Spiegel ihrer Zeit\nHenrike Leißner - Moderation\nJohanna Kaldewei - Sopran\nThorsten Kaldewei - Klavier\nund weitere",
   },
   {
     title: "Allegra con Fuoco",
@@ -83,7 +83,7 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Jeux_deau.png',
     description:
-      "Kammermusik\nWerke von Clara Schumann, Emilie Mayer und Amy Beach\nYoshi Huwawa - Violine\nThorsten Kaldewei - Klavier\nSabine Techritz - Violoncello",
+      "Kammermusik\nWerke von Clara Schumann, Emilie Mayer und Claude Arrieu\nYoshiaki Shibata - Violine\nThorsten Kaldewei - Klavier\nSabine Techritz - Violoncello",
   },
   {
     title: "Kalliope im Spiegel",
