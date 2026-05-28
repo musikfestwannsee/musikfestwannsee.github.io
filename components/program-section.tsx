@@ -30,7 +30,7 @@ export function ProgramSection() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <div className="min-h-[170px] mb-4">
+                  <div className="min-h-[250px] mb-4">
                     <div>{concert.description.split('\n').map((line, index) => (
                         <p key={index} className="text-sm text-muted-foreground mb-4">
                             {line}
