@@ -88,7 +88,7 @@ const concerts = [
   {
     title: "Kalliope im Spiegel",
     date: "19. September 2026",
-    time: "20.00 Uhr",
+    time: "19.30 Uhr",
     location: 'Andreaskirche',
     image: 'program/Sturm_und_Stille.png',
     description:
