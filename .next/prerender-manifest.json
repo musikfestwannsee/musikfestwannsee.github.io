@@ -1,7 +1,8 @@
 {
   "version": 4,
   "routes": {
-    "/programmheft-2025": {
+    "/_not-found": {
+      "initialStatus": 404,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -14,8 +15,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/programmheft-2025",
-      "dataRoute": "/programmheft-2025.rsc",
+      "srcRoute": "/_not-found",
+      "dataRoute": "/_not-found.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -49,8 +50,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/_not-found": {
-      "initialStatus": 404,
+    "/text-wellen-wechselspiel": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -63,8 +63,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/_not-found",
-      "dataRoute": "/_not-found.rsc",
+      "srcRoute": "/text-wellen-wechselspiel",
+      "dataRoute": "/text-wellen-wechselspiel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -98,7 +98,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/impressum": {
+    "/programmheft-2025": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -111,8 +111,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/impressum",
-      "dataRoute": "/impressum.rsc",
+      "srcRoute": "/programmheft-2025",
+      "dataRoute": "/programmheft-2025.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -170,7 +170,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/text-wellen-wechselspiel": {
+    "/impressum": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -183,8 +183,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/text-wellen-wechselspiel",
-      "dataRoute": "/text-wellen-wechselspiel.rsc",
+      "srcRoute": "/impressum",
+      "dataRoute": "/impressum.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",

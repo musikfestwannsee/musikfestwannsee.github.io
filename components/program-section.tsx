@@ -64,7 +64,8 @@ const concerts = [
     location: 'Kirche am Stölpchensee',
     image: 'program/Eroeffnungskonzert.png',
     description:
-      "Eröffnungskonzert\nCorinna Harfouch liest Karoline von Günderode und Christa Wolf\nLieder und Kammermusik aus der Zeit um 1800",
+      "Eröffnungskonzert\nCorinna Harfouch liest Karoline von Günderode und Christa Wolf\nLieder und Kammermusik aus der Zeit um 1800\n" +
+        "Corinna Harfouch - Lesung\nJohanna Kaldewei - Sporan\nLautten compagney Berlin - Ltg. Wolfgang Katschner",
   },
   {
     title: "Herstory",
@@ -73,7 +74,7 @@ const concerts = [
     location: 'Gemeindehaus',
     image: 'program/Der_Wellen_Wechselspiel.png',
     description:
-      "Vortrag und Gespräch\nKomponistinnen im Spiegel ihrer Zeit",
+      "Vortrag und Gespräch\nKomponistinnen im Spiegel ihrer Zeit\nHendrike Leißner - Moderation\nJohanna Kaldewei - Sopran\nThorsten Kaldewei - Klavier\nund weitere",
   },
   {
     title: "Allegra con Fuoco",
@@ -82,7 +83,7 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Jeux_deau.png',
     description:
-      "Kammermusik\nWerke von Clara Schumann, Emilie Mayer und Amy Beach",
+      "Kammermusik\nWerke von Clara Schumann, Emilie Mayer und Amy Beach\nYoshi Huwawa - Violine\nThorsten Kaldewei - Klavier\nSabine Techritz - Violoncello",
   },
   {
     title: "Kalliope im Spiegel",
@@ -91,7 +92,7 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Sturm_und_Stille.png',
     description:
-      "Liederabend im Dialog der Künste\nMusen, Stimmen und Bilder - Portraits von Künstlerinnen",
+      "Liederabend im Dialog der Künste\nMusen, Stimmen und Bilder - Portraits von Künstlerinnen\nDr. Friederike Südmeyer - Kunsthistorikerin\nJohanna Kaldewei - Sopran\nLaila Salome Fischer - Mezzosopran\nKatharina Landl - Klavier",
   },
   {
     title: "Kantatengottesdienst",
@@ -100,7 +101,7 @@ const concerts = [
     location: 'St. Peter und Paul auf Nikolskoe',
     image: 'program/Kirchturm.png',
     description:
-      "Predigt: Pfarrerin Ute Hagmayer",
+      "Predigt: Pfarrerin Ute Hagmayer\nVokal- und Instrumentalmusik: Concerto Festante Wannsee",
   },
   {
     title: "Verborgene Linien",
@@ -109,6 +110,6 @@ const concerts = [
     location: 'St. Peter und Paul auf Nikolskoe',
     image: 'program/Abschlusskonzert.png',
     description:
-      "Abschlusskonzert\nKomponistinnen durch die Jahrhunderte",
+      "Abschlusskonzert\nKomponistinnen durch die Jahrhunderte\nMitglieder des RIAS-Kammerchor\nLtg. Joachim Buhrmann",
   },
 ]
