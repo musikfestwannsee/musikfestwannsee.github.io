@@ -58,7 +58,7 @@ export function ProgramSection() {
 
 const concerts = [
   {
-    title: "Im Schatten eines Traumes",
+    title: "Der Schatten eines Traumes",
     date: "18. September 2026",
     time: "19.00 Uhr",
     location: 'Kirche am Stölpchensee',
