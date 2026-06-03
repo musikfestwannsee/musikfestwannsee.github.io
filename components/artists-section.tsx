@@ -97,6 +97,130 @@ const artists_landscape = [
     },
   ];
 const artists_portrait = [
+    {
+        name: 'Henrike Leißner',
+        instrument: 'Musikwissenschaftlerin und Redakteurin',
+        image: 'artists/Henrike_Leissner.png',
+        description: 'Henrike Leißner ist Musikwissenschaftlerin, Beitragsautorin, Moderatorin und Musikredakteurin bei radio3 (rbb) und Opernkritikerin bei mdr ' +
+            'Klassik und mdr Kultur. Sie hat unter Anderem zu den Themen Komponieren für den Rundfunk in den 1920er Jahren, Musik der Neuen Sachlichkeit und ' +
+            'ufführungspraktiken und -traditionen von Neuer Musik und von Musik des Barock (insb. Tasteninstrumente und Gesang) geforscht. Seit 2025 moderiert ' +
+            'sie regelmäßig die Sendung „Auftakt“ auf radio3 und die radio3 Listening Lounge. ',
+    },
+    {
+        name: 'Sabine Techritz',
+        instrument: 'Cellistin',
+        image: 'artists/Sabine_Techritz.png',
+        description: 'Sabine Techritz, geboren 1973 in Ost-Berlin, begann im Alter von acht Jahren Cello zu spielen. Nach'+
+            'langjährigem Unterricht an der „Spezialschule für Musik Hanns Eisler“ Berlin bei Sabine Andert setzte'+
+            'sie ihre Ausbildung an der Hochschule für Musik Hanns Eisler Berlin bei Prof. Michael Sanderling fort.\n'+
+            'Bereits während des Studiums sammelte sie prägende Orchestererfahrung als Substitutin der Staatskapelle'+
+            'Berlin. Von 2003 bis 2007 war sie Solo-Cellistin des neu gegründeten Neuen Sinfonieorchesters Berlin'+
+            'und wirkte zudem im E.T.A.-Hoffmann-Kammerorchester sowie als Vertretung im Filmorchester'+
+            'Babelsberg mit. Als freiberufliche Musikerin ist sie in verschiedenen Ensembles aktiv, darunter im'+
+            'Erichson-Quartett (mit Yoshiaki Shibata) und im Ensemble für neue Klänge. Seit 2007 unterrichtet sie an'+
+            'Musikschulen in Berlin und Umland und begleitet Kinder wie Erwachsene auf ihrem musikalischen Weg.',
+    },
+    {
+        name: 'Anette Lösch',
+        instrument: 'Sopranistin',
+        image: 'artists/Anette_Loesch.png',
+        description: 'Ihre musikalische Ausbildung erfolgte in verschiedenen Vokalensembles und bei renommierten Gesangspädagog*innen ' +
+            'in Schweinfurt, Würzburg und Berlin. Konzerte und Liederabende gestaltete sie u. a. am Berliner Dom und beim Internationalen Bodenseefestival.\n'+
+            'Im Bereich der Ensemble- und Chorarbeit konnte sie beim Collegium Vocale Gent unter der Leitung von Philippe Herreweghe weitere Erfahrungen sammeln. ' +
+            'Mit dem Vocalconsort Berlin trat sie in mehreren Opernproduktionen an der Staatsoper Berlin auf, u. a. in Purcells Dido unter der Leitung von ' +
+            'Attilio Cremonesi und Monteverdis Orfeo mit René Jacobs.',
+    },
+    {
+        name: 'Mi-Young Kim',
+        instrument: 'Sopranistin',
+        image: 'artists/Mi-Young_Kim.png',
+        description: 'Die koreanische Sopranistin Mi-Young Kim studierte Gesang an der Kyungwon Universität in Korea bei Prof. Sang Young Lee, ' +
+            'Operngesang an der Musikhochschule Hanns-Eisler in Berlin bei Prof. Renate Faltin und bei Prof. Julia Varady. Während ihrer ' +
+            'Studienzeit hatte sie als lyrischer Koloratursopran mehrere Opernauftritte und ergänzte ihr Repertoire und ihre musikalischen ' +
+            'Ausdrucksmöglichkeiten durch den Besuch von Meisterkursen bei Prof. Dr. Dietrich Fischer-Dieskau, Prof. Julia Varady und bei ' +
+            'Prof. Mirella Freni. Seit 2010 ist Mi-Young Kim festes Mitglied im RIAS Kammerchor Berlin und singt ein umfangreiches Repertoire ' +
+            '– von Barock- bis zu zeitgenössischer Musik.\n'+
+            'In zahlreichen Konzerten und Aufnahmen unter namhaften Dirigenten wie Iván Fischer, René Jakobs, Rinaldo Alessandrini, ' +
+            'Hans-Christoph Rademann, Alexander Liebreich, Florian Helgath, Pablo Heras-Casado und Justin Doyle trat sie als Solistin ' +
+            'und Ensemblemitglied erfolgreich auf. Sopran Mi-Young Kim ist in Berlin und Umgebung aktiv solistisch zu hören.',
+    },
+    {
+        name: 'Michelle Baum',
+        instrument: 'Mezzosopranistin',
+        image: 'artists/Michelle_Baum.png',
+        description: 'Michelle Baum studiert - parallel zur Tätigkeit beim RIAS Kammerchor - Master Liedgestaltung an der Hochschule für Musik, ' +
+            'Theater und Medien Hannover in der Gesangsklasse von Henryk Böhm und der Liedklasse von Jan Philip Schulze.\n' +
+            'Bereits in ihrer Jugend beteiligte sie sich bei Benefizkonzerten und spielte bei kleineren Opernproduktionen mit. ' +
+            'Sie absolvierte die Schola und Akademie beim Rundfunkchor Berlin. Nach der Akademie beim RIAS Kammerchor Berlin begann sie dort ' +
+            'ihre Probezeit als Mitglied mit der Saison 2025/26.\n' +
+            'Sie bekam künstlerische Eindrücke durch Meisterkurse bei Ulrich Eisenlohr, Wolfram Rieger, Christoph Prégardien, Anne Sofie von Otter und Brigitte Fassbaender.',
+    },
+    {
+        name: 'Susanne Langner',
+        instrument: 'Mezzosopranistin',
+        image: 'artists/Susanne_Langner.png',
+        description: 'Susanne Langner musiziert(e) als Solistin mit Dirigenten wie H.-Ch. Rademann, H. Rilling und L. Güttler, mit' +
+        'Ensembles wie dem Freiburger Barockorchester oder der Akademie für Alte Musik Berlin,' +
+        'mit dem Kreuzchor Dresden unter den Kreuzkantoren R. Kreile und M. Lehmann oder dem' +
+        'Thomanerchor Leipzig unter den Thomaskantoren G. Ch. Biller, G. Schwarz und A. Reize' +
+        'ebenso wie als Ensemblesängerin im RIAS Kammerchor oder Ensemble amarcord.\n' +
+        'Die gebürtige Dresdnerin studierte am Mozarteum Salzburg Gesang und absolvierte mit' +
+        'Auszeichnung. Sie war mehrfache Preisträgerin und Finalistin internationaler Wettbewerbe,' +
+        'unter anderem beim Bachwettbewerb Leipzig.' +
+        'Gemeinsam mit dem Leipziger Synagogalchor setzt sie sich für die Bewahrung und Belebung' +
+        'weltlicher und geistlicher jüdischer Musik ein. Diese Arbeit wurde unter L. Böhme 2016 mit' +
+        'dem Obermayer German Jewish History Award gewürdigt.' +
+        'Seit 2021 ist sie Direktoriumsmitglied der Neuen Bachgesellschaft, seit 2026 im Vorstand.',
+    },
+    {
+        name: 'Jonathan de la Paz Zaens',
+        instrument: 'Bassbariton',
+        image: 'artists/Jonathan_de_la_Paz_Zaens.png',
+        description: 'Jonathan de la Paz Zaens, Bassbariton, erhielt sein Bachelor´s Degree in Voice' +
+        '(Bakkalaureat), cum laude, an der University of the Philippines bei Prof. Andrea O. Veneracion.\n' +
+        '2000 schloss er sein Studium an der Hochschule der Künste Berlin bei Prof. Herbert Brauer ab.\n' +
+        'Er ist Preisträger des 7. Sylvia Geszty Internationalen Koloratur-Gesangswettbewerbs,' +
+        'Finalist beim 13. Internationalen Johann-Sebastian-Bach-Wettbewerb und beim' +
+        'Mendelssohn-Gesangswettbewerb.\n' +
+            'Am Ständetheater und an der Staatsoper Prag gastierte er in den Mozart-Rollen Leporello und' +
+        'Guglielmo. In Berlin führten ihn Verpflichtungen an die Neuköllner Oper, die Neue' +
+        'Opernbühne und die Kammeroper.\n' +
+            'Als Konzertsänger gestaltet er wiederholt die Basspartien der grossen Oratorien Bachs sowie' +
+        'Mozarts, Händels, Haydns, Brahms´, Mendelssohns und Rossinis.' +
+        'Liederabende gab er in Deutschland, Italien, Schweden, Tschechien, Costa Rica, USA und in' +
+        'seiner Heimat.\n' +
+        'Er widmet sich auch der zeitgenössischen Musik, indem er u.a. bei den Salzburger Festspielen' +
+        'in der Uraufführung von Karl-Heinz Stockhausens „Düfte-Zeichen“ sang. Bei der' +
+        'Uraufführung von Stockhausens letztem Opus KLANG übernahm er das Solostück für' +
+        'Bartion ORVONTON bei der Kölner Triennale. Darüber hinaus führte er andere Werke' +
+        'Stockhausens sowie Sciarinnos, Zenders, Rihms, Eötvös und Piazollas bei den Berliner' +
+        'Festspielen, den Schwetzinger Festspielen, der Biennale Venedig, dem Agora Festival in' +
+        'Paris, dem Warschauer Herbst sowie im Koblenzer Stadttheater und der Zeitgenössischen' +
+        'Oper Berlin auf.',
+    },
+    {
+        name: 'Manuel Nickert',
+        instrument: 'Bariton',
+        image: 'artists/Manuel_Nickert.png',
+        description: 'Der Bariton und Chorleiter Manuel Nickert wurde in Berlin geboren. Er studierte Gesang bei Prof. Renate Faltin und Prof. Thomas Quasthoff an ' +
+        'der Hochschule für Musik „Hanns Eisler” Berlin, und Chorleitung an der University of Birmingham in England bei Prof. Simon Halsey.' +
+        'Seit 2014 ist er vor allem als Konzertsänger und im Bereich der Alten Musik sehr aktiv und singt regelmäßig u.a. mit der lautten compagney Berlin,' +
+        'der Cappella Saggitariana Dresden oder dem Ensemble „Les Temperamens Variations“ in Paris bedeutende Werke der Renaissance und des Barock.' +
+        'Außerdem interpretiert er leidenschaftlich gern Musik der Moderne: die "Aventures" und "Nouvelles Aventures" von György Ligeti mit dem' +
+        'Ensemble ilinx, mehrere Uraufführungen der „Berliner Atonale” an der Staatsoper Berlin oder zuletzt "Les Noces" von Igor Stravinsky und die "Faustkantate" von Alfred Schnittke mit Cantus Domus.' +
+        'Er war mit Werken von Felix Mendelssohn und Lili Boulanger bereits als Solist mit dem Rundfunk-Sinfonieorchester Berlin und den Bielefelder Symphonikern zu hören' +
+        'und gab im April 2026 sein Solodebüt mit dem Konzerthausorchester Berlin mit der h-Moll-Messe von Johann Sebastian Bach.',
+    },
+    {
+        name: 'Thaddäus Böhm',
+        instrument: 'Tenor',
+        image: 'artists/Thaddaeus_Boehm.png',
+        description: 'Der Tenor Thaddäus Böhm ist zur Zeit Mitglied des RIAS Kammerchors Berlin. Zuvor sammelte er wertvolle ' +
+            'Ensembleerfahrungen bei Vox Luminis und der Gächinger Cantorey. Meisterkurse bei Georg Poplutz und Patrick Grahlbereicherten ' +
+            'sein musikalisches Schaffen mit neuen Impulsen. Als Solist trat er bereits in renommierten Häusern wie St. Nikolai am ' +
+            'Klosterstern Hamburg, dem Herkulessaal München und der Marktkirche Karlsruheauf. Sein Gesangstudium absolvierte er bei ' +
+            'Prof. Monika Köhler in Halle (Saale), wo er bereits während des Studiums als Akademist beim RIAS Kammerchor Berlin wirkte.',
+    },
     /*
     {
         name: 'Justine Eckhaut',
@@ -132,7 +256,43 @@ const artists_portrait = [
       name: 'Shimon Yoshida',
       instrument: 'Tenor',
       image: 'artists/Shimon_Yoshida.png',
-      description: 'Shimon Yoshida wurde 1992 in Nagoya (Japan) geboren und absolvierte sein Masterstudium (Konzertgesang) an der Hochschule für Musik und Theater München bei Prof. Sylvia Greenberg.\n2022 hat Shimon Yoshida unter Leitung von René Jacobs Bachs h-Moll-Messe als Einspringer des Tenorsolisten gesungen. Oktober 2023 hat er für erkrankten Tenorsolist kurzfristig die Partie von Rossinis Stabat Mater übernommen (Philharmonie Berlin, Großersaal).\nBei dem renommierten Bach Collegium Japan unter der Leitung von Masaaki Suzuki ist er seit 2022 regelmäßiger Gast. April 2024 gab er seinen US-Debüt als Solist (Bachs h-Moll Messe) in Boston.\nSeit März 2020 ist Shimon Yoshida festes Mitglied bei RIAS Kammerchor Berlin.\nMit seiner Familie wohnt er in Berlin.',
+      description: 'Shimon Yoshida wurde 1992 in Nagoya (Japan) geboren und absolvierte sein Masterstudium (Konzertgesang) ' +
+          'an der Hochschule für Musik und Theater München bei Prof. Sylvia Greenberg.\n' +
+          '2022 hat Shimon Yoshida unter Leitung von René Jacobs Bachs h-Moll-Messe als Einspringer des Tenorsolisten gesungen. ' +
+          'Oktober 2023 hat er für erkrankten Tenorsolist kurzfristig die Partie von Rossinis Stabat Mater übernommen (Philharmonie ' +
+          'Berlin, Großersaal).\n' +
+          'Bei dem renommierten Bach Collegium Japan unter der Leitung von Masaaki Suzuki ist er seit 2022 regelmäßiger Gast. ' +
+          '2024 gab er seinen US-Debüt als Solist (Bachs h-Moll Messe) in Boston.',
+    },
+    {
+      name: 'Joachim Buhrmann',
+      instrument: 'Tenor',
+      image: 'artists/Joachim_Buhrmann.png',
+      description: 'Joachim Buhrmann studierte zunächst Kirchenmusik in der Orgelklasse von Gerhard Gnann,' +
+        'danach Gesang bei Prof. Melinda Paulsen sowie Dirigieren bei Prof. Dr. Jürgen Blume in Mainz.' +
+            'Bereits während der Studienzeit wurde er auf die Kantorenstelle der Peterskirche Mainz' +
+        'berufen. Mit den dortigen Ensembles führte er u.a. alle Mozart-Messen, das „Requiem“ von G.' +
+        'Fauré, Bachs „Johannespassion“ sowie den „Paulus“ von F. Mendelssohn Bartholdy auf.\n' +
+        'Neben der regen Tätigkeit als Sänger in verschiedenen Rundfunkchören (Bayrischer,' +
+        'Norddeutscher und Westdeutscher Rundfunk) wo er mit Dirigenten wie R. Muti, M. Gielen, M.' +
+        'Viotti, J. Levine, R. Hickox, L. Maazel, C. Thielemann u.v.a. zusammenarbeitete, widmete sich' +
+        'der Tenor als auch stark der zeitgenössischen Musik. So war er als Solist u.a. mit den' +
+        'Bamberger Symphonikern unter J. Nott beim Edinburgh Festival und nahm bei einem großen' +
+        'Komponistenportrait H. Lachenmanns mit H. Zender und dem Klangforum Wien teil. Mehr als 15' +
+        'Jahre prägte er den Werdegang des "Klangforum Heidelberg" unter Prof. W. Nußbaum mit' +
+        'zahlreichen CD-Einspielungen entscheidend mit.\n' +
+        'Mit dem Landesjugendchor Rheinland-Pfalz konnte Joachim Buhrmann zunächst sein' +
+        'dirigentisches Repertoire erweitern. So studierte er dort unzählige a-capella-Werke ein, leitete' +
+        'Proben zu Bizets „Carmen“ und bereitete den Chor für eine CD-Produktion mit Verdis' +
+        '„Requiem“ für J. Nelson vor.\n' +
+        'Parallel gründete er das „Mundy-Ensemble“, welches sich explizit mit Musik des 16.' +
+        'Jahrhunderts beschäftigte.\n' +
+        '2005 trat Joachim Buhrmann in eine Festanstellung als Tenor beim RIAS-Kammerchor ein.\n' +
+        'Im Rahmen der Forumkonzerte des RIAS Kammerchores dirigierte er erstmals 2017 ein' +
+        'spannendes Programm mit Werken von Mundy, Hosokawa, Vaughan Williams und Britten, 2019' +
+        'eines mit Werken von Bach und Pärt. Die vielbeachteten Konzerte wurden von' +
+        'Deutschlandradio Kultur mitgeschnitten und live gesendet sowie in den Folgejahren in' +
+        'Benefizkonzerten und Veranstaltungen des deutschen Bundestages mehrfach aufgeführt.',
     },/*
     {
       name: 'Joohoon Shin',
@@ -193,8 +353,22 @@ const artists_portrait = [
         name: 'Johanna Kaldewei',
         instrument: 'Sopranistin',
         image: 'artists/Johanna_Portrait.png',
-        description: 'Die mehrfach ausgezeichnete Sopranistin Johanna Kaldewei hat durch ihr natürliches Timbre, ihre Strahlkraft und Wärme auf sich aufmerksam gemacht. Sie ist Gewinnerin des „Podiums Junger Gesangsolisten“ 2017 und Preisträgerin mehrerer internationaler Wettbewerbe, u.a. dem Telemann-Wettbewerb Magdeburg 2017 und dem Giulio-Perotti-Wettbewerb 2013, wo sie außerdem den „Sonderpreis für die schönste Sopranstimme“ gewann.\n'+
-        'Johanna Kaldewei ist gefragte Konzertsolistin. Sie arbeitete mit namhaften Dirigenten wie Wolfgang Katschner, Kai-Uwe Jirka, Christoph Spering und Thomaskantor Andreas Reize und mit renommierten Klangkörpern wie dem Konzerthausorchester Berlin, der Staatskapelle Halle, dem Orchester der Komischen Oper Berlin, den Bielefelder Philharmonikern, der lautten compagney BERLIN, l’arte del mondo und dem Neuen Orchester Köln. Engagements führten sie u.a. zu den Händelfestspielen Halle, zum Bachfest Leipzig, dem mdr Musiksommer, der Biennale München, ans Theater Winterthur (CH), ans Staatstheater Cottbus, zum Int. Kirkemusikfestival Oslo, in große Konzertsäle wie die Berliner Philharmonie, das Leipziger Gewandhaus, den Gasteig München sowie quer durch Deutschland und Europa.\n\n',
+        description: 'Die mehrfach ausgezeichnete Sopranistin Johanna Kaldewei hat durch ihr ' +
+            'natürliches Timbre, ihre Strahlkraft und Wärme auf sich aufmerksam gemacht. Sie ' +
+            'geht einer vielfältigen Konzerttätigkeit nach und ist auch im Opern- und Liedbereich ' +
+            'tätig. Sie arbeitet mit Dirigenten wie u.a. Wolfgang Katschner, Ekkehard Klemm, Kai- ' +
+            'Uwe Jirka, Gregor Meyer, Christoph Spering, Achim Zimmermann, Thomaskantor ' +
+            'Andreas Reize, Antonius Adamske und Yuval Weinberg. Engagements führten sie ' +
+            'u.a. zu den Händelfestspielen Halle, wo sie 2025 in der Titelpartie der Oper &quot;Octavia&quot; ' +
+            'von Reinhard Keiser zu erleben war, dem Bachfest Leipzig, dem mdr Musiksommer, ' +
+            'an die Oper Leipzig, das Staatstheater Cottbus, in die Berliner Philharmonie, das ' +
+            'Konzerthaus Berlin, das Leipziger Gewandhaus, die Elbphilharmonie Hamburg oder ' +
+            'den Gasteig München sowie quer durch Deutschland und Europa. Im Sommer 2026 ' +
+            'gibt sie ihr Rollendebüt als Anastasio in Händels Oper „Giustino“ und als Norina in ' +
+            '„Don Pasquale“ von Gaetano Donizetti.\n' +
+            'Johanna Kaldewei ist Gewinnerin des „Podiums Junger Gesangssolisten“ 2017 und ' +
+            'Preisträgerin mehrerer internationaler Wettbewerbe wie dem Telemann-Wettbewerb. ' +
+            'Außerdem ist sie die Initiatorin und Künstlerische Leiterin des Musikfest Wannsee.',
         url: 'https://www.johannakaldewei.com/'
     },
 ]
