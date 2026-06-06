@@ -270,28 +270,28 @@ const artists_portrait = [
       image: 'artists/Joachim_Buhrmann.png',
       description: 'Joachim Buhrmann studierte zunächst Kirchenmusik in der Orgelklasse von Gerhard Gnann,' +
         'danach Gesang bei Prof. Melinda Paulsen sowie Dirigieren bei Prof. Dr. Jürgen Blume in Mainz.' +
-            'Bereits während der Studienzeit wurde er auf die Kantorenstelle der Peterskirche Mainz' +
-        'berufen. Mit den dortigen Ensembles führte er u.a. alle Mozart-Messen, das „Requiem“ von G.' +
+            'Bereits während der Studienzeit wurde er auf die Kantorenstelle der Peterskirche Mainz ' +
+        'berufen. Mit den dortigen Ensembles führte er u.a. alle Mozart-Messen, das „Requiem“ von G. ' +
         'Fauré, Bachs „Johannespassion“ sowie den „Paulus“ von F. Mendelssohn Bartholdy auf.\n' +
-        'Neben der regen Tätigkeit als Sänger in verschiedenen Rundfunkchören (Bayrischer,' +
-        'Norddeutscher und Westdeutscher Rundfunk) wo er mit Dirigenten wie R. Muti, M. Gielen, M.' +
-        'Viotti, J. Levine, R. Hickox, L. Maazel, C. Thielemann u.v.a. zusammenarbeitete, widmete sich' +
-        'der Tenor als auch stark der zeitgenössischen Musik. So war er als Solist u.a. mit den' +
-        'Bamberger Symphonikern unter J. Nott beim Edinburgh Festival und nahm bei einem großen' +
-        'Komponistenportrait H. Lachenmanns mit H. Zender und dem Klangforum Wien teil. Mehr als 15' +
-        'Jahre prägte er den Werdegang des "Klangforum Heidelberg" unter Prof. W. Nußbaum mit' +
+        'Neben der regen Tätigkeit als Sänger in verschiedenen Rundfunkchören (Bayrischer, ' +
+        'Norddeutscher und Westdeutscher Rundfunk) wo er mit Dirigenten wie R. Muti, M. Gielen, M. ' +
+        'Viotti, J. Levine, R. Hickox, L. Maazel, C. Thielemann u.v.a. zusammenarbeitete, widmete sich ' +
+        'der Tenor als auch stark der zeitgenössischen Musik. So war er als Solist u.a. mit den ' +
+        'Bamberger Symphonikern unter J. Nott beim Edinburgh Festival und nahm bei einem großen ' +
+        'Komponistenportrait H. Lachenmanns mit H. Zender und dem Klangforum Wien teil. Mehr als 15 ' +
+        'Jahre prägte er den Werdegang des "Klangforum Heidelberg" unter Prof. W. Nußbaum mit ' +
         'zahlreichen CD-Einspielungen entscheidend mit.\n' +
-        'Mit dem Landesjugendchor Rheinland-Pfalz konnte Joachim Buhrmann zunächst sein' +
-        'dirigentisches Repertoire erweitern. So studierte er dort unzählige a-capella-Werke ein, leitete' +
-        'Proben zu Bizets „Carmen“ und bereitete den Chor für eine CD-Produktion mit Verdis' +
+        'Mit dem Landesjugendchor Rheinland-Pfalz konnte Joachim Buhrmann zunächst sein ' +
+        'dirigentisches Repertoire erweitern. So studierte er dort unzählige a-capella-Werke ein, leitete ' +
+        'Proben zu Bizets „Carmen“ und bereitete den Chor für eine CD-Produktion mit Verdis ' +
         '„Requiem“ für J. Nelson vor.\n' +
-        'Parallel gründete er das „Mundy-Ensemble“, welches sich explizit mit Musik des 16.' +
+        'Parallel gründete er das „Mundy-Ensemble“, welches sich explizit mit Musik des 16. ' +
         'Jahrhunderts beschäftigte.\n' +
         '2005 trat Joachim Buhrmann in eine Festanstellung als Tenor beim RIAS-Kammerchor ein.\n' +
-        'Im Rahmen der Forumkonzerte des RIAS Kammerchores dirigierte er erstmals 2017 ein' +
-        'spannendes Programm mit Werken von Mundy, Hosokawa, Vaughan Williams und Britten, 2019' +
-        'eines mit Werken von Bach und Pärt. Die vielbeachteten Konzerte wurden von' +
-        'Deutschlandradio Kultur mitgeschnitten und live gesendet sowie in den Folgejahren in' +
+        'Im Rahmen der Forumkonzerte des RIAS Kammerchores dirigierte er erstmals 2017 ein ' +
+        'spannendes Programm mit Werken von Mundy, Hosokawa, Vaughan Williams und Britten, 2019 ' +
+        'eines mit Werken von Bach und Pärt. Die vielbeachteten Konzerte wurden von ' +
+        'Deutschlandradio Kultur mitgeschnitten und live gesendet sowie in den Folgejahren in ' +
         'Benefizkonzerten und Veranstaltungen des deutschen Bundestages mehrfach aufgeführt.',
     },/*
     {
@@ -300,6 +300,24 @@ const artists_portrait = [
       image: 'artists/Joohoon_Shin.png',
       description: 'Joohoon Shin wurde in Incheon, (Südkrea) geboren. Zunächst nahm er ein Gesangsstudium am Royal Welsh College of Music in Cardiff auf und schloss seine Studien mit einem Diplom im Hauptfach Gesang an der Hochschule für Musik „Franz Liszt“ Weimar bei Gudrun Fischer ab.\nAls gefragter Solist und beliebter Interpret Bachscher Werke widmet er sich verschiedenen Konzertrepertoires und arbeitet mit namhaften Orchestern zusammen, darunter dem Rundfunk-Sinfonieorchester Berlin, dem Deutschen Symphonie-Orchester Berlin, dem Deutschen Kammerorchester Berlin, dem Neuen Kammerorchester Potsdam, der lauttencompagney BERLIN, L’arte del Mondo, Zwischenakt Berlin sowie mit vielen Chören und Kantoreien.\nSeit 2014 ist er festes Mitglied des Rundfunkchores Berlin, für den er auch regelmäßig Soloparts übernimmt. Er arbeitete schon mit so renommierten Dirigenten wie Sir Simon Rattle, Zubin Mehta, Daniel Barenboim, Kirill Petrenko, Riccardo Chailly, Christian Thielemann, Yannick Nezet-Seguin, Daniel Harding, Christoph Eschenbach und Kent Nagano arbeiten. Neben deutschlandweiten Auftritten führten ihn internationale Konzerttourneen nach New York, Paris, London, Budapest, Barcelona, Granada, Mailand, Amsterdam, Rotterdam, Brüssel, Luzern, Basel, Salzburg, Wien, Stettin, Hong Kong, Taiwan, Seoul, San Paulo, Buenos Aires und Santiago de Chile.\nZuletzt sang Joohoon Shin in Händels Oratorium „Solomon“ den Part des Dieners sowie in der Wagner-Oper „Tristan und Isolde“ die Rolle des Hirten mit dem Deutschen Symphonie Orchester Berlin unter Robin Ticciati in der Berliner Philharmonie.'
     },*/
+    {
+        name: 'Katharina Landl',
+        instrument: 'Pianistin',
+        image: 'artists/Katharina_Landl.png',
+        description: 'Die aus Reith im Alpbachtal (Österreich) stammende Pianistin Katharina Landl studierte Klavier ' +
+            'in Innsbruck und Freiburg. Anschließend spezialisierte sie sich in Berlin bei Wolfram Rieger im ' +
+            'Fach Liedgestaltung.\n' +
+            'Künstlerische Impulse erhielt sie im Rahmen von Meisterkursen bei renommierten ' +
+            'Musikerpersönlichkeiten wie Thomas Quasthoff, Thomas Hampson, Justus Zeyen, Charles Spencer, ' +
+            'Irwin Gage und Brigitte Fassbaender. Sie war Stipendiatin der Liedakademie des Heidelberger ' +
+            'Frühlings unter der Leitung von Thomas Hampson.\n' +
+            'Beim Internationalen Hugo-Wolf-Wettbewerb für Liedkunst gewann sie gemeinsam mit der ' +
+            'Mezzosopranistin Diana Haller den 1. Preis.\n' +
+            'Als gefragte Liedpianistin konzertiert sie international mit Sängerinnen und Sängern sowie in ' +
+            'kammermusikalischen Besetzungen. Engagements führten sie unter anderem in den Palacio de ' +
+            'Bellas Artes, zur Fundación Juan March, ins Magyar Zene Háza, in die Philharmonie Berlin sowie ' +
+            'nach Schloss Neuhardenberg.',
+    },
     {
         name: 'Thorsten Kaldewei',
         instrument: 'Pianist',

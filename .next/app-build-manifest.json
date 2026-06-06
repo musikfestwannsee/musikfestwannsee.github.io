@@ -1,73 +1,15 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/app/_not-found/page-4de1851e2f4734d8.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/css/bff1e3b6e2ccdb71.css",
-      "static/chunks/app/layout-a0ed1e7498bb5fcc.js"
-    ],
-    "/archive/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/716-cf4dd17b4b8c1bd1.js",
-      "static/chunks/356-9980b0c7558f4347.js",
-      "static/chunks/app/archive/page-2b2e32500d34616f.js"
-    ],
-    "/impressum/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/716-cf4dd17b4b8c1bd1.js",
-      "static/chunks/app/impressum/page-5b6e4a7484cbc135.js"
-    ],
-    "/programmheft-2025/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/app/programmheft-2025/page-cb38651961278f87.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/716-cf4dd17b4b8c1bd1.js",
-      "static/chunks/356-9980b0c7558f4347.js",
-      "static/chunks/app/page-d8c4bfcf8293ee6b.js"
-    ],
-    "/text-wellen-wechselspiel/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/app/text-wellen-wechselspiel/page-4a336fdde78095dd.js"
-    ],
-    "/text-sturm-und-stille/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/app/text-sturm-und-stille/page-b4c9fc9aea358479.js"
-    ],
-    "/text-panta-rhei/page": [
-      "static/chunks/webpack-ba12f21138bd56e8.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e3d1c85aeff8c89d.js",
-      "static/chunks/main-app-e906c1c526949e05.js",
-      "static/chunks/app/text-panta-rhei/page-d2d3edb2e350275d.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ]
   }
 }
