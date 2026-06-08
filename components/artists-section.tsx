@@ -79,7 +79,22 @@ const artists_landscape = [
         name: 'Lautten compagney Berlin',
         instrument: 'Ensemble',
         image: 'artists/lauttencompagney.png',
-        description: 'Die lautten compagney BERLIN zählt zu den renommiertesten und innovativsten Ensembles für Alte Musik. 1984 in der DDR von Hans-Werner Apel und Wolfgang Katschner gegründet, prägt sie unter Katschners Leitung bis heute ein unverwechselbarer Klang, stilistische Vielseitigkeit und außergewöhnliche Programmatik. 2025 wird sie bereits zum zweiten Mal mit dem Opus Klassik als „Ensemble des Jahres“ geehrt.\nMit kreativen Konzertformaten und Kooperationen mit internationalen Künstler:innen und Institutionen erobert die lautten compagney Bühnen weltweit. Große Erfolge feierte sie etwa mit Monteverdis L’Orfeo an der Semperoper Dresden mit Rolando Villazón. Ihre interdisziplinäre Offenheit zeigt sich in zahlreichen Wort-Musik-Programmen mit Persönlichkeiten wie Corinna Harfouch oder Sophie Rois. Neben Konzertprojekten realisiert das Ensemble eigene Opernproduktionen, die historische Aufführungspraxis mit zeitgenössischer Theaterästhetik verbinden. Rund 100 Konzerte jährlich führen die lautten compagney zu bedeutenden Festivals und auf internationale Tourneen, u. a. nach China, Kolumbien und in die Mongolei. In Berlin kooperiert sie mit Partnern wie dem Humboldt Forum und der Neuköllner Oper und engagiert sich in Nachwuchsförderung und Musikvermittlung. Mehr als 60 CD-Einspielungen dokumentieren die künstlerische Bandbreite der lautten compagney, darunter die preisgekrönten Alben "Timeless", "War and Peace" und "Dancing Queen".\nMit über 40 Jahren Erfahrung ist die lautten compagney eine lebendige Stimme der Alten Musik – traditionsbewusst, experimentierfreudig und immer im Dialog zwischen Vergangenheit und Gegenwart.',
+        description: 'Die lautten compagney BERLIN zählt zu den renommiertesten und innovativsten Ensembles für Alte Musik. ' +
+            '1984 in der DDR von Hans-Werner Apel und Wolfgang Katschner gegründet, prägt sie unter Katschners Leitung bis ' +
+            'heute ein unverwechselbarer Klang, stilistische Vielseitigkeit und außergewöhnliche Programmatik. 2025 wurde sie ' +
+            'bereits zum zweiten Mal mit dem Opus Klassik als „Ensemble des Jahres“ geehrt.\nMit kreativen Konzertformaten ' +
+            'und Kooperationen mit internationalen Künstler:innen und Institutionen erobert die lautten compagney Bühnen ' +
+            'weltweit. Große Erfolge feierte sie etwa mit Monteverdis L’Orfeo an der Semperoper Dresden mit Rolando Villazón. ' +
+            'Ihre interdisziplinäre Offenheit zeigt sich in zahlreichen Wort-Musik-Programmen mit Persönlichkeiten wie ' +
+            'Corinna Harfouch oder Sophie Rois. Neben Konzertprojekten realisiert das Ensemble eigene Opernproduktionen, ' +
+            'die historische Aufführungspraxis mit zeitgenössischer Theaterästhetik verbinden. Rund 100 Konzerte jährlich ' +
+            'führen die lautten compagney zu bedeutenden Festivals und auf internationale Tourneen, u. a. nach China, ' +
+            'Kolumbien und in die Mongolei. In Berlin kooperiert sie mit Partnern wie dem Humboldt Forum und der ' +
+            'Neuköllner Oper und engagiert sich in Nachwuchsförderung und Musikvermittlung. Mehr als 60 CD-Einspielungen ' +
+            'dokumentieren die künstlerische Bandbreite der lautten compagney, darunter die preisgekrönten Alben ' +
+            '"Timeless", "War and Peace" und "Dancing Queen".\nMit über 40 Jahren Erfahrung ist die lautten compagney ' +
+            'eine lebendige Stimme der Alten Musik – traditionsbewusst, experimentierfreudig und immer im Dialog zwischen ' +
+            'Vergangenheit und Gegenwart.',
         url: 'https://www.lauttencompagney.de/',
     },/*
     {
@@ -93,7 +108,13 @@ const artists_landscape = [
         name: 'Concerto Festante Wannsee',
         instrument: 'Ensemble',
         image: 'artists/Concerto_Festante_Wannsee.png',
-        description: "Concerto Festante Wannsee ist das eigens für das Musikfest Wannsee neu gegründete Ensemble, welches im Rahmen des diesjährigen Festivals seine Premiere feiert.\n Das Ensemble vereint eine Gruppe ausgewählter Sängerinnen und Sänger aus ganz Deutschland, die sowohl solistisch national und international gefragt sind als auch vielfältige Ensembleerfahrung mitbringen. Beim Abschlusskonzert des Musikfest Wannsee wird das Concerto Festante Wannsee erstmalig gemeinsam auftreten und ein anspruchsvolles, exklusives Programm mit Werken von Barock bis Romantik zum Thema „Panta rhei – alles fließt (und nichts bleibt)“ musizieren.\n Die Gründung des Ensembles ermöglicht nicht nur musikalische Begegnungen auf höchstem Niveau, sondern setzt auch ein starkes Zeichen für kreative Zusammenarbeit im Rahmen des Festivals.",
+        description: "Concerto Festante Wannsee ist das eigens für das Musikfest Wannsee neu gegründete Ensemble, welches im " +
+            "Rahmen des Festivals im vergangenen Jahr seine Premiere feierte mit Werken von Barock bis Romantik zum Thema „Panta " +
+            "rhei - alles fließt (und nichts bleibt)“ begeisterte.\n Das Ensemble vereint eine Gruppe ausgewählter " +
+            "Sängerinnen und Sänger aus ganz Deutschland, die sowohl solistisch national und international gefragt sind als " +
+            "auch vielfältige Ensembleerfahrung mitbringen.\n " +
+            "Die Gründung des Ensembles ermöglicht nicht nur musikalische Begegnungen auf höchstem Niveau, sondern setzt auch " +
+            "ein starkes Zeichen für kreative Zusammenarbeit im Rahmen des Festivals.",
     },
   ];
 const artists_portrait = [
@@ -102,23 +123,23 @@ const artists_portrait = [
         instrument: 'Musikwissenschaftlerin und Redakteurin',
         image: 'artists/Henrike_Leissner.png',
         description: 'Henrike Leißner ist Musikwissenschaftlerin, Beitragsautorin, Moderatorin und Musikredakteurin bei radio3 (rbb) und Opernkritikerin bei mdr ' +
-            'Klassik und mdr Kultur. Sie hat unter Anderem zu den Themen Komponieren für den Rundfunk in den 1920er Jahren, Musik der Neuen Sachlichkeit und ' +
-            'ufführungspraktiken und -traditionen von Neuer Musik und von Musik des Barock (insb. Tasteninstrumente und Gesang) geforscht. Seit 2025 moderiert ' +
+            'Klassik und mdr Kultur. Sie hat unter anderem zu den Themen Komponieren für den Rundfunk in den 1920er Jahren, Musik der Neuen Sachlichkeit und ' +
+            'Aufführungspraktiken und -traditionen von Neuer Musik und von Musik des Barock (insb. Tasteninstrumente und Gesang) geforscht. Seit 2025 moderiert ' +
             'sie regelmäßig die Sendung „Auftakt“ auf radio3 und die radio3 Listening Lounge. ',
     },
     {
         name: 'Sabine Techritz',
         instrument: 'Cellistin',
         image: 'artists/Sabine_Techritz.png',
-        description: 'Sabine Techritz, geboren 1973 in Ost-Berlin, begann im Alter von acht Jahren Cello zu spielen. Nach'+
-            'langjährigem Unterricht an der „Spezialschule für Musik Hanns Eisler“ Berlin bei Sabine Andert setzte'+
+        description: 'Sabine Techritz, geboren 1973 in Ost-Berlin, begann im Alter von acht Jahren Cello zu spielen. Nach '+
+            'langjährigem Unterricht an der „Spezialschule für Musik Hanns Eisler“ Berlin bei Sabine Andert setzte '+
             'sie ihre Ausbildung an der Hochschule für Musik Hanns Eisler Berlin bei Prof. Michael Sanderling fort.\n'+
-            'Bereits während des Studiums sammelte sie prägende Orchestererfahrung als Substitutin der Staatskapelle'+
-            'Berlin. Von 2003 bis 2007 war sie Solo-Cellistin des neu gegründeten Neuen Sinfonieorchesters Berlin'+
-            'und wirkte zudem im E.T.A.-Hoffmann-Kammerorchester sowie als Vertretung im Filmorchester'+
-            'Babelsberg mit. Als freiberufliche Musikerin ist sie in verschiedenen Ensembles aktiv, darunter im'+
-            'Erichson-Quartett (mit Yoshiaki Shibata) und im Ensemble für neue Klänge. Seit 2007 unterrichtet sie an'+
-            'Musikschulen in Berlin und Umland und begleitet Kinder wie Erwachsene auf ihrem musikalischen Weg.',
+            'Bereits während des Studiums sammelte sie prägende Orchestererfahrung als Substitutin der Staatskapelle '+
+            'Berlin. Von 2003 bis 2007 war sie Solo-Cellistin des neu gegründeten Neuen Sinfonieorchesters Berlin '+
+            'und wirkte zudem im E.T.A.-Hoffmann-Kammerorchester sowie als Vertretung im Filmorchester '+
+            'Babelsberg mit. Als freiberufliche Musikerin ist sie in verschiedenen Ensembles aktiv, darunter im '+
+            'Erichson-Quartett (mit Yoshiaki Shibata) und im Ensemble für neue Klänge. Seit 2007 unterrichtet sie an '+
+            'Musikschulen in Berlin und dem Umland und begleitet Kinder wie Erwachsene auf ihrem musikalischen Weg.',
     },
     {
         name: 'Anette Lösch',
@@ -135,7 +156,7 @@ const artists_portrait = [
         instrument: 'Sopranistin',
         image: 'artists/Mi-Young_Kim.png',
         description: 'Die koreanische Sopranistin Mi-Young Kim studierte Gesang an der Kyungwon Universität in Korea bei Prof. Sang Young Lee, ' +
-            'Operngesang an der Musikhochschule Hanns-Eisler in Berlin bei Prof. Renate Faltin und bei Prof. Julia Varady. Während ihrer ' +
+            'Operngesang an der Musikhochschule Hanns Eisler in Berlin bei Prof. Renate Faltin und bei Prof. Julia Varady. Während ihrer ' +
             'Studienzeit hatte sie als lyrischer Koloratursopran mehrere Opernauftritte und ergänzte ihr Repertoire und ihre musikalischen ' +
             'Ausdrucksmöglichkeiten durch den Besuch von Meisterkursen bei Prof. Dr. Dietrich Fischer-Dieskau, Prof. Julia Varady und bei ' +
             'Prof. Mirella Freni. Seit 2010 ist Mi-Young Kim festes Mitglied im RIAS Kammerchor Berlin und singt ein umfangreiches Repertoire ' +
@@ -150,8 +171,8 @@ const artists_portrait = [
         image: 'artists/Michelle_Baum.png',
         description: 'Michelle Baum studiert - parallel zur Tätigkeit beim RIAS Kammerchor - Master Liedgestaltung an der Hochschule für Musik, ' +
             'Theater und Medien Hannover in der Gesangsklasse von Henryk Böhm und der Liedklasse von Jan Philip Schulze.\n' +
-            'Bereits in ihrer Jugend beteiligte sie sich bei Benefizkonzerten und spielte bei kleineren Opernproduktionen mit. ' +
-            'Sie absolvierte die Schola und Akademie beim Rundfunkchor Berlin. Nach der Akademie beim RIAS Kammerchor Berlin begann sie dort ' +
+            'Bereits in ihrer Jugend beteiligte sie sich an Benefizkonzerten und spielte bei kleineren Opernproduktionen mit. ' +
+            'Sie absolvierte die Schola und Akademie des Rundfunkchors Berlin. Nach der Akademie des RIAS Kammerchors Berlin begann sie dort ' +
             'ihre Probezeit als Mitglied mit der Saison 2025/26.\n' +
             'Sie bekam künstlerische Eindrücke durch Meisterkurse bei Ulrich Eisenlohr, Wolfram Rieger, Christoph Prégardien, Anne Sofie von Otter und Brigitte Fassbaender.',
     },
@@ -159,43 +180,43 @@ const artists_portrait = [
         name: 'Susanne Langner',
         instrument: 'Mezzosopranistin',
         image: 'artists/Susanne_Langner.png',
-        description: 'Susanne Langner musiziert(e) als Solistin mit Dirigenten wie H.-Ch. Rademann, H. Rilling und L. Güttler, mit' +
-        'Ensembles wie dem Freiburger Barockorchester oder der Akademie für Alte Musik Berlin,' +
-        'mit dem Kreuzchor Dresden unter den Kreuzkantoren R. Kreile und M. Lehmann oder dem' +
-        'Thomanerchor Leipzig unter den Thomaskantoren G. Ch. Biller, G. Schwarz und A. Reize' +
-        'ebenso wie als Ensemblesängerin im RIAS Kammerchor oder Ensemble amarcord.\n' +
-        'Die gebürtige Dresdnerin studierte am Mozarteum Salzburg Gesang und absolvierte mit' +
-        'Auszeichnung. Sie war mehrfache Preisträgerin und Finalistin internationaler Wettbewerbe,' +
-        'unter anderem beim Bachwettbewerb Leipzig.' +
-        'Gemeinsam mit dem Leipziger Synagogalchor setzt sie sich für die Bewahrung und Belebung' +
-        'weltlicher und geistlicher jüdischer Musik ein. Diese Arbeit wurde unter L. Böhme 2016 mit' +
-        'dem Obermayer German Jewish History Award gewürdigt.' +
-        'Seit 2021 ist sie Direktoriumsmitglied der Neuen Bachgesellschaft, seit 2026 im Vorstand.',
+        description: 'Susanne Langner musiziert(e) als Solistin mit Dirigenten wie H.-Ch. Rademann, H. Rilling und L. Güttler, mit ' +
+        'Ensembles wie dem Freiburger Barockorchester oder der Akademie für Alte Musik Berlin, ' +
+        'mit dem Kreuzchor Dresden unter den Kreuzkantoren R. Kreile und M. Lehmann oder dem ' +
+        'Thomanerchor Leipzig unter den Thomaskantoren G. Ch. Biller, G. Schwarz und A. Reize ' +
+        'ebenso wie als Ensemblesängerin im RIAS Kammerchor oder dem Ensemble amarcord.\n' +
+        'Die gebürtige Dresdnerin studierte am Mozarteum Salzburg Gesang und absolvierte mit ' +
+        'Auszeichnung. Sie war mehrfache Preisträgerin und Finalistin internationaler Wettbewerbe, ' +
+        'unter anderem beim Bachwettbewerb Leipzig. ' +
+        'Gemeinsam mit dem Leipziger Synagogalchor setzt sie sich für die Bewahrung und Belebung ' +
+        'weltlicher und geistlicher jüdischer Musik ein. Diese Arbeit wurde unter L. Böhme 2016 mit ' +
+        'dem Obermayer German Jewish History Award gewürdigt. ' +
+        'Seit 2021 ist sie Direktoriumsmitglied der Neuen Bachgesellschaft, seit 2026 im Vorstand .',
     },
     {
         name: 'Jonathan de la Paz Zaens',
         instrument: 'Bassbariton',
         image: 'artists/Jonathan_de_la_Paz_Zaens.png',
-        description: 'Jonathan de la Paz Zaens, Bassbariton, erhielt sein Bachelor´s Degree in Voice' +
-        '(Bakkalaureat), cum laude, an der University of the Philippines bei Prof. Andrea O. Veneracion.\n' +
-        '2000 schloss er sein Studium an der Hochschule der Künste Berlin bei Prof. Herbert Brauer ab.\n' +
-        'Er ist Preisträger des 7. Sylvia Geszty Internationalen Koloratur-Gesangswettbewerbs,' +
-        'Finalist beim 13. Internationalen Johann-Sebastian-Bach-Wettbewerb und beim' +
-        'Mendelssohn-Gesangswettbewerb.\n' +
-            'Am Ständetheater und an der Staatsoper Prag gastierte er in den Mozart-Rollen Leporello und' +
-        'Guglielmo. In Berlin führten ihn Verpflichtungen an die Neuköllner Oper, die Neue' +
-        'Opernbühne und die Kammeroper.\n' +
-            'Als Konzertsänger gestaltet er wiederholt die Basspartien der grossen Oratorien Bachs sowie' +
-        'Mozarts, Händels, Haydns, Brahms´, Mendelssohns und Rossinis.' +
-        'Liederabende gab er in Deutschland, Italien, Schweden, Tschechien, Costa Rica, USA und in' +
-        'seiner Heimat.\n' +
-        'Er widmet sich auch der zeitgenössischen Musik, indem er u.a. bei den Salzburger Festspielen' +
-        'in der Uraufführung von Karl-Heinz Stockhausens „Düfte-Zeichen“ sang. Bei der' +
-        'Uraufführung von Stockhausens letztem Opus KLANG übernahm er das Solostück für' +
-        'Bartion ORVONTON bei der Kölner Triennale. Darüber hinaus führte er andere Werke' +
-        'Stockhausens sowie Sciarinnos, Zenders, Rihms, Eötvös und Piazollas bei den Berliner' +
-        'Festspielen, den Schwetzinger Festspielen, der Biennale Venedig, dem Agora Festival in' +
-        'Paris, dem Warschauer Herbst sowie im Koblenzer Stadttheater und der Zeitgenössischen' +
+        description: 'Jonathan de la Paz Zaens, Bassbariton, erhielt sein Bachelor´s Degree in Voice ' +
+        '(Bakkalaureat), cum laude, an der University of the Philippines bei Prof. Andrea O. Veneracion.\n ' +
+        '2000 schloss er sein Studium an der Universität der Künste Berlin bei Prof. Herbert Brauer ab.\n ' +
+        'Er ist Preisträger des 7. Sylvia Geszty Internationalen Koloratur-Gesangswettbewerbs, ' +
+        'Finalist beim 13. Internationalen Johann-Sebastian-Bach-Wettbewerb und beim ' +
+        'Mendelssohn-Gesangswettbewerb.\n ' +
+            'Am Ständetheater und an der Staatsoper Prag gastierte er in den Mozart-Rollen Leporello und ' +
+        'Guglielmo. In Berlin führten ihn Verpflichtungen an die Neuköllner Oper, die Neue ' +
+        'Opernbühne und die Kammeroper.\n ' +
+            'Als Konzertsänger gestaltet er wiederholt die Basspartien der großen Oratorien Bachs sowie ' +
+        'Mozarts, Händels, Haydns, Brahms´, Mendelssohns und Rossinis. ' +
+        'Liederabende gab er in Deutschland, Italien, Schweden, Tschechien, Costa Rica, USA und in ' +
+        'seiner Heimat.\n ' +
+        'Er widmet sich auch der zeitgenössischen Musik, indem er u.a. bei den Salzburger Festspielen ' +
+        'in der Uraufführung von Karl-Heinz Stockhausens „Düfte-Zeichen“ sang. Bei der ' +
+        'Uraufführung von Stockhausens letztem Opus KLANG übernahm er das Solostück für ' +
+        'Bartion ORVONTON bei der Kölner Triennale. Darüber hinaus führte er andere Werke ' +
+        'Stockhausens sowie Sciarinnos, Zenders, Rihms, Eötvös und Piazollas bei den Berliner ' +
+        'Festspielen, den Schwetzinger Festspielen, der Biennale Venedig, dem Agora Festival in ' +
+        'Paris, dem Warschauer Herbst sowie im Koblenzer Stadttheater und der Zeitgenössischen ' +
         'Oper Berlin auf.',
     },
     {
@@ -203,12 +224,12 @@ const artists_portrait = [
         instrument: 'Bariton',
         image: 'artists/Manuel_Nickert.png',
         description: 'Der Bariton und Chorleiter Manuel Nickert wurde in Berlin geboren. Er studierte Gesang bei Prof. Renate Faltin und Prof. Thomas Quasthoff an ' +
-        'der Hochschule für Musik „Hanns Eisler” Berlin, und Chorleitung an der University of Birmingham in England bei Prof. Simon Halsey.' +
-        'Seit 2014 ist er vor allem als Konzertsänger und im Bereich der Alten Musik sehr aktiv und singt regelmäßig u.a. mit der lautten compagney Berlin,' +
-        'der Cappella Saggitariana Dresden oder dem Ensemble „Les Temperamens Variations“ in Paris bedeutende Werke der Renaissance und des Barock.' +
-        'Außerdem interpretiert er leidenschaftlich gern Musik der Moderne: die "Aventures" und "Nouvelles Aventures" von György Ligeti mit dem' +
-        'Ensemble ilinx, mehrere Uraufführungen der „Berliner Atonale” an der Staatsoper Berlin oder zuletzt "Les Noces" von Igor Stravinsky und die "Faustkantate" von Alfred Schnittke mit Cantus Domus.' +
-        'Er war mit Werken von Felix Mendelssohn und Lili Boulanger bereits als Solist mit dem Rundfunk-Sinfonieorchester Berlin und den Bielefelder Symphonikern zu hören' +
+        'der Hochschule für Musik Hanns Eisler Berlin und Chorleitung an der University of Birmingham in England bei Prof. Simon Halsey. ' +
+        'Seit 2014 ist er vor allem als Konzertsänger und im Bereich der Alten Musik sehr aktiv und singt regelmäßig u.a. mit der lautten compagney Berlin, ' +
+        'der Cappella Saggitariana Dresden oder dem Ensemble „Les Temperamens Variations“ in Paris bedeutende Werke der Renaissance und des Barock. ' +
+        'Außerdem interpretiert er leidenschaftlich gern Musik der Moderne: die „Aventures" und „Nouvelles Aventures" von György Ligeti mit dem ' +
+        'Ensemble ilinx, mehrere Uraufführungen der „Berliner Atonale” an der Staatsoper Berlin oder zuletzt „Les Noces" von Igor Stravinsky und die „Faustkantate" von Alfred Schnittke mit Cantus Domus. ' +
+        'Er war mit Werken von Felix Mendelssohn und Lili Boulanger bereits als Solist mit dem Rundfunk-Sinfonieorchester Berlin und den Bielefelder Symphonikern zu hören ' +
         'und gab im April 2026 sein Solodebüt mit dem Konzerthausorchester Berlin mit der h-Moll-Messe von Johann Sebastian Bach.',
     },
     {
@@ -216,7 +237,7 @@ const artists_portrait = [
         instrument: 'Tenor',
         image: 'artists/Thaddaeus_Boehm.png',
         description: 'Der Tenor Thaddäus Böhm ist zur Zeit Mitglied des RIAS Kammerchors Berlin. Zuvor sammelte er wertvolle ' +
-            'Ensembleerfahrungen bei Vox Luminis und der Gächinger Cantorey. Meisterkurse bei Georg Poplutz und Patrick Grahlbereicherten ' +
+            'Ensembleerfahrungen bei Vox Luminis und der Gächinger Cantorey. Meisterkurse bei Georg Poplutz und Patrick Grahl bereicherten ' +
             'sein musikalisches Schaffen mit neuen Impulsen. Als Solist trat er bereits in renommierten Häusern wie St. Nikolai am ' +
             'Klosterstern Hamburg, dem Herkulessaal München und der Marktkirche Karlsruheauf. Sein Gesangstudium absolvierte er bei ' +
             'Prof. Monika Köhler in Halle (Saale), wo er bereits während des Studiums als Akademist beim RIAS Kammerchor Berlin wirkte.',
@@ -259,10 +280,10 @@ const artists_portrait = [
       description: 'Shimon Yoshida wurde 1992 in Nagoya (Japan) geboren und absolvierte sein Masterstudium (Konzertgesang) ' +
           'an der Hochschule für Musik und Theater München bei Prof. Sylvia Greenberg.\n' +
           '2022 hat Shimon Yoshida unter Leitung von René Jacobs Bachs h-Moll-Messe als Einspringer des Tenorsolisten gesungen. ' +
-          'Oktober 2023 hat er für erkrankten Tenorsolist kurzfristig die Partie von Rossinis Stabat Mater übernommen (Philharmonie ' +
-          'Berlin, Großersaal).\n' +
+          'Im Oktober 2023 übernahm er für den erkrankten Tenorsolisten kurzfristig die Partie von Rossinis Stabat Mater (Philharmonie ' +
+          'Berlin, Großer Saal).\n' +
           'Bei dem renommierten Bach Collegium Japan unter der Leitung von Masaaki Suzuki ist er seit 2022 regelmäßiger Gast. ' +
-          '2024 gab er seinen US-Debüt als Solist (Bachs h-Moll Messe) in Boston.',
+          '2024 gab er in Boston sein US-Debüt als Solist (Bachs h-Moll Messe).',
     },
     {
       name: 'Joachim Buhrmann',
@@ -274,21 +295,21 @@ const artists_portrait = [
         'berufen. Mit den dortigen Ensembles führte er u.a. alle Mozart-Messen, das „Requiem“ von G. ' +
         'Fauré, Bachs „Johannespassion“ sowie den „Paulus“ von F. Mendelssohn Bartholdy auf.\n' +
         'Neben der regen Tätigkeit als Sänger in verschiedenen Rundfunkchören (Bayrischer, ' +
-        'Norddeutscher und Westdeutscher Rundfunk) wo er mit Dirigenten wie R. Muti, M. Gielen, M. ' +
+        'Norddeutscher und Westdeutscher Rundfunk), wo er mit Dirigenten wie R. Muti, M. Gielen, M. ' +
         'Viotti, J. Levine, R. Hickox, L. Maazel, C. Thielemann u.v.a. zusammenarbeitete, widmete sich ' +
-        'der Tenor als auch stark der zeitgenössischen Musik. So war er als Solist u.a. mit den ' +
+        'der Tenor auch stark der zeitgenössischen Musik. So war er als Solist u.a. mit den ' +
         'Bamberger Symphonikern unter J. Nott beim Edinburgh Festival und nahm bei einem großen ' +
         'Komponistenportrait H. Lachenmanns mit H. Zender und dem Klangforum Wien teil. Mehr als 15 ' +
-        'Jahre prägte er den Werdegang des "Klangforum Heidelberg" unter Prof. W. Nußbaum mit ' +
+        'Jahre prägte er den Werdegang des „Klangforum Heidelberg“ unter Prof. W. Nußbaum mit ' +
         'zahlreichen CD-Einspielungen entscheidend mit.\n' +
         'Mit dem Landesjugendchor Rheinland-Pfalz konnte Joachim Buhrmann zunächst sein ' +
-        'dirigentisches Repertoire erweitern. So studierte er dort unzählige a-capella-Werke ein, leitete ' +
+        'dirigentisches Repertoire erweitern. So studierte er dort unzählige A-capella-Werke ein, leitete ' +
         'Proben zu Bizets „Carmen“ und bereitete den Chor für eine CD-Produktion mit Verdis ' +
         '„Requiem“ für J. Nelson vor.\n' +
         'Parallel gründete er das „Mundy-Ensemble“, welches sich explizit mit Musik des 16. ' +
         'Jahrhunderts beschäftigte.\n' +
-        '2005 trat Joachim Buhrmann in eine Festanstellung als Tenor beim RIAS-Kammerchor ein.\n' +
-        'Im Rahmen der Forumkonzerte des RIAS Kammerchores dirigierte er erstmals 2017 ein ' +
+        '2005 trat Joachim Buhrmann in eine Festanstellung als Tenor beim RIAS Kammerchor ein.\n' +
+        'Im Rahmen der Forumkonzerte des RIAS Kammerchors dirigierte er erstmals 2017 ein ' +
         'spannendes Programm mit Werken von Mundy, Hosokawa, Vaughan Williams und Britten, 2019 ' +
         'eines mit Werken von Bach und Pärt. Die vielbeachteten Konzerte wurden von ' +
         'Deutschlandradio Kultur mitgeschnitten und live gesendet sowie in den Folgejahren in ' +
@@ -322,8 +343,20 @@ const artists_portrait = [
         name: 'Thorsten Kaldewei',
         instrument: 'Pianist',
         image: 'artists/Thorsten_Kaldewei.png',
-        description: 'Der Pianist Thorsten Kaldewei ist Dozent für Repertoire und Liedgestaltung an der Universität der Künste Berlin. Er studierte Klavier und Liedgestaltung an der Musikhochschule Köln, u.a. bei Prof. Michael Endres. Bei Rudolf Jansen und Irwin Gage erhielt er weitere wichtige Anregungen für sein Liedrepertoire.\n'+
-        'Als Solorepetitor arbeitete er an den Staatsopern Hannover und Stuttgart sowie an der Komischen Oper Berlin. Darüber hinaus ist seine pianistische Tätigkeit vielfältig: Konzerte mit Chören und Orchestern, wie z.B. dem RIAS Kammerchor, Kammermusik, Liederabende, Uraufführungen sowie Rundfunk- und CD- Produktionen. Wichtige Stationen seiner künstlerischen Laufbahn waren u.a. Auftritte in der Tonhalle Düsseldorf, der Stuttgarter Liederhalle und in der Berliner Philharmonie. Weiterhin führten ihn Konzertreisen durch halb Europa sowie in die USA und Südkorea. Im Rahmen seiner Konzerttätigkeit arbeitete er mit Sängern wie u.a. Ute Lemper, Gisela May, Dagmar Schellenberger und Julie Kaufmann.\n\n',
+        description: 'Der Pianist Thorsten Kaldewei ist Dozent für Repertoire und Liedgestaltung ' +
+            'an der Universität der Künste Berlin. Er studierte Klavier und Liedgestaltung an der ' +
+            'Musikhochschule Köln, u.a. bei Prof. Michael Endres. Bei Rudolf Jansen und Irwin Gage ' +
+            'erhielt er weitere wichtige Anregungen für sein Liedrepertoire.\n'+
+        'Als Solorepetitor arbeitete er an den Staatsopern Hannover und Stuttgart sowie an der Komischen ' +
+            'Oper Berlin. Darüber hinaus ist seine pianistische Tätigkeit vielfältig: Sie umfasst Konzerte mit Chören ' +
+            'und Orchestern, wie z.B. dem RIAS Kammerchor, Kammermusik, Liederabende, Uraufführungen sowie ' +
+            'Rundfunk- und CD-Produktionen.\n' +
+            'Wichtige Stationen seiner künstlerischen Laufbahn waren u.a. ' +
+            'Auftritte in der Tonhalle Düsseldorf, der Stuttgarter Liederhalle und in der Berliner ' +
+            'Philharmonie. Weiterhin führten ihn Konzertreisen durch halb Europa sowie in die USA und nach ' +
+            'Südkorea.\n' +
+            'Im Rahmen seiner Konzerttätigkeit arbeitete er mit Sängern wie u.a. Ute Lemper, ' +
+            'Gisela May, Dagmar Schellenberger und Julie Kaufmann.\n',
     },
     {
         name: 'Dr. Friederike Südmeyer',
@@ -374,7 +407,7 @@ const artists_portrait = [
         description: 'Die mehrfach ausgezeichnete Sopranistin Johanna Kaldewei hat durch ihr ' +
             'natürliches Timbre, ihre Strahlkraft und Wärme auf sich aufmerksam gemacht. Sie ' +
             'geht einer vielfältigen Konzerttätigkeit nach und ist auch im Opern- und Liedbereich ' +
-            'tätig. Sie arbeitet mit Dirigenten wie u.a. Wolfgang Katschner, Ekkehard Klemm, Kai- ' +
+            'tätig. Sie arbeitet mit Dirigenten wie u.a. Wolfgang Katschner, Ekkehard Klemm, Kai-' +
             'Uwe Jirka, Gregor Meyer, Christoph Spering, Achim Zimmermann, Thomaskantor ' +
             'Andreas Reize, Antonius Adamske und Yuval Weinberg. Engagements führten sie ' +
             'u.a. zu den Händelfestspielen Halle, wo sie 2025 in der Titelpartie der Oper &quot;Octavia&quot; ' +
@@ -384,7 +417,7 @@ const artists_portrait = [
             'den Gasteig München sowie quer durch Deutschland und Europa. Im Sommer 2026 ' +
             'gibt sie ihr Rollendebüt als Anastasio in Händels Oper „Giustino“ und als Norina in ' +
             '„Don Pasquale“ von Gaetano Donizetti.\n' +
-            'Johanna Kaldewei ist Gewinnerin des „Podiums Junger Gesangssolisten“ 2017 und ' +
+            'Johanna Kaldewei ist Gewinnerin des „PodiumJungerGesangsSolisten“ 2017 und ' +
             'Preisträgerin mehrerer internationaler Wettbewerbe wie dem Telemann-Wettbewerb. ' +
             'Außerdem ist sie die Initiatorin und Künstlerische Leiterin des Musikfest Wannsee.',
         url: 'https://www.johannakaldewei.com/'

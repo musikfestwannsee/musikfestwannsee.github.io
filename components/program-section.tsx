@@ -83,7 +83,7 @@ const concerts = [
     location: 'Andreaskirche',
     image: 'program/Jeux_deau.png',
     description:
-      "Kammermusik\nWerke von Clara Schumann, Emilie Mayer und Claude Arrieu\nYoshiaki Shibata - Violine\nThorsten Kaldewei - Klavier\nSabine Techritz - Violoncello",
+      "Kammermusik\nWerke von Clara Schumann, Emilie Mayer und Claude Arrieu\nYoshiaki Shibata - Violine\nSabine Techritz - Violoncello\nThorsten Kaldewei - Klavier",
   },
   {
     title: "Kalliope im Spiegel",
@@ -110,6 +110,6 @@ const concerts = [
     location: 'St. Peter und Paul auf Nikolskoe',
     image: 'program/Abschlusskonzert.png',
     description:
-      "Abschlusskonzert\nKomponistinnen durch die Jahrhunderte\nMitglieder des RIAS-Kammerchor\nLtg. Joachim Buhrmann",
+      "Abschlusskonzert\nKomponistinnen durch die Jahrhunderte\nMitglieder des RIAS-Kammerchors\nLtg. Joachim Buhrmann",
   },
 ]

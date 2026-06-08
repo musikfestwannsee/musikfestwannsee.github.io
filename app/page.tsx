@@ -18,8 +18,8 @@ export default function Home() {
       {<ProgramSection />}
       <ArtistsSection />
       <LocationsSection />
-      <SponsorsSection />
       <TicketsSection />
+      <SponsorsSection />
       <TeamSection />
       <Footer />
     </main>

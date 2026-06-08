@@ -5,6 +5,11 @@ export function SponsorsSection() {
   // Sample sponsors data
   const sponsors = [
     {
+      name: "Senatsverwaltung für Kultur und Gesellschaftlichen Zusammenhalt",
+      logo: "/logos/Senatsverwaltung_fuer_Kultur_und_Gesellschaftlichen_Zusammenhalt.png",
+      tier: "platinum",
+    },
+    {
       name: "Freundeskreis Nikolskoe",
       logo: "/logos/Logo_Freundeskreis_Nikolskoe.png",
       url: 'https://freundeskreis-nikolskoe.de/',
@@ -32,7 +37,7 @@ export function SponsorsSection() {
     <section id="sponsors" className="py-20 water-bg">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="section-title centered">Förderer & Sponsoren</h2>
+          <h2 className="section-title centered">Förderer</h2>
           <p className="text-xl text-amber-50 text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
             Wir bedanken uns von Herzen bei unseren Förderern und Unterstützern <br/><br/>  
           </p>
@@ -57,12 +62,6 @@ export function SponsorsSection() {
             ))}
           </div>
         </div>
-      </div>
-
-      <div className="text-center mb-12">
-        <p className="text-xl text-amber-50 text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
-          Wir bedanken uns von Herzen bei unseren Förderern und Unterstützern <br/><br/>  
-        </p>
       </div>
     </section>
   )
