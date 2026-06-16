@@ -24,7 +24,13 @@ export function LocationsSection() {
               <div>
                 <h4 className="text-l font-display mb-2 handwritten-first-letter">Anfahrt</h4>
                 <p className="text-sm text-amber-50 mb-4">{location.address}</p>
-                <p className="text-sm text-amber-50 mb-4">{location.anfahrt}</p>
+                <p className="text-sm text-amber-50 mb-4">{location.anfahrt.split('\n').map((line, index) => (
+                    <p key={index} className="text-sm font-medium mb-3">
+                      {line}
+                      <br />
+                    </p>
+                ))}
+                </p>
                 <a href={location.url} target="_blank" rel="noopener noreferrer">
                   <Button variant="link" >Google Maps</Button>
                 </a>

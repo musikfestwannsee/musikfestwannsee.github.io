@@ -109,7 +109,7 @@ const artists_landscape = [
         instrument: 'Ensemble',
         image: 'artists/Concerto_Festante_Wannsee.png',
         description: "Concerto Festante Wannsee ist das eigens für das Musikfest Wannsee neu gegründete Ensemble, welches im " +
-            "Rahmen des Festivals im vergangenen Jahr seine Premiere feierte mit Werken von Barock bis Romantik zum Thema „Panta " +
+            "Rahmen des Festivals im vergangenen Jahr seine Premiere feierte und mit Werken von Barock bis Romantik zum Thema „Panta " +
             "rhei - alles fließt (und nichts bleibt)“ begeisterte.\n Das Ensemble vereint eine Gruppe ausgewählter " +
             "Sängerinnen und Sänger aus ganz Deutschland, die sowohl solistisch national und international gefragt sind als " +
             "auch vielfältige Ensembleerfahrung mitbringen.\n " +
@@ -239,7 +239,7 @@ const artists_portrait = [
         description: 'Der Tenor Thaddäus Böhm ist zur Zeit Mitglied des RIAS Kammerchors Berlin. Zuvor sammelte er wertvolle ' +
             'Ensembleerfahrungen bei Vox Luminis und der Gächinger Cantorey. Meisterkurse bei Georg Poplutz und Patrick Grahl bereicherten ' +
             'sein musikalisches Schaffen mit neuen Impulsen. Als Solist trat er bereits in renommierten Häusern wie St. Nikolai am ' +
-            'Klosterstern Hamburg, dem Herkulessaal München und der Marktkirche Karlsruheauf. Sein Gesangstudium absolvierte er bei ' +
+            'Klosterstern Hamburg, dem Herkulessaal München und der Marktkirche Karlsruhe auf. Sein Gesangstudium absolvierte er bei ' +
             'Prof. Monika Köhler in Halle (Saale), wo er bereits während des Studiums als Akademist beim RIAS Kammerchor Berlin wirkte.',
     },
     /*
@@ -289,8 +289,8 @@ const artists_portrait = [
       name: 'Joachim Buhrmann',
       instrument: 'Tenor',
       image: 'artists/Joachim_Buhrmann.png',
-      description: 'Joachim Buhrmann studierte zunächst Kirchenmusik in der Orgelklasse von Gerhard Gnann,' +
-        'danach Gesang bei Prof. Melinda Paulsen sowie Dirigieren bei Prof. Dr. Jürgen Blume in Mainz.' +
+      description: 'Joachim Buhrmann studierte zunächst Kirchenmusik in der Orgelklasse von Gerhard Gnann, ' +
+        'danach Gesang bei Prof. Melinda Paulsen sowie Dirigieren bei Prof. Dr. Jürgen Blume in Mainz. ' +
             'Bereits während der Studienzeit wurde er auf die Kantorenstelle der Peterskirche Mainz ' +
         'berufen. Mit den dortigen Ensembles führte er u.a. alle Mozart-Messen, das „Requiem“ von G. ' +
         'Fauré, Bachs „Johannespassion“ sowie den „Paulus“ von F. Mendelssohn Bartholdy auf.\n' +
@@ -303,7 +303,7 @@ const artists_portrait = [
         'Jahre prägte er den Werdegang des „Klangforum Heidelberg“ unter Prof. W. Nußbaum mit ' +
         'zahlreichen CD-Einspielungen entscheidend mit.\n' +
         'Mit dem Landesjugendchor Rheinland-Pfalz konnte Joachim Buhrmann zunächst sein ' +
-        'dirigentisches Repertoire erweitern. So studierte er dort unzählige A-capella-Werke ein, leitete ' +
+        'dirigentisches Repertoire erweitern. So studierte er dort unzählige A-cappella-Werke ein, leitete ' +
         'Proben zu Bizets „Carmen“ und bereitete den Chor für eine CD-Produktion mit Verdis ' +
         '„Requiem“ für J. Nelson vor.\n' +
         'Parallel gründete er das „Mundy-Ensemble“, welches sich explizit mit Musik des 16. ' +
@@ -410,7 +410,7 @@ const artists_portrait = [
             'tätig. Sie arbeitet mit Dirigenten wie u.a. Wolfgang Katschner, Ekkehard Klemm, Kai-' +
             'Uwe Jirka, Gregor Meyer, Christoph Spering, Achim Zimmermann, Thomaskantor ' +
             'Andreas Reize, Antonius Adamske und Yuval Weinberg. Engagements führten sie ' +
-            'u.a. zu den Händelfestspielen Halle, wo sie 2025 in der Titelpartie der Oper &quot;Octavia&quot; ' +
+            'u.a. zu den Händelfestspielen Halle, wo sie 2025 in der Titelpartie der Oper „Octavia“ ' +
             'von Reinhard Keiser zu erleben war, dem Bachfest Leipzig, dem mdr Musiksommer, ' +
             'an die Oper Leipzig, das Staatstheater Cottbus, in die Berliner Philharmonie, das ' +
             'Konzerthaus Berlin, das Leipziger Gewandhaus, die Elbphilharmonie Hamburg oder ' +

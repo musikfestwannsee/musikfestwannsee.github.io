@@ -15,7 +15,7 @@ export function TicketsSection() {
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
             Eintritt frei. Platzreservierung empfohlen!<br/>
             Sichern Sie sich einen garantierten Sitzplatz. Anmeldungen unter</p><br/>
-            <h2 className="md:text-3xl text-xl font-bold text-slate-700 mb-4">musikfestwannsee@gmail.com</h2>
+            <h2 className="md:text-3xl text-xl font-bold text-slate-700 mb-4">musikfest.wannsee@gmail.com</h2>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
             Bitte alle Veranstaltungen angeben, die Sie besuchen wollen. Sie erhalten von uns eine
             Reservierungsbestätigung.<br/><br/><br/>

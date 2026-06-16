@@ -44,7 +44,7 @@ export function SponsorsSection() {
         </div>
 
         <div className="mb-16">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-4 gap-6">
             {platinumSponsors.map((sponsor, index) => (
               <Card key={index} className="border-none shadow-lg">
                 <CardContent className="p-8 flex flex-col items-center">
